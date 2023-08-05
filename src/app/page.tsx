@@ -1,113 +1,212 @@
+"use client"
+
 import Image from 'next/image'
+import { motion, AnimatePresence } from "framer-motion"
+import { MouseEvent, useEffect, useState } from 'react';
+import getPlayers from './util/playerService';
+import getQuestions from './util/questionService';
+import { NumberLiteralType } from 'typescript';
+import { ArrowRightIcon } from '@heroicons/react/20/solid';
+
+interface Player {
+  playerID: string;
+  nameFirst: string;
+  nameLast: string;
+  yearID: number;
+  stint: number;
+  teamID: string;
+  lgID: string;
+  G: number;
+  AB: number;
+  R: number;
+  H: number;
+  '2B': number;
+  '3B': number;
+  HR: number;
+  RBI: number;
+  SB: number;
+  CS: number;
+  BB: number;
+  SO: number;
+  IBB: number;
+  HBP: number;
+  SH: number;
+  GIDP: number; 
+  image: string;
+}
+
+const baseballTermsDictionary = {
+  'H': 'hits',
+  '2B': 'doubles',
+  '3B': 'triples',
+  'HR': 'home runs',
+  'RBI': 'RBIs',
+  'SB': 'stolen bases',
+  'BB': 'walks',
+  'SO': 'strikeouts',
+};
+
+const questionsData: Array<Array<any>> = getQuestions();
+
+const years: Array<number> = questionsData[0] // inconsistent hydration, so I ignore it
+const initialStats: Array<any> = questionsData[1]
+// use the "years" from questions to grab players that played in those years
+const initialPlayers: Array<any> = getPlayers(years);
 
 export default function Home() {
+  const [strikes, setStrikes] = useState<number>(0)
+  const [score, setScore] = useState<number>(0)
+  const [playStatus, setPlayStatus] = useState<boolean>(true)
+  const [winner, setWinner] = useState<number>(2) // 2 is neither
+  const [winnerID, setWinnerID] = useState<string>('')
+  
+  const [players, setPlayers] = useState<Array<Array<Player>>>(initialPlayers)
+  const [stats, setStats] = useState<Array<string>>(initialStats)
+
+  useEffect(() => {
+    var array = [...players]
+    array.splice(0, 1)
+    setPlayers(array)
+
+    var arrayStats = [...stats]
+    arrayStats.splice(0, 1)
+    setStats(arrayStats)
+  }, []);
+  
+  function checkSolution (player:Player, currStat:string[]) {
+    // comp the selected player (in this props) and the players.slice to see who won
+    const currPlayers = players.slice(0, 1)[0]
+
+    // console.log(currStat)
+    // console.log(currPlayers[0][currStat], currPlayers[1][currStat])
+
+    // Player 0 is winner
+    if (currPlayers[0][currStat] > currPlayers[1][currStat]) {
+      // console.log('0:', currPlayers[0].nameFirst, currPlayers[0].nameLast)
+      setWinner(0)
+      setWinnerID(currPlayers[0].playerID)
+      if (player.playerID !== currPlayers[0].playerID) {
+        setStrikes(strikes + 1)
+      } else {
+        setScore(score + 1)
+      }
+    } else if (currPlayers[0][currStat] < currPlayers[1][currStat]) {
+      // Player 1 is winner
+      // console.log('1:', currPlayers[1].nameFirst, currPlayers[1].nameLast)
+      setWinner(1)
+      setWinnerID(currPlayers[1].playerID)
+      if (player.playerID !== currPlayers[1].playerID) {
+        setStrikes(strikes + 1)
+      } else {
+        setScore(score + 1)        
+      }
+    } else {
+      // console.log('equal?')
+      setScore(score + 1)
+    }
+
+    setPlayStatus(false)
+    setTimeout(updateData, 2000)
+  }
+
+  function updateData() {
+    var array = [...players]
+    array.splice(0, 1)
+    setPlayers(array)
+
+    var arrayStats = [...stats]
+    arrayStats.splice(0, 1)
+    setStats(arrayStats)
+    
+    setPlayStatus(true)
+    setWinner(2)
+    setWinnerID('')
+  }
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <AnimatePresence mode="wait">
+    <div className="flex w-screen h-screen bg-gradient-to-b from-amber-300 to-amber-400">
+      {(strikes === 3 || score === 100 )&& 
+      <motion.div 
+        className={`absolute z-10 w-screen h-screen opacity-80 flex flex-col items-center ${strikes === 3 ? 'bg-gray-600' : 'bg-green-600'}`}
+        initial={{ y: -300, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        exit={{ scale: 0.9, opacity: 0 }}
+        transition={{
+          delay: 1
+        }}
+      >
+        <div className='my-auto text-white text-center flex flex-col gap-4'>
+          {strikes === 3 ? 
+            <p className='font-medium text-3xl'>Game Over</p> 
+          : <p className='font-medium text-3xl'>Congratulations!</p>
+          }
+          <p className=''>Your final score: {score}</p>
+          <motion.button
+            type="button"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            onClick={() => window.location.reload()}
+            className="mt-4 flex items-center gap-x-1 rounded-md bg-yellow-600 mx-auto px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
           >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+            Play again
+            <ArrowRightIcon className="h-5 w-5" aria-hidden="true" />
+          </motion.button>
         </div>
+      </motion.div>
+      }
+      <div className='flex flex-col m-auto gap-6'>
+    
+      {players[0] &&
+      <div className='mx-auto mb-0 text-xl'>
+        In <span suppressHydrationWarning className='font-semibold'>{players[0][0].yearID}</span>, who had more <span suppressHydrationWarning className='font-semibold'>{baseballTermsDictionary[stats.slice(0, 1)]}</span>?
       </div>
+      }
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className='grid grid-cols-2 gap-8 my-auto w-screen text-center max-w-2xl mx-auto mt-0'>
+      
+        {players[0] && players[0].map((player) => {
+          // console.log(player)
+          return(
+            <motion.button 
+              key={player.playerID}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className={`flex flex-col overflow-hidden rounded-lg shadow bg-gray-700 ${playStatus ? '' : 'pointer-events-none'}`}
+              onClick={() => checkSolution(player, stats.slice(0, 1))}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              suppressHydrationWarning
+            >
+              <p className='p-4 font-semibold text-gray-50 uppercase mx-auto' suppressHydrationWarning>{player.nameFirst} {player.nameLast}</p>
+              <img className={`h-96 w-full object-cover object-top relative ${(playStatus || winnerID === player.playerID) ? '' : 'opacity-20'}`} src={player.image} suppressHydrationWarning/>  
+            </motion.button>
+        )})}
+          
+          <div className={`m-auto w-full text-white border-2 rounded-lg p-4 ${winner === 0 ? 'bg-green-600 font-bold border-white' : 'bg-gray-500 border-gray-500'}`}>
+            {playStatus ? '???' : `${players.slice(0, 1)[0][0][stats.slice(0, 1)]}`}
+          </div>
+          
+          <div className={`m-auto w-full text-white border-2 rounded-lg p-4 ${winner === 1 ? 'bg-green-600 font-bold border-white' : 'bg-gray-500 border-gray-500'}`}>
+            {playStatus ? '???' : `${players.slice(0, 1)[0][1][stats.slice(0, 1)]}`}
+          </div>
+        </div>
+
+        <div className='mt-6 flex gap-6 mx-auto'>
+          <p className=''>Score: <span className='font-semibold'>{score}/100</span></p>
+          {/* <p>High Score: </p> */}
+        </div>
+
+        <div className='-mt-2 flex gap-2 mx-auto'>
+          <div className={`w-10 h-10 border-2 border-white rounded-full ${strikes > 0 ? 'bg-red-600' : ''}`}/>
+          <div className={`w-10 h-10 border-2 border-white rounded-full ${strikes > 1 ? 'bg-red-600' : ''}`}/>
+          <div className={`w-10 h-10 border-2 border-white rounded-full ${strikes > 2 ? 'bg-red-600' : ''}`}/>
+        </div>
+
       </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      
+    </div>
+    </AnimatePresence>
   )
 }
