@@ -8,32 +8,32 @@ import getQuestions from './util/questionService';
 import { NumberLiteralType } from 'typescript';
 import { ArrowRightIcon } from '@heroicons/react/20/solid';
 
-interface Player {
-  playerID: string;
-  nameFirst: string;
-  nameLast: string;
-  yearID: number;
-  stint: number;
-  teamID: string;
-  lgID: string;
-  G: number;
-  AB: number;
-  R: number;
-  H: number;
-  '2B': number;
-  '3B': number;
-  HR: number;
-  RBI: number;
-  SB: number;
-  CS: number;
-  BB: number;
-  SO: number;
-  IBB: number;
-  HBP: number;
-  SH: number;
-  GIDP: number; 
-  image: string;
-}
+// interface Player {
+//   playerID: string;
+//   nameFirst: string;
+//   nameLast: string;
+//   yearID: number;
+//   stint: number;
+//   teamID: string;
+//   lgID: string;
+//   G: number;
+//   AB: number;
+//   R: number;
+//   H: number;
+//   '2B': number;
+//   '3B': number;
+//   HR: number;
+//   RBI: number;
+//   SB: number;
+//   CS: number;
+//   BB: number;
+//   SO: number;
+//   IBB: number;
+//   HBP: number;
+//   SH: number;
+//   GIDP: number; 
+//   image: string;
+// }
 
 const baseballTermsDictionary = {
   'H': 'hits',
@@ -46,22 +46,28 @@ const baseballTermsDictionary = {
   'SO': 'strikeouts',
 };
 
-const questionsData: Array<Array<any>> = getQuestions();
+// const questionsData: Array<Array<any>> = getQuestions();
+const questionsData = getQuestions();
 
-const years: Array<number> = questionsData[0] // inconsistent hydration, so I ignore it
-const initialStats: Array<any> = questionsData[1]
+// const years: Array<number> = questionsData[0] // inconsistent hydration, so I ignore it
+const years = questionsData[0]
+// const initialStats: Array<any> = questionsData[1]
+const initialStats = questionsData[1]
 // use the "years" from questions to grab players that played in those years
-const initialPlayers: Array<any> = getPlayers(years);
+// const initialPlayers: Array<any> = getPlayers(years);
+const initialPlayers= getPlayers(years);
 
 export default function Home() {
-  const [strikes, setStrikes] = useState<number>(0)
-  const [score, setScore] = useState<number>(0)
-  const [playStatus, setPlayStatus] = useState<boolean>(true)
-  const [winner, setWinner] = useState<number>(2) // 2 is neither
-  const [winnerID, setWinnerID] = useState<string>('')
+  const [strikes, setStrikes] = useState(0)
+  const [score, setScore] = useState(0)
+  const [playStatus, setPlayStatus] = useState(true)
+  const [winner, setWinner] = useState(2) // 2 is neither
+  const [winnerID, setWinnerID] = useState('')
   
-  const [players, setPlayers] = useState<Array<Array<Player>>>(initialPlayers)
-  const [stats, setStats] = useState<Array<string>>(initialStats)
+  // const [players, setPlayers] = useState<Array<Array<Player>>>(initialPlayers)
+  // const [stats, setStats] = useState<Array<string>>(initialStats)
+  const [players, setPlayers] = useState(initialPlayers)
+  const [stats, setStats] = useState(initialStats)
 
   useEffect(() => {
     var array = [...players]
@@ -73,7 +79,7 @@ export default function Home() {
     setStats(arrayStats)
   }, []);
   
-  function checkSolution (player:Player, currStat:string[]) {
+  function checkSolution (player, currStat) {
     // comp the selected player (in this props) and the players.slice to see who won
     const currPlayers = players.slice(0, 1)[0]
 
