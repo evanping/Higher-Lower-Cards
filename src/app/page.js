@@ -70,13 +70,15 @@ export default function Home() {
   const [stats, setStats] = useState(initialStats)
 
   useEffect(() => {
-    var array = [...players]
-    array.splice(0, 1)
-    setPlayers(array)
+    // var array = [...players]
+    // array.splice(0, 1)
+    // setPlayers(array)
 
-    var arrayStats = [...stats]
-    arrayStats.splice(0, 1)
-    setStats(arrayStats)
+    // var arrayStats = [...stats]
+    // arrayStats.splice(0, 1)
+    // setStats(arrayStats)
+
+    updateData()
   }, []);
   
   function checkSolution (player, currStat) {
