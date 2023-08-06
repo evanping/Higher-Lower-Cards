@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg"/>
-        <PlausibleProvider domain="https://mlb-higher-lower-v2.vercel.app" />
+        <PlausibleProvider domain="mlb-higher-lower-v2.vercel.app" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
