@@ -171,7 +171,7 @@ export default function Home() {
       </div>
       }
 
-      <div className='grid grid-cols-2 gap-8 my-auto w-screen text-center max-w-2xl mx-auto mt-0'>
+      <div className='grid grid-cols-2 gap-4 md:gap-8 my-auto w-screen text-center md:max-w-2xl mx-auto mt-0'>
       
         {players[0] && players[0].map((player) => {
           // console.log(player)
@@ -180,7 +180,7 @@ export default function Home() {
               key={player.playerID}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className={`flex flex-col overflow-hidden rounded-lg shadow bg-gray-700 ${playStatus ? '' : 'pointer-events-none'}`}
+              className={`flex flex-col overflow-hidden md:rounded-lg shadow bg-gray-700 ${playStatus ? '' : 'pointer-events-none'}`}
               onClick={() => checkSolution(player, stats.slice(0, 1))}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -188,15 +188,15 @@ export default function Home() {
               suppressHydrationWarning
             >
               <p className='p-4 font-semibold text-gray-50 uppercase mx-auto' suppressHydrationWarning>{player.nameFirst} {player.nameLast}</p>
-              <img className={`h-96 w-full object-cover object-top relative ${(playStatus || winnerID === player.playerID) ? '' : 'opacity-20'}`} src={player.image} suppressHydrationWarning/>  
+              <img className={`h-72 md:h-96 w-full object-cover object-top relative ${(playStatus || winnerID === player.playerID) ? '' : 'opacity-20'}`} src={player.image} suppressHydrationWarning/>  
             </motion.button>
         )})}
           
-          <div className={`m-auto w-full text-white border-2 rounded-lg p-4 ${winner === 0 ? 'bg-green-600 font-bold border-white' : 'bg-gray-500 border-gray-500'}`}>
+          <div className={`m-auto w-full text-white border-2 md:rounded-lg p-2 md:p-4 ${winner === 0 ? 'bg-green-600 font-bold border-white' : 'bg-gray-500 border-gray-500'}`}>
             {playStatus ? '???' : `${players.slice(0, 1)[0][0][stats.slice(0, 1)]}`}
           </div>
           
-          <div className={`m-auto w-full text-white border-2 rounded-lg p-4 ${winner === 1 ? 'bg-green-600 font-bold border-white' : 'bg-gray-500 border-gray-500'}`}>
+          <div className={`m-auto w-full text-white border-2 md:rounded-lg p-2 md:p-4 ${winner === 1 ? 'bg-green-600 font-bold border-white' : 'bg-gray-500 border-gray-500'}`}>
             {playStatus ? '???' : `${players.slice(0, 1)[0][1][stats.slice(0, 1)]}`}
           </div>
         </div>
