@@ -133,7 +133,7 @@ export default function Home() {
 
   return (
     <AnimatePresence mode="wait">
-    <div className="flex w-screen h-screen bg-gradient-to-b from-amber-300 to-amber-400">
+    <div className="flex flex-col w-screen h-screen bg-gradient-to-b from-amber-300 to-amber-400">
       
       {/* Game Over */}
       {(strikes === 3 || score === 100 )&& 
@@ -233,7 +233,10 @@ export default function Home() {
         </div>
 
       </div>
-      
+
+      <div className='absolute text-sm bottom-0 right-0 m-2 md:m-4 text-gray-500'>
+        Made by <a href='https://www.hudsonyuen.com/' target='_blank' className='font-medium text-gray-600 hover:text-gray-700'>Hudson</a>
+      </div>
     </div>
     </AnimatePresence>
   )
