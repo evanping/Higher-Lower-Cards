@@ -20,6 +20,7 @@
     "framer-motion": "^10.14.0",
     "fs": "^0.0.1-security",
     "next": "13.4.12",
+    "next-plausible": "^3.10.1",
     "node-html-parser": "^6.1.5",
     "open-graph-scraper": "^6.2.2",
     "papaparse": "^5.4.1",
