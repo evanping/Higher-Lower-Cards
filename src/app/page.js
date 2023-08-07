@@ -170,7 +170,7 @@ export default function Home() {
               whileTap={{ scale: 0.9 }}
               onClick={() => {
                 navigator.clipboard.writeText(`Score: ${score} \n\nTry the MLB Higher Lower Game at https://mlbhigherlower.vercel.app`)
-                alert('Score copied!')
+                .then(() => alert('Score copied!'))
               }}
               className="flex items-center gap-x-1 rounded-md border-2 border-yellow-600 mx-auto px-3.5 py-2.5 text-sm font-semibold text-white hover:border-yellow-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
             >
