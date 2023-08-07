@@ -234,7 +234,7 @@ export default function Home() {
 
       </div>
 
-      <div className='absolute text-sm bottom-0 right-0 m-2 md:m-4 text-gray-500'>
+      <div className='absolute text-xs bottom-0 right-0 m-2 md:m-4 text-gray-500'>
         Made by <a href='https://www.hudsonyuen.com/' target='_blank' className='font-medium text-gray-600 hover:text-gray-700'>Hudson</a>
       </div>
     </div>
