@@ -135,8 +135,13 @@ export default function Home() {
       
         {/* Higher or Lower Logo */}
         {cards[0] &&
-        <div className='mx-auto mb-0 mt-2 text-xl md:text-3xl font-semibold text-white'>
+        <div className='flex flex-col items-center justify-center'>
+          <div className='mx-auto mb-0 mt-2 text-xl md:text-3xl font-semibold text-white'>
             <span style={{ color: '#22c55e' }}>HIGHER</span> or <span style={{ color: 'red' }}>LOWER</span> ?
+          </div>
+          <div className='mx-auto mb-0 mt-1 text-xs text-white'>
+            Click on the card you think is worth more!
+          </div>
         </div>
         }
 
@@ -194,7 +199,7 @@ export default function Home() {
 
         </div>
 
-        <div className='relative text-xs bottom-0 m-2 md:m-4 text-gray-500'>
+        <div className='relative text-xs bottom-0 m-2 md:m-4 text-gray-500 mb-2 md:mb-4'>
           Made by <a href='https://www.linkedin.com/in/evanping/' target='_blank' className='font-medium text-gray-600 hover:text-gray-700'>Evan</a>
         </div>
       </div>
