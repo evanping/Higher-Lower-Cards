@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.svg"/>
+      <link rel="icon" href="favicon.png" type="image/png"/>
         {/* <script defer data-domain="mlbhigherlower.vercel.app" src="https://plausible.io/js/script.js"></script> */}
         {/* ^ to change */}
       </head>

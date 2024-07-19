@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { MouseEvent, useEffect, useState, useRef} from 'react';
 import getCards from './util/cardService';
 import { ArrowRightIcon, DocumentDuplicateIcon, ShareIcon } from '@heroicons/react/20/solid';
+import CountUp from 'react-countup';
 
 const initialCards = getCards();
 
@@ -79,12 +80,6 @@ export default function Home() {
     setWinnerID('') 
   }
 
-  const priceFormatter = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    maximumFractionDigits: 0
-  });
-
   return (
     <AnimatePresence mode="wait">
       <div className="flex overflow-auto flex-col min-w-screen min-h-screen bg-gradient-to-b from-neutral-800 to-neutral-950">
@@ -96,7 +91,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
             transition={{
-              delay: 1
+              delay: 2
             }}
           >
             <div className='my-auto text-white text-center flex flex-col gap-4'>
@@ -139,8 +134,8 @@ export default function Home() {
       
         {/* Question */}
         {cards[0] &&
-        <div className='mx-auto mb-0 mt-2 text-lg md:text-xl font-semibold text-white'>
-          HIGHER or LOWER?
+        <div className='mx-auto mb-0 mt-2 text-xl md:text-3xl font-semibold text-white'>
+            <span style={{ color: '#22c55e' }}>HIGHER</span> or <span style={{ color: 'red' }}>LOWER</span> ?
         </div>
         }
 
@@ -167,12 +162,21 @@ export default function Home() {
               </motion.button>
           )})}
             
-            <div className={`min-h-10 m-auto w-full text-2xl font-bold md:rounded-lg p-1 md:p-4 bg-opacity-0 ${winner === 0 ? 'text-green-600' : ''} ${winner === 1 ? 'text-red-600' : ''} ${winner === 2 ? 'text-white' : ''}`}>
-              {playStatus ? <span className="invisible">Placeholder</span> : `${priceFormatter.format(cards[0][0]["Price"])}`}
-            </div>
             
-            <div className={`min-h-10 m-auto w-full text-2xl font-bold md:rounded-lg p-1 md:p-4 bg-opacity-0 ${winner === 1 ? 'text-green-600' : ''} ${winner === 0 ? 'text-red-600' : ''} ${winner === 2 ? 'text-white' : ''}`}>
-              {playStatus ? <span className="invisible">Placeholder</span> : `${priceFormatter.format(cards[0][1]["Price"])}`}
+            <div className={`min-h-10 m-auto w-full text-3xl font-bold md:rounded-lg p-1 md:p-4 bg-opacity-0 ${winner === 0 ? 'text-green-500' : ''} ${winner === 1 ? 'text-red-600' : ''} ${winner === 2 ? 'text-white' : ''}`}>
+              {playStatus ? (
+                <span className="invisible">Placeholder</span>
+              ) : (
+                <CountUp start={0} end={cards[0][0]["Price"]} duration={1} separator="," prefix="$" />
+              )}
+            </div>
+
+            <div className={`min-h-10 m-auto w-full text-3xl font-bold md:rounded-lg p-1 md:p-4 bg-opacity-0 ${winner === 1 ? 'text-green-500' : ''} ${winner === 0 ? 'text-red-600' : ''} ${winner === 2 ? 'text-white' : ''}`}>
+              {playStatus ? (
+                <span className="invisible">Placeholder</span>
+              ) : (
+                <CountUp start={0} end={cards[0][1]["Price"]} duration={1} separator="," prefix="$" />
+              )}
             </div>
           </div>
 
