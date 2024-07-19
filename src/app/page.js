@@ -172,7 +172,7 @@ export default function Home() {
               {playStatus ? (
                 <span className="invisible">Placeholder</span>
               ) : (
-                <CountUp start={0} end={cards[0][0]["Price"]} duration={1} separator="," prefix="$" />
+                <CountUp start={0} end={cards[0][0]["Price"]} duration={0.6} separator="," prefix="$" />
               )}
             </div>
 
@@ -180,7 +180,7 @@ export default function Home() {
               {playStatus ? (
                 <span className="invisible">Placeholder</span>
               ) : (
-                <CountUp start={0} end={cards[0][1]["Price"]} duration={1} separator="," prefix="$" />
+                <CountUp start={0} end={cards[0][1]["Price"]} duration={0.6} separator="," prefix="$" />
               )}
             </div>
           </div>
