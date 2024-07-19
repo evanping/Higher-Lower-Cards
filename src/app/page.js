@@ -8,6 +8,7 @@ import { ArrowRightIcon, DocumentDuplicateIcon, ShareIcon } from '@heroicons/rea
 import CountUp from 'react-countup';
 
 const initialCards = getCards();
+const maxStrikes = 3;
 
 export default function Home() {
   const [strikes, setStrikes] = useState(0)
@@ -55,7 +56,7 @@ export default function Home() {
         setScore(score + 1)
       }
     } else {
-      // console.log('equal?')
+      setWinnerID(currCards[1]["Card Name"])
       setScore(score + 1)
     }
 
@@ -65,7 +66,7 @@ export default function Home() {
   function updateData() {
     console.log("play status", playStatus)
     console.log("strikes: ", strikes)
-    if (strikes != 0) return;
+    if (strikes === maxStrikes) return;
     console.log("updating data")
     if (cards.length === 0) {
       setCards(getCards())
@@ -84,9 +85,9 @@ export default function Home() {
     <AnimatePresence mode="wait">
       <div className="flex overflow-auto flex-col min-w-screen min-h-screen bg-gradient-to-b from-neutral-800 to-neutral-950">
         {/* Game Over */}
-        {(strikes === 1 ) && // || score === 100 
+        {(strikes === maxStrikes ) &&
           <motion.div 
-            className={`fixed overflow-auto z-10 w-full h-full bg-opacity-80 flex flex-col items-center ${strikes === 1 ? 'bg-gray-800' : 'bg-green-600'}`}
+            className={`fixed overflow-auto z-10 w-full h-full bg-opacity-80 flex flex-col items-center ${strikes === maxStrikes ? 'bg-gray-800' : 'bg-green-600'}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ scale: 0.9, opacity: 0 }}
@@ -95,7 +96,7 @@ export default function Home() {
             }}
           >
             <div className='my-auto text-white text-center flex flex-col gap-4'>
-              {strikes === 1 ? 
+              {strikes === maxStrikes ? 
                 <p className='font-medium text-3xl'>Game Over</p> 
               : <p className='font-medium text-3xl'>Congratulations!</p>
               }
@@ -117,7 +118,7 @@ export default function Home() {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                   onClick={() => {
-                    navigator.clipboard.writeText(`Score: ${score} \n\nTry the MLB Higher Lower Game at https://mlbhigherlower.vercel.app`)
+                    navigator.clipboard.writeText(`Score: ${score} \n\nTry the Pokemon Card Higher Lower Game at https://higherlowercards.vercel.app`)
                     .then(() => alert('Score copied!'))
                   }}
                   className="flex items-center gap-x-1 rounded-md border-2 border-yellow-600 mx-auto px-3.5 py-2.5 text-sm font-semibold text-white hover:border-yellow-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-600"
@@ -130,9 +131,9 @@ export default function Home() {
           </motion.div>
         }
       
-      <div className='flex flex-col m-auto gap-5'>
+      <div className='flex flex-col my-2 sm:my-4 m-auto gap-5'>
       
-        {/* Question */}
+        {/* Higher or Lower Logo */}
         {cards[0] &&
         <div className='mx-auto mb-0 mt-2 text-xl md:text-3xl font-semibold text-white'>
             <span style={{ color: '#22c55e' }}>HIGHER</span> or <span style={{ color: 'red' }}>LOWER</span> ?
@@ -157,8 +158,7 @@ export default function Home() {
                 suppressHydrationWarning
               >
                 {/* <p className='p-4 font-semibold text-gray-50 text-sm md:text-base uppercase mx-auto' suppressHydrationWarning>{card["Card Name"]}</p> */}
-                <Image className={`h-full w-full max-w-100 object-fit object-top relative`} src={card["Image"]} alt={card["Card Name"]} width={300} height={500} suppressHydrationWarning/>
-                {/* ${(playStatus || winnerID === card["Card Name"]) ? '' : 'opacity-20'} <- to gray out if lower */} 
+                <Image className={`h-full w-full max-w-100 object-fit object-top relative ${(winnerID == card["Card Name"] || winnerID == "equal" || playStatus) ? '' : 'opacity-50'}`} src={card["Image"]} alt={card["Card Name"]} width={300} height={500} suppressHydrationWarning/>
               </motion.button>
           )})}
             
@@ -184,12 +184,13 @@ export default function Home() {
             <p className='text-white'>Score: <span className='font-semibold text-white'>{score}</span></p>
             {/* <p>High Score: </p> */}
           </div>
-
-          {/* <div className='mt-1 flex gap-2 mx-auto mb-5'>
+          
+          {/* Strikes - comment out if necessary */}
+          <div className='mt-1 flex gap-2 mx-auto mb-5'>
             <div className={`w-10 h-10 border-2 border-white rounded-full ${strikes > 0 ? 'bg-red-600' : ''}`}/>
             <div className={`w-10 h-10 border-2 border-white rounded-full ${strikes > 1 ? 'bg-red-600' : ''}`}/>
             <div className={`w-10 h-10 border-2 border-white rounded-full ${strikes > 2 ? 'bg-red-600' : ''}`}/>
-          </div> */}
+          </div>
 
         </div>
 
