@@ -83,7 +83,7 @@ export default function Home() {
 
   return (
     <AnimatePresence mode="wait">
-      <div className="flex overflow-auto flex-col min-w-screen min-h-screen bg-gradient-to-b from-neutral-800 to-neutral-950">
+      <div className="flex overflow-auto flex-col min-w-screen min-h-screen bg-gradient-to-b from-neutral-800 to-neutral-950 relative">
         {/* Game Over */}
         {(strikes === maxStrikes ) &&
           <motion.div 
@@ -131,7 +131,7 @@ export default function Home() {
           </motion.div>
         }
       
-      <div className='flex flex-col my-2 sm:my-4 m-auto gap-3 mb-0 relative'>
+      <div className='flex flex-col my-2 sm:my-4 m-auto gap-3 mb-0'>
       
         {/* Higher or Lower Logo */}
         {cards[0] &&
@@ -155,7 +155,7 @@ export default function Home() {
                 key={card["Card Name"]}
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className={`flex flex-col overflow-hidden md:rounded-lg shadow bg-opacity-0 ${playStatus ? '' : 'pointer-events-none'}`}
+                className={`flex flex-col overflow-hidden md:rounded-lg bg-opacity-0 ${playStatus ? '' : 'pointer-events-none'}`}
                 onClick={() => checkSolution(card)}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -163,7 +163,7 @@ export default function Home() {
                 suppressHydrationWarning
               >
                 {/* <p className='p-4 font-semibold text-gray-50 text-sm md:text-base uppercase mx-auto' suppressHydrationWarning>{card["Card Name"]}</p> */}
-                <Image className={`max-h-[275px] sm:max-h-[520px] max-w-full object-contain object-top relative ${(winnerID == card["Card Name"] || winnerID == "equal" || playStatus) ? '' : 'opacity-50'}`} src={card["Image"]} alt={card["Card Name"]} width={500} height={1000} suppressHydrationWarning/>
+                <Image className={`max-h-[315px] sm:max-h-[520px] max-w-full object-contain object-top ${(winnerID == card["Card Name"] || winnerID == "equal" || playStatus) ? '' : 'opacity-50'}`} src={card["Image"]} alt={card["Card Name"]} width={500} height={1000} suppressHydrationWarning/>
               </motion.button>
           )})}
             
@@ -199,7 +199,7 @@ export default function Home() {
 
         </div>
 
-        <div className='absolute text-xs bottom-0 m-2 text-gray-500 mb-2 md:mb-4'>
+        <div className='absolute text-xs bottom-0 m-2 text-gray-500 mb-1 md:mb-1'>
           Made by <a href='https://www.linkedin.com/in/evanping/' target='_blank' className='font-medium text-gray-600 hover:text-gray-700'>Evan</a>
         </div>
       </div>
