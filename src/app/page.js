@@ -131,7 +131,7 @@ export default function Home() {
           </motion.div>
         }
       
-      <div className='flex flex-col my-2 sm:my-4 m-auto gap-5'>
+      <div className='flex flex-col my-2 sm:my-4 m-auto gap-3 mb-0 relative'>
       
         {/* Higher or Lower Logo */}
         {cards[0] &&
@@ -140,22 +140,22 @@ export default function Home() {
             <span style={{ color: '#22c55e' }}>HIGHER</span> or <span style={{ color: 'red' }}>LOWER</span> ?
           </div>
           <div className='mx-auto mb-0 mt-1 text-xs text-white'>
-            Click on the card you think is worth more!
+            Pick the card you think is worth more!
           </div>
         </div>
         }
 
-        {/* Player Cards */}
-        <div className='grid grid-cols-2 gap-x-10 gap-y-0 my-auto w-screen text-center md:max-w-2xl mx-auto mt-0'>
+        {/* Cards */}
+        <div className='grid grid-cols-2 gap-x-8 gap-y-0 my-auto w-screen text-center md:max-w-2xl mx-auto mt-0'>
         
           {cards[0] && cards[0].map((card) => {
             // console.log(player)
             return(
               <motion.button 
                 key={card["Card Name"]}
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className={`flex flex-col overflow-hidden md:rounded-lg shadow bg-gray-700 ${playStatus ? '' : 'pointer-events-none'}`}
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+                className={`flex flex-col overflow-hidden md:rounded-lg shadow bg-opacity-0 ${playStatus ? '' : 'pointer-events-none'}`}
                 onClick={() => checkSolution(card)}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -163,7 +163,7 @@ export default function Home() {
                 suppressHydrationWarning
               >
                 {/* <p className='p-4 font-semibold text-gray-50 text-sm md:text-base uppercase mx-auto' suppressHydrationWarning>{card["Card Name"]}</p> */}
-                <Image className={`h-full w-full max-w-100 object-fit object-top relative ${(winnerID == card["Card Name"] || winnerID == "equal" || playStatus) ? '' : 'opacity-50'}`} src={card["Image"]} alt={card["Card Name"]} width={300} height={500} suppressHydrationWarning/>
+                <Image className={`max-h-[530px] max-w-full object-contain object-top relative ${(winnerID == card["Card Name"] || winnerID == "equal" || playStatus) ? '' : 'opacity-50'}`} src={card["Image"]} alt={card["Card Name"]} width={500} height={900} suppressHydrationWarning/>
               </motion.button>
           )})}
             
@@ -199,7 +199,7 @@ export default function Home() {
 
         </div>
 
-        <div className='relative text-xs bottom-0 m-2 md:m-4 text-gray-500 mb-2 md:mb-4'>
+        <div className='absolute text-xs bottom-0 m-2 text-gray-500 mb-2 md:mb-4 mt-auto'>
           Made by <a href='https://www.linkedin.com/in/evanping/' target='_blank' className='font-medium text-gray-600 hover:text-gray-700'>Evan</a>
         </div>
       </div>
