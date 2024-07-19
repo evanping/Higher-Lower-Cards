@@ -146,7 +146,7 @@ export default function Home() {
         }
 
         {/* Cards */}
-        <div className='grid grid-cols-2 gap-x-8 gap-y-0 my-auto w-screen text-center md:max-w-2xl mx-auto mt-0'>
+        <div className='items-center grid grid-cols-2 gap-x-1 gap-y-0 my-auto w-screen text-center md:max-w-3xl mx-auto mt-0'>
         
           {cards[0] && cards[0].map((card) => {
             // console.log(player)
@@ -163,7 +163,7 @@ export default function Home() {
                 suppressHydrationWarning
               >
                 {/* <p className='p-4 font-semibold text-gray-50 text-sm md:text-base uppercase mx-auto' suppressHydrationWarning>{card["Card Name"]}</p> */}
-                <Image className={`max-h-[530px] max-w-full object-contain object-top relative ${(winnerID == card["Card Name"] || winnerID == "equal" || playStatus) ? '' : 'opacity-50'}`} src={card["Image"]} alt={card["Card Name"]} width={500} height={900} suppressHydrationWarning/>
+                <Image className={`max-h-[275px] sm:max-h-[520px] max-w-full object-contain object-top relative ${(winnerID == card["Card Name"] || winnerID == "equal" || playStatus) ? '' : 'opacity-50'}`} src={card["Image"]} alt={card["Card Name"]} width={500} height={1000} suppressHydrationWarning/>
               </motion.button>
           )})}
             
@@ -199,7 +199,7 @@ export default function Home() {
 
         </div>
 
-        <div className='absolute text-xs bottom-0 m-2 text-gray-500 mb-2 md:mb-4 mt-auto'>
+        <div className='absolute text-xs bottom-0 m-2 text-gray-500 mb-2 md:mb-4'>
           Made by <a href='https://www.linkedin.com/in/evanping/' target='_blank' className='font-medium text-gray-600 hover:text-gray-700'>Evan</a>
         </div>
       </div>
