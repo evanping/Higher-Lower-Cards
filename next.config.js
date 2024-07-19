@@ -7,23 +7,4 @@ module.exports = {
   },
 }   
 
-// module.exports = {
-//     images: {
-//       remotePatterns: [
-//         {
-//             protocol: 'https',
-//             hostname: 'i.imgur.com',
-//             port: '',
-//             pathname: '',
-//         },
-//         {
-//             protocol: 'https',
-//             hostname: 'dilxwvfkfup17.cloudfront.net',
-//             port: '',
-//             pathname: '',
-//         },
-//       ],
-//     },
-//   }
-
 
