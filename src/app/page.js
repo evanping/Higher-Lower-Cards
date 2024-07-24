@@ -75,7 +75,10 @@ export default function Home() {
 
   return (
     <AnimatePresence mode="wait">
-      <div className="flex overflow-auto flex-col w-screen h-screen bg-gradient-to-b from-neutral-800 to-neutral-950 relative">
+      <div
+        className="flex overflow-auto flex-col bg-gradient-to-b from-neutral-800 to-neutral-950 relative"
+        style={{ width: "100vw", height: "100vh" }}
+      >
         {/* Game Over */}
         {strikes === maxStrikes && (
           <motion.div
