@@ -33,6 +33,26 @@ export default function Home() {
     setTimeout(updateData, 2000);
   }, [strikes, score]);
 
+  useEffect(() => {
+    function setViewportHeight() {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
+    }
+
+    // Set the initial viewport height
+    setViewportHeight();
+
+    // Update the viewport height on resize and orientation change
+    window.addEventListener("resize", setViewportHeight);
+    window.addEventListener("orientationchange", setViewportHeight);
+
+    // Clean up event listeners on unmount
+    return () => {
+      window.removeEventListener("resize", setViewportHeight);
+      window.removeEventListener("orientationchange", setViewportHeight);
+    };
+  }, []);
+
   function checkSolution(choice) {
     // choice: 1 is higher, 0 is lower
 
@@ -242,7 +262,7 @@ export default function Home() {
                       onClick={() => {
                         checkSolution(1);
                       }}
-                      className="w-3/5 flex items-center justify-center gap-x-3 rounded-full border-2 border-green-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-green-500 hover:border-green-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                      className="w-3/5 flex items-center justify-center gap-x-1 md:gap-x-3 rounded-full border-2 border-green-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-green-500 hover:border-green-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                     >
                       Higher
                       <ChevronUpIcon className="h-5 w-5" aria-hidden="true" />
@@ -254,7 +274,7 @@ export default function Home() {
                       onClick={() => {
                         checkSolution(0);
                       }}
-                      className="w-3/5 flex items-center justify-center gap-x-3 rounded-full border-2 border-red-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-red-500 hover:border-red-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 mt-2"
+                      className="w-3/5 flex items-center justify-center gap-x-1 md:gap-x-3 rounded-full border-2 border-red-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-red-500 hover:border-red-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 mt-2"
                     >
                       Lower
                       <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />

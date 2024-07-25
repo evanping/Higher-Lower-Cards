@@ -4,6 +4,6 @@
 
 #root,
 .root-component-class {
-  height: 100vh; /* 100% of the viewport height */
-  width: 100vw; /* 100% of the viewport width */
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100vw;
 }
