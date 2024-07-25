@@ -75,7 +75,7 @@ export default function Home() {
 
   return (
     <AnimatePresence mode="wait">
-      <div className="w-screen overflow-y-hidden h-screen bg-gradient-to-b from-neutral-800 to-neutral-950">
+      <div className="root-component-class bg-gradient-to-b from-neutral-800 to-neutral-950">
         <div className="flex overflow-auto flex-col w-full h-full relative">
           {/* Game Over */}
           {strikes === maxStrikes && (
