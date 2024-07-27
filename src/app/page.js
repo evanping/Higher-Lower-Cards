@@ -53,6 +53,20 @@ export default function Home() {
     };
   }, []);
 
+  useEffect(() => {
+    // Preload images
+    const preloadImages = () => {
+      const img1 = new window.Image();
+      img1.src = cards[0]["Image"];
+      const img2 = new window.Image();
+      img2.src = cards[1]["Image"];
+      const img3 = new window.Image();
+      img3.src = cards[2]["Image"];
+    };
+
+    preloadImages();
+  }, [cards]);
+
   function checkSolution(choice) {
     // choice: 1 is higher, 0 is lower
 
@@ -81,7 +95,7 @@ export default function Home() {
 
   function updateData() {
     if (strikes === maxStrikes) return;
-    if (cards.length === 0) {
+    if (cards.length === 3) {
       setCards(getCards());
     } else {
       var array = [...cards];
