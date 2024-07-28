@@ -13,6 +13,10 @@ import {
 import CountUp from "react-countup";
 
 const maxStrikes = 1;
+let highScore = 0;
+if (typeof window !== "undefined") {
+  highScore = localStorage.getItem("highScore") || 0;
+}
 
 export default function Home() {
   const [strikes, setStrikes] = useState(0);
@@ -54,14 +58,12 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    // Preload images
+    // Preload the first three images
     const preloadImages = () => {
-      const img1 = new window.Image();
-      img1.src = cards[0]["Image"];
-      const img2 = new window.Image();
-      img2.src = cards[1]["Image"];
-      const img3 = new window.Image();
-      img3.src = cards[2]["Image"];
+      cards.slice(0, 3).forEach((card) => {
+        var img = new window.Image();
+        img.src = card["Image"];
+      });
     };
 
     preloadImages();
@@ -74,6 +76,10 @@ export default function Home() {
       // higher
       if (cards[1]["Price"] < cards[0]["Price"]) {
         setStrikes(strikes + 1);
+        if (score > highScore) {
+          highScore = score;
+          localStorage.setItem("highScore", score);
+        }
         setWinner(0);
       } else {
         setScore(score + 1);
@@ -83,6 +89,10 @@ export default function Home() {
       // lower
       if (cards[1]["Price"] > cards[0]["Price"]) {
         setStrikes(strikes + 1);
+        if (score > highScore) {
+          highScore = score;
+          localStorage.setItem("highScore", score);
+        }
         setWinner(1);
       } else {
         setScore(score + 1);
@@ -123,12 +133,9 @@ export default function Home() {
               }}
             >
               <div className="my-auto text-white text-center flex flex-col gap-4">
-                {strikes === maxStrikes ? (
-                  <p className="font-medium text-3xl">Game Over</p>
-                ) : (
-                  <p className="font-medium text-3xl">Congratulations!</p>
-                )}
-                <p className="">Your final score: {score}</p>
+                {/* <p className="font-medium text-3xl">Game Over</p> */}
+                <p className="font-medium text-3xl">Your Score: {score}</p>
+                <p className="">High Score: {highScore}</p>
 
                 <div className="mt-8 grid grid-rows-2 w-full gap-4">
                   <motion.button
@@ -169,7 +176,7 @@ export default function Home() {
             {/* Higher or Lower Logo */}
             {cards[0] && (
               <div className="flex flex-col items-center justify-center">
-                <div className="mx-auto mb-0 mt-2 text-2xl md:text-3xl font-semibold text-white">
+                <div className="mx-auto mb-2 mt-2 text-2xl md:text-3xl font-semibold text-white">
                   <span style={{ color: "#22c55e" }}>HIGHER</span> or{" "}
                   <span style={{ color: "red" }}>LOWER</span> ?
                 </div>
@@ -192,7 +199,7 @@ export default function Home() {
                   }`}
                   //onClick={() => checkSolution(card)}
                   initial={{ x: 300, opacity: isFirstRender.current ? 0 : 0.8 }}
-                  animate={{ x: 0, opacity: 1, transition: { duration: 0.4 } }}
+                  animate={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
                   exit={{ scale: 0.9, opacity: 0 }}
                   suppressHydrationWarning
                 >
@@ -219,7 +226,7 @@ export default function Home() {
                   }`}
                   //onClick={() => checkSolution(card)}
                   initial={{ x: 300, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1, transition: { duration: 0.4 } }}
+                  animate={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
                   exit={{ scale: 0.9, opacity: 0 }}
                   suppressHydrationWarning
                 >
