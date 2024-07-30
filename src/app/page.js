@@ -26,6 +26,7 @@ export default function Home() {
   const isFirstRender = useRef(true);
 
   const [cards, setCards] = useState(getCards()); // cards[0] and cards[1] are current displayed cards
+  const [preload, setPreload] = useState(null);
 
   useEffect(() => {
     if (isFirstRender.current) {
@@ -58,12 +59,22 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    // Preload the first three images
+    // Preload the image on deck
     const preloadImages = () => {
-      cards.slice(0, 3).forEach((card) => {
-        var img = new window.Image();
-        img.src = card["Image"];
-      });
+      setPreload(
+        <Image
+          key={cards[2]["Card Name"]}
+          src={cards[2]["Image"]}
+          alt={"on deck"}
+          width={1}
+          height={1}
+          className="hidden absolute"
+          priority
+          // onLoadingComplete={() =>
+          //   console.log("preloaded image " + cards[2]["Card Name"])
+          // }
+        />
+      );
     };
 
     preloadImages();
@@ -185,8 +196,8 @@ export default function Home() {
               </div> */}
               </div>
             )}
-
             {/* Cards */}
+            {preload} {/* Preload the next image */}
             <div className="items-center overflow-hidden grid grid-cols-2 gap-x-1 gap-y-0 my-auto w-screen text-center md:max-w-3xl mx-auto mt-0">
               {cards[0] && (
                 <motion.div
@@ -304,14 +315,12 @@ export default function Home() {
                 )}
               </div>
             </div>
-
             <div className="mt-1 flex gap-1 mx-auto">
               <p className="text-white">
                 Score: <span className="font-semibold text-white">{score}</span>
               </p>
               {/* <p>High Score: </p> */}
             </div>
-
             {/* Strikes - comment out if necessary */}
             {/* <div className="mt-1 flex gap-2 mx-auto mb-5">
             <div
