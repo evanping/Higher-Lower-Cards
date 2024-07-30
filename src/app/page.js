@@ -66,8 +66,8 @@ export default function Home() {
           key={cards[2]["Card Name"]}
           src={cards[2]["Image"]}
           alt={"on deck"}
-          width={1}
-          height={1}
+          width={500}
+          height={1000}
           className="hidden absolute"
           priority
           // onLoadingComplete={() =>
