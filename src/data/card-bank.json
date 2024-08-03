@@ -1,800 +1,1031 @@
 [
   {
     "Id": 1,
-    "Card Name": "1999 Pokemon Base Set Shadowless 1st Edition Holo Charizard #4 PSA 10",
-    "Price": 180000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjI1ckpsUFRvNktEa05SbkZ2dlhZSnc9PSIsInZhbHVlIjoiZGpWUGxmbDlxdXZIWnRjNDllZjNhU2w0T2NwTHl3NjdqOW5vSnQ5VG5sTXJOS0V0WEFGNU9GVHdpRjhRZFVqVWxsSVFZN1crd3cxN0prTXNaQnF2bVE9PSIsIm1hYyI6IjU2NmI4OWY4MzUxNmQ5MDQ5ZWVmZTg0MDhkY2E5YThiYjY1N2IwMWY3M2QyYjQ0MjFjZmY0ZTBlYmZiNTJjNzUiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 2,
-    "Card Name": "2005 Pokemon Japanese Play Promo 70,000 Pts Holo Umbreon Gold Star #26 PSA 10",
-    "Price": 180000,
-    "Fun Fact": "Exclusively awarded to Player's Club members who obtained 70,000 EXP points in 2005-2006.",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InFNYjU5OGU5TmNsZDlvR3l5YlowTmc9PSIsInZhbHVlIjoiRkdPUlJOUDFYTnRBdlo1L3ZEQVdlTzU2VTFTV3JybC9PL2FQSXYyeDZKVnZJbk1XdTBoZDJyanlIbTFSd21LQ216ZHFOZ0R0Zy9zZGQxUEtSUHJSMUE9PSIsIm1hYyI6Ijk0ZTgxNWNmMzViMWQ0NWYwZTEwZThjYzYzMjEyMmM2MWI2NTRjYmYwZmMzNWQ1MDUzM2QzOGQ5OGE3YTVjMTIiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 3,
-    "Card Name": "2003 Pokemon Skyridge Holo Charizard #146 PSA 10",
-    "Price": 15000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImpzSlJ6K3FnaFk0WXBNWWhsL2pWb1E9PSIsInZhbHVlIjoiVzI1NjA3dDdBUGhjdjZxR01kZmhWQkRWNCtRMTQ1dTVtR1ZGUFFLK01UM2Q0OW9udGVXWkI3aWVzSlZ0UndteHBOVzJuL1Q1bTZXMFR0VmdHN3NUOGc9PSIsIm1hYyI6ImE1NDVkYmViNjE5MTNmZjMwYzVlNDNkODFkMzhiYTQ3YWFlY2M3ZjYxMjIwMmIxYzJmNjkxMWJhMGExZDVkNmYiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 4,
-    "Card Name": "1998 Pokemon Japanese Promo Family Event Trophy Card Holo Kangaskhan #115 PSA 10",
-    "Price": 216000,
-    "Fun Fact": "Prize card released through the Parent/Child Mega Battle tournament in 1998.",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InNYS3BZbXk4RzRQcDBvS1BDNUQ2TUE9PSIsInZhbHVlIjoidzdJZ3pseTlVMlRBNHNDemszaXFxUHpjbUdxWG5IWTlabDJRR3ZWdlRxY1BnSVBwVitPcVpLTjV4T1M3MThnR25KNVRIakp1WVRIUlFRVHQrM0szeUE9PSIsIm1hYyI6ImIyZjBkYzc2MjdhZDIxNTI4ODdiMGRkMGZmZTY5MWMyMmMxMWUwNzAzNjI3ZDQ3MGYzOWY0NDc1MDc4OTU1ZWMiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 5,
     "Card Name": "1998 Pokemon Japanese Promo CoroCoro Comics Holo Pokemon Illustrator PSA 10",
     "Price": 5275000,
     "Fun Fact": "Holds the record for most expensive Pokemon trading card sold at a private sale.",
     "Image": "https://i.imgur.com/IeFFwZ0.png"
   },
   {
-    "Id": 6,
-    "Card Name": "2000 Pokemon Neo Genesis 1st Edition Holo Lugia #9 PSA 10",
-    "Price": 28000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkM1L1BPYWlBcktHbDI5eWxCbys1TGc9PSIsInZhbHVlIjoiVVB0cHRsSXBzTVptVHNERjk2aVZpL3MwOU5WR1FxSTFSanVKN2Ura3o1K1lnM1BQdkNGOUZxdFVwMS90NFhjaGdCL002SXVtRVJWOWN3dldBb0xPY1E9PSIsIm1hYyI6ImNkZDUwZmFkNzVhY2Q4MmRhMzMwZmQxZTlmM2Y4MTA0OGVhNGRhZTA2YTMwYzZkYmJhZWVjOTk2YzNmMGFkY2UiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 7,
+    "Id": 2,
     "Card Name": "1998 Pokemon Japanese Promo Silver 2nd-2nd Tournament Trophy Pikachu #2 PSA 10",
     "Price": 444000,
-    "Fun Fact": "Printed for the first official Japanese Pokemon tournament in 1997.",
+    "Fun Fact": "Awarded at the first official Japanese Pokemon tournament.",
     "Image": "https://i.imgur.com/C8sdn1W.png"
   },
   {
-    "Id": 8,
+    "Id": 3,
+    "Card Name": "1998 Pokemon Japanese Promo Family Event Trophy Card Holo Kangaskhan #115 PSA 10",
+    "Price": 216000,
+    "Fun Fact": "Prize card at the Parent/Child Mega Battle tournament.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InNYS3BZbXk4RzRQcDBvS1BDNUQ2TUE9PSIsInZhbHVlIjoidzdJZ3pseTlVMlRBNHNDemszaXFxUHpjbUdxWG5IWTlabDJRR3ZWdlRxY1BnSVBwVitPcVpLTjV4T1M3MThnR25KNVRIakp1WVRIUlFRVHQrM0szeUE9PSIsIm1hYyI6ImIyZjBkYzc2MjdhZDIxNTI4ODdiMGRkMGZmZTY5MWMyMmMxMWUwNzAzNjI3ZDQ3MGYzOWY0NDc1MDc4OTU1ZWMiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 4,
+    "Card Name": "1999 Pokemon Base Set Shadowless 1st Edition Holo Charizard #4 PSA 10",
+    "Price": 180000,
+    "Fun Fact": "The face of the Pokemon TCG, this grail card was only valued at $100 in 1999!",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjI1ckpsUFRvNktEa05SbkZ2dlhZSnc9PSIsInZhbHVlIjoiZGpWUGxmbDlxdXZIWnRjNDllZjNhU2w0T2NwTHl3NjdqOW5vSnQ5VG5sTXJOS0V0WEFGNU9GVHdpRjhRZFVqVWxsSVFZN1crd3cxN0prTXNaQnF2bVE9PSIsIm1hYyI6IjU2NmI4OWY4MzUxNmQ5MDQ5ZWVmZTg0MDhkY2E5YThiYjY1N2IwMWY3M2QyYjQ0MjFjZmY0ZTBlYmZiNTJjNzUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 5,
+    "Card Name": "2005 Pokemon Japanese Play Promo 70,000 Pts Holo Umbreon Gold Star #26 PSA 10",
+    "Price": 180000,
+    "Fun Fact": "Awarded to Player's Club members with 70,000 EXP points.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InFNYjU5OGU5TmNsZDlvR3l5YlowTmc9PSIsInZhbHVlIjoiRkdPUlJOUDFYTnRBdlo1L3ZEQVdlTzU2VTFTV3JybC9PL2FQSXYyeDZKVnZJbk1XdTBoZDJyanlIbTFSd21LQ216ZHFOZ0R0Zy9zZGQxUEtSUHJSMUE9PSIsIm1hYyI6Ijk0ZTgxNWNmMzViMWQ0NWYwZTEwZThjYzYzMjEyMmM2MWI2NTRjYmYwZmMzNWQ1MDUzM2QzOGQ5OGE3YTVjMTIiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 6,
+    "Card Name": "1999 Pokemon Super Secret Battle \"No. 1 Trainer\" Trainer Promo Hologram Trading Card PSA 10",
+    "Price": 90000,
+    "Fun Fact": "9 copies officially awarded at the Super Secret Battle Tournaments.",
+    "Image": "https://i.imgur.com/1mCfloF.png"
+  },
+  {
+    "Id": 7,
     "Card Name": "1998 Pokemon Japanese Promo Tamamushi University Prize Magikarp #129 PSA 10",
     "Price": 78000,
-    "Fun Fact": "Awarded to people enrolled in the Shogakukan Celadon University campaign.",
+    "Fun Fact": "Awarded to students in the Shogakukan Celadon University campaign.",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iml6VURpYkZzRU9JQ0d5REVaeXJZMmc9PSIsInZhbHVlIjoiWXM1Vzh2QVdDTzdLMW9TUHNOL203S0NWb1hhV3RJZXFJRTFmeVFSTEtFNFRRdk51dmxmUTRaUlJLNXZnbEV2ZC9nRGZpa1c2ajRZelViUWJoVnJjcFE9PSIsIm1hYyI6IjkzMDRjYjk5ZjQ3ZWQ2OTU0ZDI1MzA1NTFjMjgxYzM0Y2RjYjcwNmU3YWZmMTRkY2M1NTM2MzhhMGQyMjZhZDgiLCJ0YWciOiIifQ=="
   },
   {
+    "Id": 8,
+    "Card Name": "2021 Pokemon Japanese 25th Anniv Creatures Corporate History Beta Chansey",
+    "Price": 60000,
+    "Fun Fact": "Gifted to TCG artists and Pokemon employees during Pokemon's 25th Anniversary.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjdCWXR4MlVybk8vMEJUSGtEdURNN01jQ2hpZ3VTVlJmcVh6S1dsdlR1czAxMGdZTis4cGlNcVoyZlgxWldOS0V3OTRmeHJyQjByZ3ZVNm0vQnlFYWt3PT0iLCJpdiI6InRKYXRKN2hVR0l3ZXRybzE2SUEvcWc9PSIsIm1hYyI6ImIwZmY3NGEwYTQ1ZmY1Mjg1NDQ1ODM2ZjQxNzYwNDAwYTgyNzM1MmE4YTVkMmNhZTlhZjljOTI4YWQ1NjM1Y2QifQ=="
+  },
+  {
     "Id": 9,
+    "Card Name": "1999 Pokemon Base Set Shadowless 1st Edition Holo Chansey #3",
+    "Price": 55000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ikp1WUpJdWVOK2RuT2dxMldnRGIzWnc9PSIsInZhbHVlIjoieENjTVBjczVaUHZOZXB0OXQ3blNLc1RKOXJia1ZHbFFRbk5nZ0JoZTczRVh3ZlJNY0UycUhLd1ZJcllEV0tsVGZQRktxZGNJR3RlVUtUYXFYbklLZUE9PSIsIm1hYyI6ImQzNjNlMWFhODdjNzE1MjVhMzQyMDBiMGQ3NWUyZWIyYzA5MDg3ODU5MjM1M2E3OWU2ODFiOWYzOWI0NGNmMzQiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 10,
+    "Card Name": "2017 Pokemon Japanese S&M Promo Shining Legends The Masked Royal #085",
+    "Price": 50000,
+    "Fun Fact": "Given to winners of the special Shining Legend Sealed Game events.",
+    "Image": "https://rarecandy.com/_next/image?url=https%3A%2F%2Fimages.rarecandy.com%2Ftr%3Aq-35%2Fproducts%2F11251%2F4827-12152023-02-02-005_0_optimized.png&w=3840&q=75"
+  },
+  {
+    "Id": 11,
+    "Card Name": "2009 Pokemon Japanese Melee! Scramble Eevee #19",
+    "Price": 48000,
+    "Fun Fact": "100 copies distributed with the release of the Melee! Pokémon Scramble! game.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkRjL1hiWHNpUEpOelROLzJUTXI0c0E9PSIsInZhbHVlIjoiOWw3N3dmTVNQNmtKNFMrbTBzN0ttSXM5Q29JeXpNMG1SUmcxNmwrMmQ2cExoNDdVRHZZRzRHWTlTbi9KMXNBcHJlbml6ZFlZbTRFUWpjQXRwM2Q0ZGc9PSIsIm1hYyI6ImYzYmJjZDczZDZjODAzZDRiZmNkNDRkMTA2MmVmNTNjNGIxM2I3MjNlNDAwZDA0NzJiZGI5OWZjNWNiMjM0MjQiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 12,
     "Card Name": "2004 Pokemon EX Team Rocket Returns Holo Torchic Gold Star #108 PSA 10",
     "Price": 38400,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkJpeGQ4WU4xQXpNeFNwMGoyczd4UWc9PSIsInZhbHVlIjoiTU1ubEVxc290RDRoaFVBQUxsTXNDZEYvTDNzbHBpUitsVlRWMWxNRW03TG9XOVRVTy9ac1FFSWwxVDZNY0I4S2ZYZHU0YTZyWVZIdTNBVkk1bnBoWUE9PSIsIm1hYyI6IjZhNDJiMWMxOGU1YjBjNmM1NzZmYWI5MzExMTZkMjE3ZDhjYTA0YjMxMGY0YjkxNzJmODE1YTUwMDM3OWU4NjYiLCJ0YWciOiIifQ=="
   },
   {
-    "Id": 10,
-    "Card Name": "2002 Pokemon Japanese eCard Promo Holo Charizard #014 PSA 10",
-    "Price": 3000,
-    "Fun Fact": "5,000 copies distributed through Pokemon Company lotteries.",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlNEeGtFZE5EejltaGp4TzhQRWx3MGc9PSIsInZhbHVlIjoiZ2cwZlA5cjRzVHBtblpjR3pQTVBLRVlqWVpXWVc3dktlK3RhVk4wWFRnZzZzWTAzcWFCM2hFZmk0dGdveWVDOWR0QVhWWVg0YXZTQkpkdktJcCtwU3c9PSIsIm1hYyI6IjA0NGRjODVhODliNDQ3MDExODNhZWY0M2JiMGQ0ZjQ2YjI5YmFjNjNiYzIxZjc0YTEzZmI2MzZiYmNjNzgzNDYiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 11,
-    "Card Name": "2012 Pokemon Japanese BW Promo Super Rare Card Set Get! Rayquaza EX #145 PSA 10",
-    "Price": 12600,
-    "Fun Fact": "1,000 copies awarded to winners of the 'Super Rare Card Set Get!' campaign.",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InlEaGNBb3o1NjhrdmRkN0tTUENCOWc9PSIsInZhbHVlIjoiZEVTUEpkZ3ZwcWVVWmNUY3h0NThOOEJ0VXhNcEJwY1k0ZGJWMUFEMXVnd0hZSXoxZWdCUzBLNndKT0hBaUhRYThTalM4WTUvTXFOM1JzMlg4d0REMlE9PSIsIm1hYyI6IjI1YzU5NmZhYjRiZTJjZTZjMjExMDViNDQwMmM4OWY3ODA4N2VjOTA4NGJkNjgxMTA0ZWIyNTI4MTczZWJjODMiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 12,
-    "Card Name": "2010 Pokemon Japanese Promo Daisuki Club 8,600 Holo Master's Scroll #55 PSA 10",
-    "Price": 17400,
-    "Fun Fact": "Available as a Master Rank prize to members of the Pokemon Daisuki Club.",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImV1d3JEQmtqWFZTdFo2OXN0RDkreWc9PSIsInZhbHVlIjoiR3VTNWVtVkhSS1I3L3pBaDlCcFUwUlJoZExuT2liY2wxbUQ3RDZaTXBZQUszNS9PL3J4TmpGSlczTWlsOWgrdVdocERYQWpFSGVLam1uWVcxbnpIU2c9PSIsIm1hYyI6IjUxY2I4MTZkY2VjOGQ5YzI5N2Y0NTQwNWY1Y2E1YzZlZDMxNmYzZjIyOTIyNmMxOTRmOGQ3NTExYmExZDZmYjAiLCJ0YWciOiIifQ=="
-  },
-  {
     "Id": 13,
-    "Card Name": "2016 Pokemon Japanese XY Promo 20th Anniversary Festa Holo Pikachu #279 PSA 10",
-    "Price": 7500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InlmM2ZEWU5rRHNlYWVwUC9MM3FsREE9PSIsInZhbHVlIjoiNlh3a1BybS8yYjA1VnJaeGpvcFZyRWQ4YzVwRk9sOWFndkxBMm5KZnhobWhSQUNiZ2VYOE9uenVtQlVWQklERmJoRTJwdGxPRTNzTkdmc2hDZ0hFVlE9PSIsIm1hYyI6Ijg1OWIxZjI3ZDBjN2YzOTVjMmZmYjdmYmM5NTRlNzc5OWE4ZjM3YzBiYjA2OWZlZTQxMDY4NmVlNDA4Nzk4NTkiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 14,
-    "Card Name": "2001 Pokemon Neo Revelation 1st Edition Holo Shining Gyarados #65 PSA 10",
-    "Price": 8500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkRpdGNqd2JMTzM3emd1Z2hOem5kWUE9PSIsInZhbHVlIjoib1BZRWpzV0NoTkkyVVVBSXA5WnpSZ1F0YTd3SkpPQ01Ic0xOVDVtcHJMc21uVTIzaVFUd041U0h1TldkVXhoNm53K1R5bndOWjdkVm9qd0o2QU5USUE9PSIsIm1hYyI6ImY4YTQyNTk5ZDhiOTJkZDMwMDkxNDRmZjk0ZTIzOTE2YWRlMjMyOGI1ZDgwMTRjMjIyMjlmZmRlMWU2YmI5YTUiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 15,
-    "Card Name": "2001 Pokemon Neo Discovery 1st Edition Holo Umbreon #13 PSA 10",
-    "Price": 5500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjU0QmZrVlhXT3JuS0dObTdRaTFlU1E9PSIsInZhbHVlIjoiYmY1bk5YSWd4R3dnL0hBK3pKaExVaWxMUzd3N1gxTHIvbVNNU3dRY29zUVFpdktEZkQ3TnMwRmFPRTdSSTg0djRITTVMVTZKL3BVbjV4TW5TUGFFTGc9PSIsIm1hYyI6ImUxMDUxZjAzZTkwYmU4MmYxOTJmNzU0NTNhYzdmZjY5YjFlYWQ1OTI5Y2Y1ZTZlNTFmODNlZWYwYTAzMGI0OWMiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 16,
-    "Card Name": "2012 Pokemon Black & White Plasma Storm Secret Rare Charizard #136 PSA 10",
-    "Price": 10000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ik5GQXB1NnlJSWJQRUhmTXhRNnE3UkE9PSIsInZhbHVlIjoiQUxpamF5dGlwTzdrdTNGekFJRDhwSmNwRzZzVlhDTW9TR1lFS1dVaTJYRkxPV1hsRjBiK2NxcXBrSDZPOG9veGRlNEV2MkpaZnE5R2J4WWVBWHlreGc9PSIsIm1hYyI6IjA0YWZiNjg1ODdjZmEwZDM5MjMyZTJmZmFiMTViOThlZDExNWM3OTNkZmQ1ZGRkMmFlMGYzYzIwMDI1N2E2NWUiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 17,
-    "Card Name": "2011 Pokemon Call Of Legends Holo Rayquaza #SL10 PSA 10",
-    "Price": 5500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkV5Q2VlcXNMcmNIM0RiSmNXV1pkcGc9PSIsInZhbHVlIjoiS2xNMXVOZUl4ZzJkbmxIdWw0UTQrZlE2WXJpVWdPbitWemRITjZBTkwxWG5jWXpSUGhPeVltc2FSa3NpWGFVWlRZRER5cHBTV09RQllROGtWZnhWRnc9PSIsIm1hYyI6IjQwMjdjNDY5Y2NjYWFkOGY3ZWQxMDllYWRhNGE1MDg2MWU1YzhmNDg4Y2M4NDM4Y2MzNGU0ZGZiYjg3YzIxNjkiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 18,
-    "Card Name": "2004 Pokemon EX Team Rocket Returns Holo Mudkip Gold Star #107 PSA 10",
-    "Price": 5200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkpPU0k2RGRVQ0RUQjdBMkt0VHpRd2c9PSIsInZhbHVlIjoiTHVVcW8vOHN3Q2dNUDZ3amJCSmFleUMvUHZSLzRYbUlrNS9GZjAvc09NbGM5U0JaU2lxQWo5dHFNYkN5UUlmV0FpKyttRmsweXZ3NWdOZmhLR1M4Unc9PSIsIm1hYyI6Ijc1N2U4MDhjMDBjMmM1MjEzMWNlYjE5NTllMmQzN2M3OTkyYzc5MTVkMTU3ZTMxNTQyNzIyZWQxMmI4YzEyNzQiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 19,
-    "Card Name": "2017 Pokemon Japanese XY Promo Team Rocket Special Case Giovanni's Scheme PSA 10",
-    "Price": 9600,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkZhcFNHSWQ3aHZjd0VqcE9ydVFXRmc9PSIsInZhbHVlIjoiR0tUTFR4NmUxMUdOOVBKT2psVjliKzFaSjRLeHdoelVQZzcwajNXam9GSTgvbE5FTmRzZEd4YlNNSURaUW5Xc3FaZnZRS04yeEplT0FUU2dVZnliS1E9PSIsIm1hYyI6ImU1ZmEzMTRlNGZkM2M5MTBhNjY4NDE4ZGRhZDhmMzQ0Nzk1MzA0NGQ0MjhlYzY3YjM2OGMxOTAxOGZmMGEyMzEiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 20,
-    "Card Name": "1999 Pokemon Super Secret Battle \"No. 1 Trainer\" Trainer Promo Hologram Trading Card PSA 10",
-    "Price": 90000,
-    "Fun Fact": "Awarded to winners of the Super Secret Battle Tournaments in 1999, with only 9 copies officially distributed.",
-    "Image": "https://i.imgur.com/1mCfloF.png"
-  },
-  {
-    "Id": 21,
-    "Card Name": "2003 Pokemon Aquapolis Holo Crystal Lugia #149 PSA 10",
-    "Price": 11100,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImhsTFQzcU5maG0yU0JDMTRwOWZCOHc9PSIsInZhbHVlIjoiTHFpTEpkZlJpSkZFVWxBNVpkNVpVeDcxOG5xMXdSQ1hrRFVienVoMUNFSVUzbU5zZm9vMzlCUEM0WnpaaXhKT1ZXZU1GYUNuQ3RCZmZsbnlMVnpNOFE9PSIsIm1hYyI6ImFiZmNjMzU2ZGU0MWY3N2FlNDgyMTNjZTBjMzY1OTRhYjI5NWNhMjE0ZDA5NTZlMzE1MjFiZDllMWYwOTRkMzkiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 22,
-    "Card Name": "2001 Pokemon Japanese VS 1st Edition Holo Karen's Umbreon #91 PSA 10",
-    "Price": 1500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImR3TG5qYno1TUt6SlZjTXAyeDIzMEE9PSIsInZhbHVlIjoiUHVlOFJJUXJ1Mk9HS2hFU2JNTE9QRy9HMjVNeEVOby9UcE9oQ05YZVUwVWZTVkk3Q1BLZndGWGZNSDd4SlFjZWhUMXBRMVBVQmFZZ0U0bGo1cWpwS3c9PSIsIm1hYyI6ImRjNWEzYzdmN2IzNTVmOGY5MmI5ODRkYzE4Zjc5MDkxYTBhZmZjYjE4M2E1Y2U4YTQzNmYyNjdlYTg5ODEwNjAiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 23,
-    "Card Name": "2015 Pokemon XY Art Academy Competition Meli Pikachu PSA 10",
-    "Price": 11100,
-    "Fun Fact": "100 copies given to a winner of the Pokemon Art Academy competition",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjU2Qkc4MFg1TXc3dWV2OGN4eTlUWGc9PSIsInZhbHVlIjoiSDI1VGVHNERVYndoQ2xRZm5UMDJYSkgwRnRXK0JTTnpsand4emhSM0FqSHlEOGZDNGNaN0hHemlZd0hLei93OWFIQVNCS01yV3czWUFrWStZeElJK3c9PSIsIm1hYyI6IjdiNzY4OGNjMjkxNGRmMjg2NjcwOGJmZThkYmU0OTBjMjNmYzI2YzcyOTc0ZGNmNzM4Y2U3NTU3ZDY4MjllZWEiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 24,
     "Card Name": "2005 Pokemon EX Deoxys Holo Rayquaza Gold Star #107 PSA 10",
     "Price": 38400,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkxYNEZrNzlCTG9KaS9DUzJndGlRQmc9PSIsInZhbHVlIjoiSUV4UEdjQWIwZndyaGtGbU5ONTBTSWJNc1Z6OEZWUnBldzQ2RmxYQVBnSis1QUd3TFhNQllCQWtDamNPU2xvemF0QTRQWFY3Ri9oUEdZczc2dVVSbVE9PSIsIm1hYyI6IjA3Y2MxNmI5YmU4ZTM2OGNiZDk4YzY3NTQ2YjI3MzlmZjE1YmZhMTkyNjYxZDFiYjg3NjgzMTI2MDQ5ZmI3N2IiLCJ0YWciOiIifQ=="
   },
   {
-    "Id": 25,
-    "Card Name": "2011 Pokemon Black & White Promo Battle Road Autumn 1st Place Victory Cup PSA 10",
-    "Price": 750,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iko5enZJS0tZbUhNUCtva2NLV1pweGc9PSIsInZhbHVlIjoicjkwZlNYdDJGRGE4bkRMZmcvY0x3NjBtLythTDVRTVYzNENmdWlNczNYdHdVSzdaNVpSWTF2ak4wVXRLNW9vWkxNMWhlS2VQNlhhOTV2cnRnL2d5WkE9PSIsIm1hYyI6IjM0ZmMxYzgwYTJjMTc2YTQyZmU3MzhhMmUxMmE0NDMzMzE3MzUyYTBkYjM0YWU4OTFhOWEwN2Q5NzI3N2YzMDIiLCJ0YWciOiIifQ=="
+    "Id": 14,
+    "Card Name": "2009 Pokemon Japanese Design Contest Promo Corocoro Winner Arceus",
+    "Price": 31200,
+    "Fun Fact": "Given to winners of the Pokemon Card Design Contest.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjhlUkJuUGpDdTBUQ0p2VlRGVVZsWWc9PSIsInZhbHVlIjoiaTBtZ3huOUtrdUpUTkZzbTFLOHc3UGZzMXhSWG1oMlk2SnBOdjU0YUxtTEZsTFUyTzJzVWQ5Z1VVbXlVRDd0SVFhcS9VMGNhcHVudEpIaTZwdTZ2UVE9PSIsIm1hYyI6Ijk0YmYxNWYyMzFiNWRkYzY1ZWEzNDUyZGYzNmFkZWEzZDkzMWI5YTljMjNiYWY1ZTFkZmEyYThhYWMyMjZmMzMiLCJ0YWciOiIifQ=="
   },
   {
-    "Id": 26,
-    "Card Name": "2003 Pokemon Skyridge Holo Crystal Ho-Oh #149 PSA 10",
-    "Price": 5500,
+    "Id": 15,
+    "Card Name": "2000 Pokemon Neo Genesis 1st Edition Holo Lugia #9 PSA 10",
+    "Price": 28000,
     "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImhPb3kwcVlkejAzS2dMMkZYVUd2TFE9PSIsInZhbHVlIjoiTTB1ZWRNWVZRL2hHRXBYNi9aR1hsZG1idHplei9TNzYyOU9EVFExdEZFSWZ4eitEQ0R6ei9qQ3pBVktLeWVQMy8rN0lQUVpPU0lsbm5jMGo5YUVEQ2c9PSIsIm1hYyI6IjVjYTViNmM4NjZmMjU3MWJkYTNiNjFjYWVjYjJlZDllN2M0OGI4NWQxZWFiNzQxYjg0YmJjMzlmZWYyZDdlZTIiLCJ0YWciOiIifQ=="
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkM1L1BPYWlBcktHbDI5eWxCbys1TGc9PSIsInZhbHVlIjoiVVB0cHRsSXBzTVptVHNERjk2aVZpL3MwOU5WR1FxSTFSanVKN2Ura3o1K1lnM1BQdkNGOUZxdFVwMS90NFhjaGdCL002SXVtRVJWOWN3dldBb0xPY1E9PSIsIm1hYyI6ImNkZDUwZmFkNzVhY2Q4MmRhMzMwZmQxZTlmM2Y4MTA0OGVhNGRhZTA2YTMwYzZkYmJhZWVjOTk2YzNmMGFkY2UiLCJ0YWciOiIifQ=="
   },
   {
-    "Id": 27,
-    "Card Name": "2004 Pokemon EX Fire Red Leaf Green Holo Charizard ex #105 PSA 10",
-    "Price": 3500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkhVSXdKVWxnZ2VQYStpczRCYUZycVE9PSIsInZhbHVlIjoid3hwcVVGSnJjRGdJWFloSHE1Yk10ZkVtQ1lUb1JvWUJuOGVJeEtQdGZtTmFvRDMwZ1FGeVoxUmVmc2VEZk1ub2ZSZlZSdXJoTUpkWDVaOVpOY25uZkE9PSIsIm1hYyI6IjIwZGFjMTYyMjIyODk1OWNhOWZhN2RlZDUzYWU2ZmZhNGMxZjVkM2U1MDQ5YzA1ZGFmMDljOGE2NzFjYWU5NmEiLCJ0YWciOiIifQ=="
+    "Id": 16,
+    "Card Name": "2011 Pokemon Japanese Black & White Promo 1st Place Victory Cup #BW-P",
+    "Price": 28000,
+    "Fun Fact": "1 of 6 second place awards given at the Battle Carnival 2012 event.",
+    "Image": "https://rarecandy.com/_next/image?url=https%3A%2F%2Fimages.rarecandy.com%2Ftr%3Aq-35%2Fproducts%2F11243%2FDECRC067_1_optimized.jpg&w=3840&q=75"
   },
   {
-    "Id": 28,
-    "Card Name": "2014 Pokemon XY Phantom Forces Full Art Gengar EX #114 PSA 10",
-    "Price": 1000,
+    "Id": 17,
+    "Card Name": "2008 Pokemon Diamond & Pearl Majestic Dawn Holo Glaceon Lv.X #98",
+    "Price": 21000,
     "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjZSYlliaXRsdkt5aDIzQTVZNDVaNFE9PSIsInZhbHVlIjoiNW80QjZpb09sU3ZlaTRSWjJsZDZIM3RNYktrQjdtend2TmRWdnIzSVFtd083ZEYyc2pKYk12WEVEZnV4OSt6M3JCOVBVQVc4VWtNa0pLSndSS1ZrQWc9PSIsIm1hYyI6ImM4NTZiNTU3NzIxZjgyYjJiM2Q4Mzg5NWNiNjQyN2JlYjBlZGNkNDkzZmUxZGY0NGM4NTYyMDJkZGE5Yzg1MWUiLCJ0YWciOiIifQ=="
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjhwK05vekJ0Q2dzKytMdllwTXlEMFE9PSIsInZhbHVlIjoiNTc1bENDbi8xQUJ1WUMxNlY1UjZ1SWppSDVTS2NiU09IZHh0NG5oTFdqMDBqMjJCanBtbzFVYlh5dXlESW9LNDhxSXp2K25TWWE3UVBZcENNRDZUbnc9PSIsIm1hYyI6ImNkNzMyODEwODA3YzBhZjYwMGYwMTYxYTg4MGEzOTgyMmVjZGUzOGMyNTcwN2E4N2Q3ZGYwODA5ZWZmNjZmYzIiLCJ0YWciOiIifQ=="
   },
   {
-    "Id": 29,
-    "Card Name": "2001 Pokemon Neo Discovery 1st Edition Holo Espeon #1 PSA 10",
-    "Price": 2500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InRzOFZaSXAyVlh4WVp2Q1pUdzF0YkE9PSIsInZhbHVlIjoiTzBScHJEeWhoVHF1SzlibUE4S0FaM1NYVEt1MVFEekMvYTRaamFFZDRHSlR6cmk1Q1NCcXBFVFJrdDZtK2xycHRENnFDOEtnQ3d0S2xiZkdPelBGWnc9PSIsIm1hYyI6IjY2MzQxY2EyYzU4YWQ2ZDVhOTgwYjIwYWRkZWYyZDZmY2Q0MmVjYmIzMzZjNDA5YmVmMmViN2I4YWZhNTdlZGMiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 30,
-    "Card Name": "1999 Pokemon Fossil 1st Edition Holo Dragonite #4 PSA 10",
-    "Price": 5500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iml3SlZYem11QkoyYjZFb2lzSWlBMFE9PSIsInZhbHVlIjoiQ2hrWlFxYUFrUVhFMWZaVmJmRkQ0MytueTlHa0J5TlNOTjhjTnNhQlBOVi83YWdlUUVMWHpwYmpkYWpJZW1ham9GYVhhaUVGK255NkdSZHROUWRsUFE9PSIsIm1hYyI6IjRiYzQ5MGVmOWNmYTZlMzNhZjY4YjU5NzY0MjY2M2VjZjhhNjhjNmZkZjAxZjQ3YmUzNWIzMTg2OWViNDE0MDgiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 31,
-    "Card Name": "2007 Pokemon Pop Series 5 Umbreon Gold Star #17 PSA 10",
-    "Price": 13000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkxmSFFvNXdXQmlMazNBMlBKcWZ1bVE9PSIsInZhbHVlIjoiQmdWQXZEakptQmIxV2lPZEM4TVlPQjBCVmdKUko0RzQyeGQ2eWx1d1U3cjhlNDVJSFZYcnZ1M3VZUG5BUlc0VlI5U2w0MnQva2JmYUJhNC84T2s0V1E9PSIsIm1hYyI6IjI4MzdkNGMzMDJjMGFkYWYwOGE5ZWJjYjkwNDMzNTRlM2I5Yjg3ZTZmNzkxYzZmNDA2ODczNjM5ODM2NGIyODciLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 32,
-    "Card Name": "2013 Pokemon Black & White Legendary Treasures Holo Charizard #19",
-    "Price": 800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlhVVmpTWnh5NUhVbDRmTmt1Z2p5SGc9PSIsInZhbHVlIjoidFg1SEk3WjZMbFF1VmUyb0wxQUwzSllEdGM3VGRtMVg1ZDBaYnZlakg5ZUpyalZsT0JCNzJ6MGtSYS9mUnc2RTE5UDB6czc5ZDNBWEdCdjRva0ZlZFE9PSIsIm1hYyI6IjBkNjQ3MDBkNDBiZWQ4Y2FjOWVlZmQ5ZjM4OTVhMDQxOGU0N2EwY2Y2NTJiZmFkODkwMmMwOTRjZTcwMjI0MDEiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 33,
-    "Card Name": "2000 Pokemon Game Promo 2000 Movie Ancient Mew PSA 10",
-    "Price": 200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjBGZ2FwdlhqTkVMWU1Ja2hsblZNTFE9PSIsInZhbHVlIjoid1VMdjhHdzN3aUFOK2ZRcFlVQVVLY1J2TWpDOSs2WFJhSGw2akpMeEJURHlncjZiRklmSWhSdFQ5Y04wazRveFRCTXNwcjR2ZDJONFg2K2o1dmg3UkE9PSIsIm1hYyI6IjM0Nzg0MjA5MjAxMDYwMGU3ZTFiZmM3ZmQ4YWU5OTMxYWI2MjljYzhiMDJjZGE0OGI4ZWY1MTI1ZjkzYzZhODAiLCJ0YWciOiIifQ=="
-  },
-  {
-    "Id": 34,
-    "Card Name": "2000 Pokemon Neo Genesis 1st Edition Holo Pichu #12",
-    "Price": 12000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjZuYnFNNE5xSndseUpKUnlLcXc5bnpOVXBWQStQWEFEQjhtUHEyblVwaXBMSzluQmhnZ3dEZDFzREtSYUpJaWx3Z0VzYWRKZ3o2SSs1dEw0d3JyMkR3PT0iLCJpdiI6IlRhcS82LzJMZWxkVXBMRW4zbmNaWHc9PSIsIm1hYyI6IjMxYjM0YzFlY2RkMzgxZDQyNmM2MmJjZTllNzExMWQ2ZThhOGZhNTdjZjM3MjE3NDZmNDBlMmNhMDRjYjhiOTkifQ=="
-  },
-  {
-    "Id": 35,
-    "Card Name": "2009 Pokemon Japanese Design Contest Promo Corocoro Ichiban! Arceus",
-    "Price": 10800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImdsaUZEclNNQzlWajUxQ040L0NZVjg5MGU1Tjh6dURKN2VOWHJZQlNBUzZYZnQzWVJBWWZxQjlMb1E4OURWTXVzVzFuNW16WEtlZjdqcWwyUG1BUUlBPT0iLCJpdiI6ImxlS0UvODVNbUZ0SzVuUDhMMUd2aHc9PSIsIm1hYyI6IjA1MDhkMGVmYWZiOTA2OWE3YjViOGNkNzkzYjMyZTVjOWQ0NGUyZjA1NGUzYmE4OTJmMjk5ZjFhYTRiOTQ3ZTQifQ=="
-  },
-  {
-    "Id": 36,
-    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Shining Charizard #107",
-    "Price": 10800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Iis3NGJUQXpaQkQzOGMzL2l4RE1oVlQrSW1nSC9McnFBMTY2WUp6eDRNWEhzdko4aWVScURIcWZZSmVOMGZZbE8wWnREQk4rQWVBTTNhWlh6dnFiRjZRPT0iLCJpdiI6InBaNnFwZk4ybDZ2TVRCUThRKzVoUkE9PSIsIm1hYyI6IjY0YzcwYzkwODA3MTY4YTk2YzI1MDljYWRlYTY2M2JhZGY1YmU3NTRlMGY1MTQxZTYxNGI2MzgwZjVjOTAxYTIifQ=="
-  },
-  {
-    "Id": 37,
+    "Id": 18,
     "Card Name": "1999 Pokemon Japanese Vending Masaki Promo Holo Gengar #94",
     "Price": 18000,
-    "Fun Fact": "",
+    "Fun Fact": "Given in exchange for a Haunter card during the Communication Evolution Campaign.",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InhzY2hoY2lxNzYvcmdNeVNhUzhhKzdEMkFpNWlpaHJFaWFHczYyYnV6ZGdBM0xHdzJpa0RJYWswajNSSTJmTkVGdHF4anJpSW0yWVF5cDhYNklJWHdRPT0iLCJpdiI6IjNhQnVwNWJCRXEvRGFaUHlsblA1RlE9PSIsIm1hYyI6ImRhNjU0NzdiMjA3NTQwZDk2NzlmZDlmOTNlZjc0ZjgwNTMxOGIyMTEwODA4Yjc0MmE4YzFjZDAyZjM1MzEzNmIifQ=="
   },
   {
-    "Id": 38,
-    "Card Name": "2010 Pokemon Japanese Design Promo Fan Winner Illusion's Zorua",
-    "Price": 10000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlFNeFRRa1l6blNZK0gremVvNS94UzRjNUpka2tDTEtUSHZwMFBMOXZVWGM5VmtUQk5HNmFUdXQrRnNEcTE0dy9UaEhzZGM5N2dDS0YvOHBUSENwWm1RPT0iLCJpdiI6Ik1kSU92aUJSc1hJNG1COU1YR2RIVUE9PSIsIm1hYyI6IjM3ODM2MjI4MWVkNmU0YzY1ZjEyMDFkMjFjNzMwNjMyMTE1MmMwZjM1ZTkzM2ZlMjBiZmZkZjVhNmZhOTljY2IifQ=="
-  },
-  {
-    "Id": 39,
-    "Card Name": "2006 Pokemon EX Holon Phantoms Holo Pikachu Gold Star #104",
-    "Price": 8000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVXV1c3d2c4V2NpTjAwWnUxL0hoYlRMYkY3ck9ZZVE1ZndvSElZWUEweU9VODhrTmFWWnRldUxkcjhFdzNOSDJNcTdKbjFoY3lsTEJRblNKQUo4SUxBPT0iLCJpdiI6IlBCVVB1OW9JWWJ4MVlJTncxM2huTEE9PSIsIm1hYyI6ImUxM2I5MTgzYzMyMzk0NDBlMmRkMzAwMzA0Zjc3NGExMTNkMzBlZGZjZjFkMWM5OTZiNGQ5YmZjMTllMjIzZDUifQ=="
-  },
-  {
-    "Id": 40,
-    "Card Name": "2011 Pokemon Call Of Legends Holo Lugia #SL7",
-    "Price": 7800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlVWbGYwUDliaGxjS1M2d3VxWHZjU0IxYzBRM3dPaWVXclZpQXZOank4MDIvdVpkdjFpM2s4MjlLRzl0aWJOWSs0ai9RbnhZR1VFaHNSa3FRT2czWEhRPT0iLCJpdiI6IkZNcmFXcWNFSW5Uek5UMWdHTk5HelE9PSIsIm1hYyI6Ijk2YTdkZGJmYzYzOGU0M2Q2YmZjNTZlOTUzM2U0ZmJjMjkzZGJlOGFkMmM0MmVlN2UxNGQxZjYwZjIxODhjYWYifQ=="
-  },
-  {
-    "Id": 41,
-    "Card Name": "1999 Pokemon Jungle 1st Edition Holo Snorlax #11",
-    "Price": 7500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImZMSGFmMjVqWW95UFNNUE5SVnhJM1RBc0NyazZSdUc4QXM1TU1DU0pqMjlVbkJGOEZXcU9wVU5VVzMxNk9uUzA1aHNEaGhxSFFZWVNqM0VLVlI4OUNnPT0iLCJpdiI6IlZrc2YyeUtMYVAzd0JJYXJRRlBrbnc9PSIsIm1hYyI6ImYwNzY3YWFiY2JmMjkyNjBkNTgxMmU5Y2Y1NjQzNmUwYTlmNmYyZTNhOTc1NDY3NDkyZjJmYTQ0N2RkZjBlZTAifQ=="
-  },
-  {
-    "Id": 42,
-    "Card Name": "1996 Pokemon Japanese Base Set No Rarity Symbol Pikachu #25 PSA 10",
-    "Price": 6500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkZkSkJaNi9icGhBYlQzbmN4WHpmSjhvZFlPczRJVTV1WkJZVitoYlB6dElHWkhsS1NpNUVocFB6MVhOeEE4N1dFQVZwc3VkOXk2c1dNRkc0NWdyaE1BPT0iLCJpdiI6IkEwYzZEelNTaEsyblllUk9QTmt3cHc9PSIsIm1hYyI6IjU5MTcyNTM2NmQxYzU1YTA4OTE2ZjIyMzI4Njg1YmEyZjVlMTc0YjcwNjFjMjVjZGI1MzgwM2U0ODkzMDRhMzEifQ=="
-  },
-  {
-    "Id": 43,
-    "Card Name": "2016 Pokemon Japanese XY Special Box M Charizard X Poncho Pikachu #207",
-    "Price": 5800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkJhTzNEVDFHSEgycWN3N2dJMERDRnZzL3YvUHhidk5OOU1ya1VHRmRXaEVYckxpLzFxUmNKUXRkWkNHRjl4RUM4aDVMRUJvdlNZTjBKVDhLeXpTMGdBPT0iLCJpdiI6InJsTlBQYU1DTnZsV2N2amhsbGVIYlE9PSIsIm1hYyI6ImYzYTNiMzA4MDQ5NjcyM2M2ZWUwZTU0YmFjYWM4MDdiNzhiZGUzZTQ5NzY1ZjZlYzJhM2ExMDhkMzlmYWQ5MDcifQ=="
-  },
-  {
-    "Id": 44,
-    "Card Name": "2016 Pokemon Japanese XY Promo Special Box Full Art Mario Pikachu #294",
-    "Price": 5500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpIYzV0eGRKbTVTTUphYlB6d3VqTE1ZaGpvRU10Si8vWHhrTElVbmczRFErcWg2T0llbW43bXYwcStGUkJ4M1daSDA4bGFvRXZ2WDd5d3ZxeGFsbmV3PT0iLCJpdiI6ImgwcFpYa3JsU0YyZklERmJZYjRvRlE9PSIsIm1hYyI6IjJkM2I5NjIzMjk2YTZiODI5MTQ3YjgyODFiNjg3ODVmZTg5MGQ1Yzk2MjQ2YWJlMDkxMzI0ZDkwN2RiNWEwNjAifQ=="
-  },
-  {
-    "Id": 45,
-    "Card Name": "2013 Pokemon Black & White Promo Sylveon Collection Holo Umbreon #BW93",
-    "Price": 5200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjEyK3NkRGQvR3UyRTFWRG1nSWlBV2ZZdkpqbUI3c2dQVmhPQ2hnTDU1MkFsRDcwTTY2OG9yUG9zRk0ybUhsbE1oS0o2YkdDSjQ1bnZrdXF1ckxBZ1BRPT0iLCJpdiI6IkhuMlJ2b0cwMklsZ0hiN0RrQVQ1aWc9PSIsIm1hYyI6IjVlMDFkMGFhOTU1NGFlNDk3OTg1ZTZiNTIyMjZjMDFjNWFlZTVhNmQyNzA3M2FlNTI3YWY5OTFhNWU3NTI2NmEifQ=="
-  },
-  {
-    "Id": 46,
-    "Card Name": "2001 Pokemon Neo Revelation 1st Edition Holo Entei #6",
-    "Price": 5200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlRmenpnM2JNSytnVWUrSFhRZnZTaWJHUzdMUGV2dTBTUDVwMXBQUVZxWmQ5c3FNS3RoYnJETFFIcGx2ZmlLQnQ5VXl6WGNHYUZNaWFHM24xbit0ZVhnPT0iLCJpdiI6Ink0ckkrUjcvZUFkN0VqQU1sS1Z6eUE9PSIsIm1hYyI6ImQzOThiNTE4ZTY0NjliZjRhNWVmYTJhY2RmMjJhNjcxODk4OTlkYWFlMzhhMzA2ZDViM2Y1ZWRhZTYyYTY4MTUifQ=="
-  },
-  {
-    "Id": 47,
-    "Card Name": "1996 Pokemon Japanese Base Set Holo Charizard #6",
-    "Price": 4200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ik90SkpFTFpCbmV6SE1GdlJLbVd5N1FndVdBWFYzNnFERlFBSGJqZlZKSUxXWkFDcXJ6dENoVzFsQnlwZW00U1RneDJQWWZsR2QwazlzQVp0VUUzYnBRPT0iLCJpdiI6ImFsdjZpUVZiemRmVkNCMFNsOHh6aUE9PSIsIm1hYyI6ImI0Nzk4ZjZiOTM0ZWNiZGU4ZmE4MGYzOWI3NTZiM2I4YWFkNTZmOGEwMzhmNmEzMjYwOWIyODdmOTgxMjkwYTAifQ=="
-  },
-  {
-    "Id": 48,
-    "Card Name": "2003 Pokemon Skyridge Holo Umbreon #H30",
-    "Price": 4000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Imk5R3VqY3FYRnZpU0p3ZVVuakNNU2QyWmtzbnZaeVZWZEdtc1QrUVVZN0U3RW9Wdm4vMDV0VnE1TytNMHkrUTJKWU44dEVnSFpXbHlRcFpLdEZNTXJRPT0iLCJpdiI6IitBSFUyeFY2VWpkMDJqMUVBTHJGelE9PSIsIm1hYyI6IjkzNWY1NDJlMTg1N2U0YjQzMWIzMTk5YmM2YzAxYzcyOWJjOWM0NjEyYTBiZTQ0ZmQ2NzdmYTk3Njc0OGVkMzkifQ=="
-  },
-  {
-    "Id": 49,
-    "Card Name": "2000 Pokemon Gym Challenge 1st Edition Holo Blaine's Charizard #2",
-    "Price": 5500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImxkVlhmSDJiejVKQ3dMeVAwTFNSWVVZNHBsZUZMOTJLbW5BSGc4QzhtcnhlWGV2d2liSUFVcUpNVE0zMWtuNEVUbm96SkRSOXp0TWJ5cjVQK0E1djFRPT0iLCJpdiI6ImFFeDlFR3FqamR5bnpjS1EwdzFuYVE9PSIsIm1hYyI6IjhkNDA4ZjdlYjNlN2E3MzE2OWQ0ZjcyZDAwMGYzYjk0NjIzMjQ0YzdkZWNjMDllNDljMmYwYTYyNmMxOTZkMDcifQ=="
-  },
-  {
-    "Id": 50,
-    "Card Name": "2005 Pokemon EX Unseen Forces Holo Espeon ex #102",
-    "Price": 5000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlZYcWl6NWdRUElPck4ySjR1RVgvZ3NrZHdvODZmT0VIOHl2RTNiVW5KejFHUFg3K2czNTd2TlBCeHJ6ZkpWZnJoN2xCZzFwL1NlSGExTGMzVVRieXN3PT0iLCJpdiI6ImRlY2ZhYkFMTlc0ZkRobkZQRU4rSEE9PSIsIm1hYyI6ImExNTM5YTExOGM2YjdiNDY0M2JlMmE0OTM0NDlmMjJkMzM4OGJiN2JlOGI4M2U2ZjRmYmRiMjkzNDA3NTkxZTAifQ=="
-  },
-  {
-    "Id": 51,
-    "Card Name": "1999 Pokemon Base Set Shadowless 1st Edition Red Cheeks Pikachu #58",
-    "Price": 5000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Im41bS9DaUlhdWN2SEFDaHlrRHR5NFlVajVqeFhmcVd5czNJa1FHeHJIREJZM0FvQ21TdEpwNUZqS2wwd1VGTVNCRFh2QllGbUg1a2g3SmthQjZXcmhRPT0iLCJpdiI6IjBLOGdxdlZHbHMzRWhrT1lBbjdIOEE9PSIsIm1hYyI6IjYxMDI0MDdlMWUyMjIzZTAwZTRmMGY4YTczM2VjMjAzMjEyYjFlYjhjZDliMThiY2Y5YWQzNGYyNmY2YzNkMmYifQ=="
-  },
-  {
-    "Id": 52,
-    "Card Name": "2003 Pokemon Skyridge Holo Celebi #145",
-    "Price": 2500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlAvUkpkc3NFU1BaNFpLenZ2KzhIaDFnUkxOUUpEYTJtOHQ5WDgvK0dmaExveTcrbHhDaUNxcU9jaWdNVEd3S0RxQW5RbVYxbUNncG9UL2FJdVpCMXhRPT0iLCJpdiI6ImlKL3B3M2M0VTN6S0ViaitXZ3FFdFE9PSIsIm1hYyI6ImU4OGY1Yjc0OTAwYmI1YjA1MmQ1NzQwN2E3YzQxOWJkMmNlODgzOTlmMmU3NWM5ZDM1Njg0YzJhMTlmNzg2Y2EifQ=="
-  },
-  {
-    "Id": 53,
-    "Card Name": "2002 Pokemon Expedition Holo Mewtwo #20",
-    "Price": 2500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IitUTWZUMUtpM0Y5VVdMSTBJTG9PU0JWYmEzQlI2dFJ2ZFhxZGpZTEUxSWMzVkYzSUxyNkppVEdVZCt4RGJCU2hadjNMZWJyZGpzSHV3Ykhxb083UnVnPT0iLCJpdiI6IkFhRnl1d0J2QTdQL1h1U2lGQzYwSHc9PSIsIm1hYyI6ImY5OWYyZTQxZGRlOTkyZDNiMDcwZjlmZmUzZjdkYWZjZDY2MGRiNGJkNTUyNjM0ZGZkYTZjZjlhOWNlNWMxMWQifQ=="
-  },
-  {
-    "Id": 54,
-    "Card Name": "2015 Pokemon XY Double Crisis Full Art Team Magma's Groudon EX #15",
-    "Price": 2200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImZwTFE3Ym9wQ1RTNGFzd3VvQkNJV3EvQ2E0VlNSblBIbmRQREFCc2N5ZEtYWWRoamFkN05zVUwxSzBndGI5TUJCNFFmV2EyR2RWOXdsbTdhUjlBOWlBPT0iLCJpdiI6ImdwWkFKMEpwT3M2cDlsNWxLYmlHQUE9PSIsIm1hYyI6Ijk2ZmMzYzA0ODdjYTc2YzU4ZDc3ZmM2ZDhmYTU3MzcwNDEzZDdjYmIwYjEzM2IxZDhhNGUxMTdmZTBhMWQ1OTYifQ=="
-  },
-  {
-    "Id": 55,
-    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Holo Light Arcanine #12",
-    "Price": 2200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InJlM2JyTW1paER6R1QzdUdqRUVyZVBWWU5mb2x3bDZIYjZ6cXBSTVNvQzFtakFSOFk5VEk5Nk5BTjJTNEc1S0lDaDAzUjVzTHdEV3ltUEdDeExzNkN3PT0iLCJpdiI6ImR5TU0rYVk5ZXEvdDZ3WjdvREtDRlE9PSIsIm1hYyI6IjMyMDNhNmI3NzIyMDQ4Mzk4OTBiYmQyMDMxZGQwYzdiMGZmYjk0MGU5NTViOWUwY2U0ZTRlZGJjNDdiNDYxNGMifQ=="
-  },
-  {
-    "Id": 56,
-    "Card Name": "2012 Pokemon Black & White Dragons Exalted Full Art Mew EX #120",
-    "Price": 2200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ik5ON1UxZVNIUmJZbXIwckZjMzlMNi9oenpQS1FDNVdKZmp0RFBvM1ZVUUVIUTNYMkhOUnRrTmJ3cmtySmdHTC9wVWhINU1ZQVpIU3FLOEJPWCtRQ2dBPT0iLCJpdiI6InljUlo5b01BeHpyVUVuckswQW4rYlE9PSIsIm1hYyI6ImJiZDk1OWE1YzI5MGMwYWIxYmIxYTIyY2I1MzRlNDRhYzRmMDk0MzI4ZjgzOTBhOTU2MmE0OGZhM2VhNDA5ZjYifQ=="
-  },
-  {
-    "Id": 57,
-    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Shining Raichu",
-    "Price": 2000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Illuby9TZ29WRnRreG5MZlVVQllvcUt4ZWFReG1CN0pEMUwyKzR2YXQrNUdJYWFWZXZzNWE5QStna1gzRThqeWhWZld2b0I5aEcra0MvK0Jmdlh6RCtBPT0iLCJpdiI6ImJOQXJGU1VRYU00NDB1ekZ5b01lQ3c9PSIsIm1hYyI6IjA2NjQ5MjU3ZGFhN2Y5NTAxZGExZGY4YzQxMGFjZWU4N2I3NzJlOTAxNDYzODUxYTE5NWUwOGQwMzQ2NjZkOWUifQ=="
-  },
-  {
-    "Id": 58,
-    "Card Name": "1999 Pokemon Jungle 1st Edition Holo Jolteon #4",
-    "Price": 2000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjR1YTdTT01BZmsveEloWjBGQUFvZHFzZm5Lc1VjUElrVGwyOHV0ZHlaWGFkWlJWVm5NLzc0ai9TM2gwN2MrTkdrTVZMUW5obnVmVlRsWnZZVUpDaVJnPT0iLCJpdiI6IkJRRFFzN016OUxkWkV0UkY0SHFJZWc9PSIsIm1hYyI6ImE0NmFiMWFhMDVjYTcwOWRlMjMwYWQ1OTNjMDBmNjdiNGMyMGIyZmRiMmY5MDMyNTMyNWVlZDc2YjU1ZWFkNmQifQ=="
-  },
-  {
-    "Id": 59,
-    "Card Name": "2008 Pokemon Diamond & Pearl Stormfront Holo Charmander #101",
-    "Price": 2000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjVpZEpMRmRiZmgwa01XWS9TYWZPMHU5RkN3akxsTVNScE5sendES0RjeVJtN0c5RWNDNklsVWNNQ1B0V1FUWFc5ejdCd21zdlU3c2RKN2RVMklxdXp3PT0iLCJpdiI6IndkNXg0Mlc0aE5pcTNzbEFlRlE5UkE9PSIsIm1hYyI6IjY0MGJlMjU4OWE2NjhmNDM2ODI4MzYyYTg4YjAyZWRkM2UzYzM2MTcxZWI2ZDk0NWEwYzA1NDk1NDhmYWVmZmQifQ=="
-  },
-  {
-    "Id": 60,
-    "Card Name": "2000 Pokemon Gym Challenge 1st Edition Holo Erika's Venusaur #4",
-    "Price": 1800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlF4SERRWEdRYWduWkxUNGpPWXhsRGE0NEtBbCtxd3k1ZFZnQmlzNnVxOWo1QjFtZFdIbDhKbWxRTnFCRzZoc01xek12cjRVdVZBcUZzWmRmSEpUOVhBPT0iLCJpdiI6InoyVXp3eW5ISjFlSXdwTjY2U3V6Y2c9PSIsIm1hYyI6IjY0NmIyOTYzODJkOWFmZjJkNjlmZjMzYzA2MmEzN2ZiZjgzOWMxMjg4ODI0MThjYjJhNTM1OGJkMjY0YjE1MzQifQ=="
-  },
-  {
-    "Id": 61,
-    "Card Name": "2001 Pokemon Neo Discovery Holo Umbreon #13",
-    "Price": 1500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkFENS9xRU40MHBZeENZdG1tNHpPa0FKVVovb1dXQVB6Vyt4eWxaSjk0dlptWFhBeFVDd25STHc1bUI5MndDTFdXbktKRXEvQmpBRGNFKzB1UXB5VVVnPT0iLCJpdiI6InFpVGk3VGt3TVR1bHZ2ZUxBbmpoeGc9PSIsIm1hYyI6IjgzNThkOGU5ODk0NTIyYTQ2OTFjYWNiYzUwODZlMTE4ZTkyODNiOGYzODgxNzNiMzM3NTIxZjIyMTE2ZDRiZTIifQ=="
-  },
-  {
-    "Id": 62,
-    "Card Name": "2000 Pokemon Team Rocket 1st Edition Holo Dark Raichu #83",
-    "Price": 1200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InYvVllNKzZ1M0hnUk9VdjlQMGMwUk1LeGFKRzRsOE83TW1RMEpMS3BVbG1GczlGM2JqSHZDUnJyQXNHZ1M3bnRyd1p5OHNHenVESmlUSk9QWTV1Z3RBPT0iLCJpdiI6Ikw3OC9hb0JBOXdaNFdxRUtKeE5UZVE9PSIsIm1hYyI6Ijg0NWZhZjAxN2FhMDU5ZTI1Mjk4NzBkM2ZmYmEyOWRkZjk5MTg0ZjMwMzZhMzI2YmRkODEzZjZiYjE1MjVhMGMifQ=="
-  },
-  {
-    "Id": 63,
-    "Card Name": "2016 Pokemon XY Evolutions Holo Charizard #11",
-    "Price": 1200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ijlsd3JYSEdHQkJodFBtMUw3R25MTzgwalp1WDFwTCtwUlFkdm9vOU96M3BRSENLUS9zSlRxUXlHN01TcUIxQU9UNFh3YnhUTlFZK1V5Wkl6UjRwWi93PT0iLCJpdiI6IkZvR093cjRLRDQ3cXpIcHdrdUlteUE9PSIsIm1hYyI6ImIzZTVlMjgzYzc5MmE3ZTBhYjdmMzQ5YzU3MGM4OGJiNGQ5NTRhNmEzNmFmYjQ0Yjk5MDVkZmFlZDBlYThiNTIifQ=="
-  },
-  {
-    "Id": 64,
-    "Card Name": "2005 Pokemon EX Unseen Forces Holo Suicune Gold Star #115",
-    "Price": 1000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ik0xQzRqaGwrbUFEblR6K1ZVa1doUVNzWUVKbUZyMTBOalpiamlaR29CWm1QVjZzU3g4Z3NiNFFLS3ZsSUZNVTFzclAzMEdhOUNpZjNtM1RvMkVCSFh3PT0iLCJpdiI6ImJ4QWRMbEhJbDFSd0lOalJEMG5nS0E9PSIsIm1hYyI6ImJkOTlmMWQ3NmNmYzQ3OWI4NWZmMWVlZTM5OGNlNzY0M2JkNjNjMmYwMTViMmMwYjM1Y2MyZjk1ZGMxMDQzNmUifQ=="
-  },
-  {
-    "Id": 65,
-    "Card Name": "2018 Pokemon Sun & Moon Ultra Prism Full Art Lillie #151",
-    "Price": 1000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkIxL3RhNEhOYU1tY0NNdmlpdnNvd0l2MG5JOFhyTGlpeTg1Q1ByTEtQb1NIK1BNTzkrNHJleUNqZXd0YWd0OUVBMkZlcGxwZWQ0dHVFeTRjbG1VaGlnPT0iLCJpdiI6IjdTZmt6SDhZaWhJSk9zeXd2d211VXc9PSIsIm1hYyI6IjM0ZWVjZjM1ZDE5ZjMwYTUwNGMyY2JkNTQ2YTA1MDc4NDAzODU3MzJmMjMyMmQ0YmQ4ZGZjNDQ0NWFkODhiYmYifQ=="
-  },
-  {
-    "Id": 66,
-    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Light Holo Dragonite",
-    "Price": 1000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImQ0Vndnd3h4dTZBQmp0UHBOYjdRSTN0RmxpUlJ4RGowRUorUElWNFRtUDZ3cGxxRlU4cWZyUXY1TkNodG01OEJ1bWFJZ3ErMjVpb2ViQ3MrbHVUOEd3PT0iLCJpdiI6IjZaSHpreUFJM05Fa0VIVTIzTVNDckE9PSIsIm1hYyI6IjgzNjJjODJmMTk5OTM4ZGZiM2I5YmI4Y2NlZTk4OTI4ZThhMjYyZjg5MDE1NjA5ODRkOGIzNmY5NTViNTk3ZWEifQ=="
-  },
-  {
-    "Id": 67,
-    "Card Name": "1999 Pokemon Base Set Holo Venusaur #15",
-    "Price": 1000,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImxwZTc4d0VWUENETjhvVTZEalNKb2t5elpMZzVuVWlXTHdYM0x4aUIxdXRJKy9FM1RpbnllUmd2NmYwTW1ocUhaZFVnSis1Y1h3QTVuaXV5MXJMT2N3PT0iLCJpdiI6Im1kcXkwck9lbld2bkQ3aWNuV3NIOEE9PSIsIm1hYyI6ImZhNzNjYjdhYjY3Njg3NWJlYjVjYTE4MzA4MzU3ZDg5MWQ4MWFiZjVkNDk5NDY3MWQwZWM5ZDYzNWE4ZDFkODYifQ=="
-  },
-  {
-    "Id": 68,
-    "Card Name": "1999 Pokemon Base Set Shadowless Holo Blastoise #2",
-    "Price": 6200,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVPdG1veFMxdk55MUpuT2lTNU9sT0lySXV6ajVvRitHeDFERHVMS1Q3ckNkUENLdmJXNURsaTZ6SWpMUUJaUngwU2RGSFZyMHVWQS9hMUdya3pLbWpRPT0iLCJpdiI6InJhbFg5N3Bpc3ZCRFVpRjhqMWg0QkE9PSIsIm1hYyI6Ijc3MTk3YTlmYmU5NWJiZDJlZWFhMDg4ZDRhMTgzNWZlYmY5MGYyODA1NjdkZDI5YTE3NWYwZjdiYWQ3MjRiZDAifQ=="
-  },
-  {
-    "Id": 69,
-    "Card Name": "2003 Pokemon Skyridge Holo Articuno #H3",
-    "Price": 800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkZmbWdFMkRZdmNDTDRUelR4TG9CNUhwaDBTMGZ0b0Y0NlhObENxRU5JaHdFM3BTQ2JRTW1tVHk1L0U4cWdwWFhHV1d6ODRGMTFoZElmdVZTZUp1bmJRPT0iLCJpdiI6InRnK3pNV2FydW5lNmlpS25zR0wrMlE9PSIsIm1hYyI6IjBhYzVjNzU0ZWI0MzVhMGQwNmM1NWJhNzRlNWQ5ZTNiYWJkMGZkZWFmNGM2MzRiYTdkNjJjOTdlMGU0OTI4NzkifQ=="
-  },
-  {
-    "Id": 70,
-    "Card Name": "2019 Pokemon Sun & Moon Team Up Alt Art Gengar & Mimikyu GX #165",
-    "Price": 800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlpGM0wyWHdLUWE1SUdNSHoyd2thbW9LSjdWU0RXV0IzVkQrNGY5SmVDbkdJNHd5TVFqdk1zWTNJWUtWSHlEK2psdnFSZzBKMnI0eWRZa0c3dHUrV2JnPT0iLCJpdiI6IjM1L0R6ek5aWVc3SndUeVBXaDAzOVE9PSIsIm1hYyI6IjRmOTcyYzcwMWM1OGE4NmZhZjRlYTQ2ZGUxYTk1YzJlYzRlYzFiMTZjNmY5YzQ5YzUyOGFiMmY3MWU3ZmJmNTgifQ=="
-  },
-  {
-    "Id": 71,
-    "Card Name": "2013 Pokemon BW Legendary Treasures Radiant Full Art Mew EX #24",
-    "Price": 800,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlRodlNnOEVkamxVRmZFV1N0U2I4TnIrdllhekI3M0hGbnIyUFhZS29Sb0c2VkNwVVRvUXcvSXQxcnlOVDZxWXdKdDlGeUdqS1NWZHJXUU95WFpmMDV3PT0iLCJpdiI6IllpVmVtbUtJa2lKUmNEWTI1YThPbGc9PSIsIm1hYyI6IjBhOTg2YmY3OWQyNjMwOGM4ZjE3MDRkZDEwMWQ1YTA0NDg5OWU2MzQxYmI4NDM2ZWFhMzNlZWNjN2NhYTE5NWMifQ=="
-  },
-  {
-    "Id": 72,
-    "Card Name": "2004 Pokemon EX Hidden Legends Holo Ninetales ex #96",
-    "Price": 700,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InA4NDVUVUJWeWlLTUxlaEh4a2JLRFJvNDZYQW1Rc3BMS21ZOHUzTVowaEZNWTBhTmppVldHbi9ITmQ4ZDNFSVNRWDU3NUhpK2pyVTM4Zk4wTHp4M1JnPT0iLCJpdiI6InlIdzYyTmp4d2x4aU5GN3J4a01MSXc9PSIsIm1hYyI6IjNmNGVmZDZjYjA5MTJmNDMxMWExYTYzZDY2OWQzMGU4N2YwODNkODkyMDU4YWYxZGVhN2U0ODNjY2I1ZjA3NTgifQ=="
-  },
-  {
-    "Id": 73,
-    "Card Name": "2012 Pokemon Black & White Boundaries Crossed Holo Charizard #20",
-    "Price": 750,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Im1xS3RpOERqUTJvUlBHQTMrTmpVSzlVWjhwaW55Qzd1bFV0N2lmdUFONUxRZDc0MXdMdHN4cW5kamN4OHdHdnF5OG5XbXhNNS9JMGI2dlovVUg2N1p3PT0iLCJpdiI6IkZ5Y2pKU0xTdk5rZVc0eng0SVkvWkE9PSIsIm1hYyI6ImExZmNmZDhlOWI0Yjc1Y2YwMGYyYmEzMmZiMGM1MmIyZjA4NzM1YmU5YmU4YzdkODEyY2MxZGQ1M2I4ZmQzNTUifQ=="
-  },
-  {
-    "Id": 74,
-    "Card Name": "2012 Pokemon BW Boundaries Crossed Full Art Landorus EX #144",
-    "Price": 650,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVPVVZmS1FiK2FVM2J3OTZTMW1VOFZOei9qT0ttek1nd0dycW84OHJYT1p6NzJrMWFWMm5lWjNxbUZqU1ZnM3pQNFRIaytOR3NSZG9VdFl1WFpQUWJ3PT0iLCJpdiI6IlZxZEpXUDBMZ3ZFb0U5aTlSMHVqM2c9PSIsIm1hYyI6ImJlODZlNzhmZDk2NDQ3MDc1MTYzMjM2ZDJlN2Q3ODAwZTM0MDU2ZGI2OWQyNDk5YTlkYzhiYjk3ZmUyNTliYzMifQ=="
-  },
-  {
-    "Id": 75,
-    "Card Name": "2016 Pokemon XY Black Star Promo Red & Blue Charizard EX #121",
-    "Price": 600,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpSMzRTSzVoSTV0UGxGRkxmUHQyd0hEK3BETlRacVFac0ZEeEo2MWFNcXZLR3RIb2pjanZPZ3ByaXdmMy9KbXdTRHpKdk5oY05qSUthaVQwTFJ3MDJ3PT0iLCJpdiI6Ikk5blgxSnl2ZWVQNkttaTZCQkdpcXc9PSIsIm1hYyI6Ijc4YmYzYmE3ZDNmZGQ2ZjRlM2JjYjlkZjNiMjNhNDEyNzY3MzE2MDM3MmQ2NDY3Nzk3YjZkZjNmYjlkZjE5NWYifQ=="
-  },
-  {
-    "Id": 76,
-    "Card Name": "2011 Pokemon BW Noble Victories Prerelease Staff Holo Victini #43",
-    "Price": 580,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpaN3h0eEptdXBzT3BSVUV1akIyVmhWVGxWdnU3cU9oYnNUcnVaa08wU1ZkdVdvNDRMekxFSXdiODNXK0ZFcExYaXNzQXNrOW5SWHJRQUlGOFlINUZ3PT0iLCJpdiI6IkZLcWVFQVdMK0VJSStkUlROL1FtS1E9PSIsIm1hYyI6ImYzNDJiMTRhZGFkMGQ2Nzc3NjEwNTlhMzA5NjY3MTFhNmViZGFlZjVkMGVjOTg4Zjg5NzlmNmFkNzc1OWNkZjcifQ=="
-  },
-  {
-    "Id": 77,
-    "Card Name": "2017 Pokemon Sun & Moon Shining Legends Alt Art Mewtwo GX #78",
-    "Price": 580,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ii96cVBwZWdqWno3MmJjMEpKWmllakM2UHRBOHUxMUdpSTUxQWlYZ09qMlB0cjdTN211UUJHbytRVmdGd3JEc3UvUE9xMnA0Ny9mdTBpWUltQ3Npb3dRPT0iLCJpdiI6InVLWlpHSGlGSXNYMWE3SEFMYzQxS1E9PSIsIm1hYyI6ImNiNDRiYTYyNDZhOTlkOTNmMWM4Nzc0M2ExMzNjYzFkNjBmMzA0ODE3NzViZGJmNGRiZWVhNGY2OGJmODE0MDcifQ=="
-  },
-  {
-    "Id": 78,
-    "Card Name": "2016 Pokemon XY Fates Collide Secret Rare Alakazam EX #125",
-    "Price": 500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IldWSXRhY0U4Rm82NGVpUE5kcUhyRW5seGJ6WFpDTlRmYkNyNjVwaElNZjYyWHBrVHlWSzhETE14TTlCcFJWNmZJc1pDRVhobzRhNDJaOHZkcFdEOVl3PT0iLCJpdiI6Ii90MnlzU2MzbllLdWNDOFZtWUUzVGc9PSIsIm1hYyI6ImRlZmM5ZGY1ZTZhZTNlNjc5ZTAyYzMxMDAzOGRjZjQwMTQ2ZGE3MjVlNDY0NjdmMTZjNGQyOTliNGQ5MDNhODgifQ=="
-  },
-  {
-    "Id": 79,
-    "Card Name": "2011 Pokemon Black & White Noble Victories Full Art N #101 PSA 10",
-    "Price": 520,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkhrY1cxTVUwNGd0WDBhZGR2aDN3SkhoU2orWkpqUWU5V3pkNXJrYkxQL3lORzZncEhSdGhlQ2o0STltRGVzZHRsalZDaEExNEdsVmNJUUdtUHAxcFlRPT0iLCJpdiI6InZZKzRBWUR0SjNOMU1xR2NBV3Z4eVE9PSIsIm1hYyI6Ijg0OGVmM2UyMGJlNTExNmJlZWUxYzFhMDEwN2E2YzQ1NmZlZTk0NDVlMTRkNDI3YmVjMDI0OWI1MWU1NTc1NTEifQ=="
-  },
-  {
-    "Id": 80,
-    "Card Name": "2013 Pokemon BW Legendary Treasures Radiant Collection Full Art Reshiram",
-    "Price": 500,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkdGTy81d3dtTEJieVFPdi9FaGpnbGxqK3JJU0dsVXpMTSsrSElTblZLalZkUFFxMDdlK0EvZ1Y5RTFQa1kvVGdkVHBZUTRzamJRbFZNNzZSK3lZcGh3PT0iLCJpdiI6ImRXN3RnbXJvR1BsUTlSQmRsRWNJamc9PSIsIm1hYyI6IjkwZGEzODE1ZGU3Y2E0MWFiZDRkZmZiZjM5OTdhYWMxMzQ4NjhlZWRlODhlZDE4YjJmYTEyOWEwMjcyNTU5YjEifQ=="
-  },
-  {
-    "Id": 81,
-    "Card Name": "2011 Pokemon Black & White Full Art Zekrom #114",
-    "Price": 480,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlExWjEwd3ovclQxRUFxaks4SHVHS0UwRmxNcW91UjlMWS9NL1ZwdmcwVCtiaGlTVHYra1NUZExsT0g3SFkzVHI1elVZenFaVEZMTzFwOG1zU1k0cWV3PT0iLCJpdiI6IldYNERqb2k2ZENvOU1mOEFJL3ZDM2c9PSIsIm1hYyI6ImEzYzQ4NDU0ZTA1Y2E4NTJlMGUyM2UyNTA0MzhjOGFmMmM5YzlhODVkYmE3MmFjYzZkOTEzZGNhNjU2YWE3NmMifQ=="
-  },
-  {
-    "Id": 82,
-    "Card Name": "2003 Pokemon EX Ruby & Sapphire Holo Lapras ex #99",
-    "Price": 480,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjVFUUlTcFFScy9JQ0o2eFJtL2NZTHFrTnFUaWxiYVM0T3h5RkRaWml2WUNXQ0R4T1lYdDlvbWV3MmpzTmttUXVMRUJ2VThzckFJVjBicThyaEVuY2VRPT0iLCJpdiI6IjdUSEtjVjE4YXhrQ2VBdXRWaUU0ZGc9PSIsIm1hYyI6ImViODcwMDdjMzY1MWU2OGJkZGIyZTE5MGM0YzdjMTQyMmVmNjA4NGU1ZjdiOTMwYzQxZmRjNmI0NjFmZmM5MTEifQ=="
-  },
-  {
-    "Id": 83,
-    "Card Name": "2009 Pokemon Platinum Supreme Victors Holo Rayquaza C #8",
-    "Price": 450,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ii9xeXVDTU04UDNaOVdsOEJ1cGNzWVNDdlVHVHhkR096NTVQelcyNXZlcEtxcHlFanZHMFBnbjFtTzBhRXpnWVc3cC9uRnNmMTRBOTkxVGRZandLRmdnPT0iLCJpdiI6Ii83WlhGa0wyTHdTai9FUUlzV3Z0dmc9PSIsIm1hYyI6IjQyMzNlODMyZjg4N2ZjYzNhM2I0ZjIyNjY3NzZhMmRiZWYyNjU5ZTBjOGRiZGQzNTQ3NTFmMTgwMTViODk2MDQifQ=="
-  },
-  {
-    "Id": 84,
-    "Card Name": "2004 Pokemon EX Fire Red & Leaf Green Holo Moltres ex #115",
-    "Price": 450,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVHdWVqemxEQWt3VFVEVmxQeHEzNmpqNGFoZUZKcERLSEZrckd2WWp4eXhydGJrb055cVlkTVAwMzhPcmdMUzBrZmx2b3FFQms0YmhsTGpBWnlVN0pRPT0iLCJpdiI6IkVrdDdvcmNRMjNQUUlsb284MTVGUkE9PSIsIm1hYyI6IjgzNmNmZjAyZjkzMWE5MjcxOGMyMzViYWU2NTVhM2E2ZTE3NWNiM2MwMDk3ZGNiYjYzODcwOWQxNGY1ZGQ4YzgifQ=="
-  },
-  {
-    "Id": 85,
-    "Card Name": "2017 Pokemon Premium Trainer XY Collection Promo Full Art Shauna #111a",
-    "Price": 420,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpkSXlZU09YajErc3kxMjIvZ1lxQzhxNUxwQ2d1SFp5NmFheW5NZUZ4M00waFQwdFhUb29PT2lQWGVpc1pZWm5IYUZEMkh4R3FtQXJvSGtTWVpHS1dBPT0iLCJpdiI6InJ5UGZVc2dXYmkvRWxlOWJVSEl6cHc9PSIsIm1hYyI6IjA2NzAzMWY0OTJhZjgyYjk0ZmQ0YTIzZmNiZWY0MTNjY2JjOTRlNWVlNTgzZjkyMDViNGMwODMyNWU4ZTMyYTUifQ=="
-  },
-  {
-    "Id": 86,
-    "Card Name": "2005 Pokemon EX Unseen Forces Reverse Holo Ho-Oh #27",
-    "Price": 420,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkthNWFzQnRGcVpsSE0wYVp3NUdLTTlkcUFodGZ4V1dVbWJlUWQyRkF1dHZLNThJT2w1RmVVNFdDQSthK2FDcFJkdk93eHVsQmJBMDZYVG5nVnR3ZDRBPT0iLCJpdiI6IkgvbFJRdmI0T3c0TTBhV1pvL1R3VkE9PSIsIm1hYyI6ImU1NmIyMTc0Yjc5YTViOGM4ZThhYzFlNmM4ZGE5OGY1ODM4MWMyM2Q1MWFhYjhiMzYzZWYzYjhiZDk4NWNjYjAifQ=="
-  },
-  {
-    "Id": 87,
-    "Card Name": "2019 Pokemon SM Black Star Promo Fall '19 Armored Mewtwo #SM228",
-    "Price": 400,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImI2bkZGVjQrbFluSzIvNkVQQ005VDVaOGRxWkpOMGlKK0xpZjhFYm1Ic0V0dk5XemkrWjN3RHc0QmJyV3lLTXNaRjFxUTlNMWhDYklHOHY1RldYc1pRPT0iLCJpdiI6Im1CSVV1WjRQS3BmUmJHTUg4dWhQZGc9PSIsIm1hYyI6IjM2YzU4ZDRlMWE2YjU5ZDE0MjBkMDBlOWZjYjQ3NGM2ZTNlMTIxZmRiMmNhNjlhOGMzNjNmNTc5MzNiMjg1YjMifQ=="
-  },
-  {
-    "Id": 88,
-    "Card Name": "2016 Pokemon XY Generations Radiant Collection Full Art Flareon EX",
-    "Price": 380,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlFPWTRqdHZWV0NqSmxGZFM1a1AwTjBwYnAwMG0vRi9MZWRpbGtVVGwvTW5WVlBVTEFPZU9IakZZTlNDZHdPMTJPWVEzS2ZXYzlVRmJIYmUyZmQ0WURBPT0iLCJpdiI6Ik04Ylovbkl3SC9FSGNTRE9HQ3c3Vnc9PSIsIm1hYyI6IjBhMWNlODJjNjhjN2Y3NzBiNGNkN2QzNTIxMGZlODVhOThmNGQ4ZDlkZTViNDExMjA5OWYwZDc1NWIyNDg2NmIifQ=="
-  },
-  {
-    "Id": 89,
-    "Card Name": "2017 Pokemon XY Black Star Promo Premium Trainer Jirachi #XY67a",
-    "Price": 350,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlB2U2IvRkMvRWlEa0paUzQzQ3FEdjRCL0ZKK0FoWnpvL3NmZWlZZ2FLTHk3K2U1VTBHL1U0UnBYdjJtd0c5UnN6Q01wTlp2YU84Y2orbDhhWDhPYnZBPT0iLCJpdiI6IjkyWmpvdVlFY09vZExiQlJidk85UFE9PSIsIm1hYyI6IjNlY2Q3MjhhNGIzMTAyMzUwZGFlOTg1YzQ3MzBkODBhMjgzOWZhYzdlZWVjMzk1Zjk0MWMxMmY3NWFjMTM1NzMifQ=="
-  },
-  {
-    "Id": 90,
-    "Card Name": "2006 Pokemon EX Crystal Guardians Holo Blastoise #2",
-    "Price": 350,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlFoRVpBK3d3ZEgxVGJWQnVBM2JsWW9ZR1hPUEdYRTdOWGFrVnplZXBJOUFidFFmNnYxaEhVTnJ1SmZMaWJRUk84a3IzQ29DZjBkMEJOY1Q1T1RsRDRBPT0iLCJpdiI6IlhQNWpXU2pOVDduUjNNSkhyRDNCNkE9PSIsIm1hYyI6IjA2OTJkYjhmZTJiYTFlZmYxYTM2N2E0ZmVhMGYzYmEwNjA0YzVjNjA5OTc4YTQwZTM4NWY1MWNhOGZmZmFmZmUifQ=="
-  },
-  {
-    "Id": 91,
-    "Card Name": "2005 Pokemon EX Delta Species Reverse Holo Ditto [Bulbasaur] #36",
-    "Price": 350,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Imd2WnB1YUFNenBVT0c0UGNHdDJISHEvelBJVGVZeXZZN0lLQ0psUnFrd1ZYZmcwQzY3aUxWTFg1K3FyMk1YWFBrSWNKSExOQzJvY1hlSzQ0MVJlVG9RPT0iLCJpdiI6IlZvQmhqam5Hc3ZpL1B5b2RWUCt0YWc9PSIsIm1hYyI6IjBjNGZmMjQ4MDAxZjU2Mjk4MDUyNTAzNTg4NmRlMTYwZmIwMmI5YThmYmFmYTM4MTVhZWU1NWUwNzdjMzZlMGEifQ=="
-  },
-  {
-    "Id": 92,
-    "Card Name": "2013 Pokemon BW Legendary Treasures Radiant Collection Pikachu #7",
-    "Price": 350,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkducUVGbjFyQVVLYUVsNGpnQUdjVXU4RkJadlU2SUNxelZabmppQUVEekNmTGJ4aEQ0UkFMdFovdHFsWng1Qi9WQ3hmKzdMWlA3bllRTjNsRDAyVytnPT0iLCJpdiI6InFwK2h5RUxFLzJIYnhpa1hVUmphRmc9PSIsIm1hYyI6IjlkYTczNjFhNGU4ZjQ1ODQ2NDZjMGVkMDUzYWZhZWFjOWFkNDk0YzU4YTZjNzI0MDVmMjUxNDZiNzMwOThjYjEifQ=="
-  },
-  {
-    "Id": 93,
-    "Card Name": "2006 Pokemon Pop Series 1 Holo Blaziken #1",
-    "Price": 320,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImhKQXp0d3lWc2p1eWZtNGx5dnRzcitTYlBBcFZvSDlnbWYxUHZiQTJBdU5VcG02eEV4Tnk1bWtySmpidC96bVdVSmEzSG9GdENwRlVqQzlMcEUwWDJ3PT0iLCJpdiI6InZuVUdyTUllc0hJOHBlaVZBeGVaWGc9PSIsIm1hYyI6IjNiYWIyN2QxN2JkOWY3Yzk3MGZkNGI3OGFhYTI4ZDlkNThiMDQxZjUwM2I5MTBmZmEzOTQ0Y2ExZjk4NGQwNjkifQ=="
-  },
-  {
-    "Id": 94,
-    "Card Name": "2016 Pokemon XY Generations Radiant Collection Full Art Pikachu #RC29",
-    "Price": 320,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ii9ycFFZS2pocHlJNTM4MjhzMTBQNHc2dmZlS2hucUg4VnFNTTdmYytMa3dPRjZ4eFYza2h6RE9TZ0NmOFVHSlRNRzdQeWVETGlYZFNSWHNzb1BtS2NnPT0iLCJpdiI6InAra1RseklwblBKU1VCbE5CV3MwVlE9PSIsIm1hYyI6IjE4M2FjZGRiZGExMjUxYjhjNTQ5MzQ3N2ViY2E0OTBiZmQ4NmYwOGUxYzkzMWM0OTg3Mjc5ODgzM2E0MzVlNzcifQ=="
-  },
-  {
-    "Id": 95,
-    "Card Name": "2016 Pokemon XY BREAKpoint Secret Rare Full Art Gyarados EX #123",
-    "Price": 320,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjVpNEpMUGpvbXlYNi9LVU9DR2VhNURVUWhoRjhEU3NPRWY3c2RQaVVzSnI4ckN5MXhON0pYK0QwcG0vdktEczc5K3ZCNFpJcStKcGl4bnR2TWlwT0dRPT0iLCJpdiI6IlJKOW1HSXhHUlFkQndhWU5vOGNiTkE9PSIsIm1hYyI6IjNjYzEyMWFjMjNjMjJhODQxOTA3MTJmZWE3N2Q4MjI4YjRiYWUwNWQzNThlZjM1NWM0MWM4ODczZDdlODNiNjMifQ=="
-  },
-  {
-    "Id": 96,
-    "Card Name": "2008 Pokemon Diamond & Pearl Great Encounters Holo Togekiss #11",
-    "Price": 320,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InQzQ1pzUTA4V2lKWjBWSWU1bmtiSnBTc3R5allhSUJwNWYxS1llcjBtQml4V0Q1K2lzYWNLTnd0Q1VhMHpoRk45SWU2MGplaUpyamVBQXg5TW5NN1V3PT0iLCJpdiI6IlZNRjAvR3RWc0YxdUlFcXlVVVd4dWc9PSIsIm1hYyI6IjE4MmU5MTE5OTgwM2I4Nzk1NWE3YTYxNjExYmE1MDgzZGVlYTE5MWFiYjg0MGNlZTgzYTdiMDc5YjhkOTk2NWYifQ=="
-  },
-  {
-    "Id": 97,
-    "Card Name": "2019 Pokemon SM Unified Minds Alt Art Mega Sableye & Tyranitar GX #226",
-    "Price": 320,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImJFWjdKc0ZvL0lJazRPcDNyS283b2dKaVRHN0RneUh3Qjk0bEZnV1dZM2JpWjVOMVg1SVRia2M1c2RkT3ZydUZTcStNbUlSZTBTZFBMOU8vbURabUtRPT0iLCJpdiI6ImFkbnVrY3RPM01xaHdWVHI0ZFRrRlE9PSIsIm1hYyI6IjY4YjFiNDBmZmM1NTkxMWQyOGQ0OWFjNWE4OGIwZTJjYjI1YzU2YjM2NTk0NjQwZmRiNWM2NzE0MmVkMDg4ODQifQ=="
-  },
-  {
-    "Id": 98,
-    "Card Name": "2005 Pokemon EX Delta Species Reverse Holo Latias #8",
-    "Price": 300,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkdEVThyOVJGNVBkNU5ZOUwrQkVuUm5NTStaeitYZU91bUlMYjUrUmZwL2FZdGFaY2Y4V2J2SmxCTy9SbDM3cVkzYXdPdCsrWCtPZDVKMFhkcXhNWDFBPT0iLCJpdiI6Ik4rbHYyVmxPZUpWUTZqQ2NEY0pqL0E9PSIsIm1hYyI6IjkyZTc3YTNiZTNiZDFmY2UwNmEwODJhNDc2Y2ZhZTM1YmNhOGQwOGYxMDgwZmNlYWVlZjMxMzBiZTc3ZGY0MDcifQ=="
-  },
-  {
-    "Id": 99,
-    "Card Name": "2005 Pokemon EX Emerald Holo Kyogre #6",
-    "Price": 300,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkltMTVMdVIzcUtTa0NaWGtML3p5TWlpNHhTQnM0empHSEpETVJQcE4ybWFWM28xZXc0Yml5V3ZudlluV1kwNWcrRzRBdENFMEptWCtlaDBGNGZhSnB3PT0iLCJpdiI6ImpRcnZGdWhxQldKRm5rYi8vTU4wRVE9PSIsIm1hYyI6ImE0ODg4YWM2MDhmYjgzN2Y5MjU4NzRiNWM1MTQzZTYyMTIxOTM0Nzk0ZjAzOTc0OTU3ZTgzYmFiMTc0OWU2NmYifQ=="
-  },
-  {
-    "Id": 100,
-    "Card Name": "2021 Pokemon Japanese 25th Anniv Creatures Corporate History Beta Chansey",
-    "Price": 51600,
-    "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjdCWXR4MlVybk8vMEJUSGtEdURNN01jQ2hpZ3VTVlJmcVh6S1dsdlR1czAxMGdZTis4cGlNcVoyZlgxWldOS0V3OTRmeHJyQjByZ3ZVNm0vQnlFYWt3PT0iLCJpdiI6InRKYXRKN2hVR0l3ZXRybzE2SUEvcWc9PSIsIm1hYyI6ImIwZmY3NGEwYTQ1ZmY1Mjg1NDQ1ODM2ZjQxNzYwNDAwYTgyNzM1MmE4YTVkMmNhZTlhZjljOTI4YWQ1NjM1Y2QifQ=="
+    "Id": 19,
+    "Card Name": "2010 Pokemon Japanese Promo Daisuki Club 8,600 Holo Master's Scroll #55 PSA 10",
+    "Price": 17400,
+    "Fun Fact": "The Master Rank prize for members of the Pokemon Daisuki Club.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImV1d3JEQmtqWFZTdFo2OXN0RDkreWc9PSIsInZhbHVlIjoiR3VTNWVtVkhSS1I3L3pBaDlCcFUwUlJoZExuT2liY2wxbUQ3RDZaTXBZQUszNS9PL3J4TmpGSlczTWlsOWgrdVdocERYQWpFSGVLam1uWVcxbnpIU2c9PSIsIm1hYyI6IjUxY2I4MTZkY2VjOGQ5YzI5N2Y0NTQwNWY1Y2E1YzZlZDMxNmYzZjIyOTIyNmMxOTRmOGQ3NTExYmExZDZmYjAiLCJ0YWciOiIifQ=="
   },
   {
-    "Id": 101,
-    "Card Name": "2012 Pokemon Japanese Black & White Promo 2nd Place Victory Cup #BW-P",
-    "Price": 20400,
+    "Id": 20,
+    "Card Name": "2003 Pokemon Skyridge Holo Charizard #146 PSA 10",
+    "Price": 15000,
     "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlJ1UmJrWG5jbWZoYXJ4NVZvcFFBbCsxMWlIUE4zMmhUVHc4a09aYVlFV1lqV3pUTlBXRnZnYUQ3NTFScjQwNkErMkdEVEo5YXM5Y2Z6Q0puQ250cFFnPT0iLCJpdiI6Ik81UTdvSXBXeFQrZW9VclEzUGRYYWc9PSIsIm1hYyI6ImViZjE1M2VkN2NkZDkwOTQyMjE4YjlhODY2NjU1N2Y0NmFkNjc4NTAyNmVhNjk3MTBiZGRhMTUwNzhkMzZkMWYifQ=="
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImpzSlJ6K3FnaFk0WXBNWWhsL2pWb1E9PSIsInZhbHVlIjoiVzI1NjA3dDdBUGhjdjZxR01kZmhWQkRWNCtRMTQ1dTVtR1ZGUFFLK01UM2Q0OW9udGVXWkI3aWVzSlZ0UndteHBOVzJuL1Q1bTZXMFR0VmdHN3NUOGc9PSIsIm1hYyI6ImE1NDVkYmViNjE5MTNmZjMwYzVlNDNkODFkMzhiYTQ3YWFlY2M3ZjYxMjIwMmIxYzJmNjkxMWJhMGExZDVkNmYiLCJ0YWciOiIifQ=="
   },
   {
-    "Id": 102,
+    "Id": 21,
     "Card Name": "2019 Pokemon Japanese Limited Collection Master Battle Alola Friends #401",
     "Price": 14500,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IktFdXRLakdpSWt2SkVySHhUc1k5Vk50ay8rdmpYN0hRc20vdERJOUp5SXJOY0c5Y0FqWmFpenVLQzBxbkovWFZua011a05XT1NHNS9aQlV0MjZrUkJBPT0iLCJpdiI6Imc0QjFrNnpMNXp6bitsa0IxT2t6Q0E9PSIsIm1hYyI6Ijk0MmE5Y2I0NDFhNmFiNzg5ZWUyNDc5OTE4NGRlZjVjZjZmY2QxNTU2YjBjMTE0ZmM3OTc2MDg4YzE2OTMwN2MifQ=="
   },
   {
-    "Id": 103,
+    "Id": 22,
+    "Card Name": "2002 Pokemon Expedition For Position Only Charizard #39",
+    "Price": 13800,
+    "Fun Fact": "Test printed prior to the release of the Expedition E-Reader expansion.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Im9sQnNXZHhBelNQdnVLWWRacG9UQ3c9PSIsInZhbHVlIjoiYXNUcW03RTJHYXBsamR6Z0sxbmhpZXp4cXErRUpRdWxheGdJUVFtS3UxTGRubnpnem5aTzZXa2ZqZW9ac0ROdVJHYm04QTJqZEdqQ2RBeCtBUjZ5NXc9PSIsIm1hYyI6ImEyY2YzYTFjZjM5NGQ3NGMzOTNiM2NhZDQxZTc0N2M4MjdmODRkNTBlZDM2MGQ0MGY3MTA2MGViMzA3MTYwZTIiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 23,
+    "Card Name": "2007 Pokemon Pop Series 5 Umbreon Gold Star #17 PSA 10",
+    "Price": 13000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkxmSFFvNXdXQmlMazNBMlBKcWZ1bVE9PSIsInZhbHVlIjoiQmdWQXZEakptQmIxV2lPZEM4TVlPQjBCVmdKUko0RzQyeGQ2eWx1d1U3cjhlNDVJSFZYcnZ1M3VZUG5BUlc0VlI5U2w0MnQva2JmYUJhNC84T2s0V1E9PSIsIm1hYyI6IjI4MzdkNGMzMDJjMGFkYWYwOGE5ZWJjYjkwNDMzNTRlM2I5Yjg3ZTZmNzkxYzZmNDA2ODczNjM5ODM2NGIyODciLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 24,
+    "Card Name": "2012 Pokemon Japanese BW Promo Super Rare Card Set Get! Rayquaza EX #145 PSA 10",
+    "Price": 12600,
+    "Fun Fact": "1,000 copies awarded to winners of the 'Super Rare Card Set Get!' campaign.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InlEaGNBb3o1NjhrdmRkN0tTUENCOWc9PSIsInZhbHVlIjoiZEVTUEpkZ3ZwcWVVWmNUY3h0NThOOEJ0VXhNcEJwY1k0ZGJWMUFEMXVnd0hZSXoxZWdCUzBLNndKT0hBaUhRYThTalM4WTUvTXFOM1JzMlg4d0REMlE9PSIsIm1hYyI6IjI1YzU5NmZhYjRiZTJjZTZjMjExMDViNDQwMmM4OWY3ODA4N2VjOTA4NGJkNjgxMTA0ZWIyNTI4MTczZWJjODMiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 25,
+    "Card Name": "2000 Pokemon Neo Genesis 1st Edition Holo Pichu #12",
+    "Price": 12000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjZuYnFNNE5xSndseUpKUnlLcXc5bnpOVXBWQStQWEFEQjhtUHEyblVwaXBMSzluQmhnZ3dEZDFzREtSYUpJaWx3Z0VzYWRKZ3o2SSs1dEw0d3JyMkR3PT0iLCJpdiI6IlRhcS82LzJMZWxkVXBMRW4zbmNaWHc9PSIsIm1hYyI6IjMxYjM0YzFlY2RkMzgxZDQyNmM2MmJjZTllNzExMWQ2ZThhOGZhNTdjZjM3MjE3NDZmNDBlMmNhMDRjYjhiOTkifQ=="
+  },
+  {
+    "Id": 26,
+    "Card Name": "2003 Pokemon Aquapolis Holo Crystal Lugia #149 PSA 10",
+    "Price": 11100,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImhsTFQzcU5maG0yU0JDMTRwOWZCOHc9PSIsInZhbHVlIjoiTHFpTEpkZlJpSkZFVWxBNVpkNVpVeDcxOG5xMXdSQ1hrRFVienVoMUNFSVUzbU5zZm9vMzlCUEM0WnpaaXhKT1ZXZU1GYUNuQ3RCZmZsbnlMVnpNOFE9PSIsIm1hYyI6ImFiZmNjMzU2ZGU0MWY3N2FlNDgyMTNjZTBjMzY1OTRhYjI5NWNhMjE0ZDA5NTZlMzE1MjFiZDllMWYwOTRkMzkiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 27,
+    "Card Name": "2015 Pokemon XY Art Academy Competition Meli Pikachu PSA 10",
+    "Price": 11100,
+    "Fun Fact": "100 copies given to a winner of the Pokemon Art Academy competition.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjU2Qkc4MFg1TXc3dWV2OGN4eTlUWGc9PSIsInZhbHVlIjoiSDI1VGVHNERVYndoQ2xRZm5UMDJYSkgwRnRXK0JTTnpsand4emhSM0FqSHlEOGZDNGNaN0hHemlZd0hLei93OWFIQVNCS01yV3czWUFrWStZeElJK3c9PSIsIm1hYyI6IjdiNzY4OGNjMjkxNGRmMjg2NjcwOGJmZThkYmU0OTBjMjNmYzI2YzcyOTc0ZGNmNzM4Y2U3NTU3ZDY4MjllZWEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 28,
+    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Shining Charizard #107",
+    "Price": 10800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Iis3NGJUQXpaQkQzOGMzL2l4RE1oVlQrSW1nSC9McnFBMTY2WUp6eDRNWEhzdko4aWVScURIcWZZSmVOMGZZbE8wWnREQk4rQWVBTTNhWlh6dnFiRjZRPT0iLCJpdiI6InBaNnFwZk4ybDZ2TVRCUThRKzVoUkE9PSIsIm1hYyI6IjY0YzcwYzkwODA3MTY4YTk2YzI1MDljYWRlYTY2M2JhZGY1YmU3NTRlMGY1MTQxZTYxNGI2MzgwZjVjOTAxYTIifQ=="
+  },
+  {
+    "Id": 29,
+    "Card Name": "2012 Pokemon Black & White Plasma Storm Secret Rare Charizard #136 PSA 10",
+    "Price": 10000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ik5GQXB1NnlJSWJQRUhmTXhRNnE3UkE9PSIsInZhbHVlIjoiQUxpamF5dGlwTzdrdTNGekFJRDhwSmNwRzZzVlhDTW9TR1lFS1dVaTJYRkxPV1hsRjBiK2NxcXBrSDZPOG9veGRlNEV2MkpaZnE5R2J4WWVBWHlreGc9PSIsIm1hYyI6IjA0YWZiNjg1ODdjZmEwZDM5MjMyZTJmZmFiMTViOThlZDExNWM3OTNkZmQ1ZGRkMmFlMGYzYzIwMDI1N2E2NWUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 30,
+    "Card Name": "2010 Pokemon Japanese Design Promo Fan Winner Illusion's Zorua",
+    "Price": 10000,
+    "Fun Fact": "200 copies given to a winner of the Pokemon Card Design.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlFNeFRRa1l6blNZK0gremVvNS94UzRjNUpka2tDTEtUSHZwMFBMOXZVWGM5VmtUQk5HNmFUdXQrRnNEcTE0dy9UaEhzZGM5N2dDS0YvOHBUSENwWm1RPT0iLCJpdiI6Ik1kSU92aUJSc1hJNG1COU1YR2RIVUE9PSIsIm1hYyI6IjM3ODM2MjI4MWVkNmU0YzY1ZjEyMDFkMjFjNzMwNjMyMTE1MmMwZjM1ZTkzM2ZlMjBiZmZkZjVhNmZhOTljY2IifQ=="
+  },
+  {
+    "Id": 31,
     "Card Name": "2002 Pokemon Expedition Holo Mew #19 PSA 10",
     "Price": 10000,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InBQamI4YkdOa21wQzIxUDBzTnBrMVFUSC9YTFFaR091eldEaDNiemkwNXNMODZ5TGJOSVRUUCtlWTlQS0YwN05ZTWJpK0NCSjUxc2cxYnE0ellGMGpBPT0iLCJpdiI6IldwdUFKN1FxWmFERkNIanRQNG90Zmc9PSIsIm1hYyI6IjJiODJkOTBlZjMyMTcxYjJhNTc4ZjBhZDZkN2MzZTUxZDY4NzYwYzRiY2Q4NmJiYmQzZGMyYTQ0YmU2NGM2NGMifQ=="
   },
   {
-    "Id": 104,
+    "Id": 32,
+    "Card Name": "2004 Pokemon World Championships Promo Top Sixteen Tropical Wind",
+    "Price": 10000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjB4N2drMjNqQlVUZVBJUE1VUitvd0E9PSIsInZhbHVlIjoia1hOcDg3R0E5Q0tVNGdVV0REazJ5VXZwb20xbUQ4WUVhQ0M5Nm5IcnNEMG54VnJMYWxPSmJ3WjJaN3lZQjNKc0dhaTVXT0JmeHMwK0NyQ0dvY2s0dEE9PSIsIm1hYyI6IjVlY2NhZTdhNmZkOWNlNTAxMWZlMTY1ZjhmMzYwYTJhMTIwYTU1NTg0MDc3ZGE0NTU1NDRlOGU4ODM4YWUyZTEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 33,
+    "Card Name": "2017 Pokemon Japanese XY Promo Team Rocket Special Case Giovanni's Scheme PSA 10",
+    "Price": 9600,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkZhcFNHSWQ3aHZjd0VqcE9ydVFXRmc9PSIsInZhbHVlIjoiR0tUTFR4NmUxMUdOOVBKT2psVjliKzFaSjRLeHdoelVQZzcwajNXam9GSTgvbE5FTmRzZEd4YlNNSURaUW5Xc3FaZnZRS04yeEplT0FUU2dVZnliS1E9PSIsIm1hYyI6ImU1ZmEzMTRlNGZkM2M5MTBhNjY4NDE4ZGRhZDhmMzQ0Nzk1MzA0NGQ0MjhlYzY3YjM2OGMxOTAxOGZmMGEyMzEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 34,
+    "Card Name": "2001 Pokemon Neo Revelation 1st Edition Holo Shining Gyarados #65 PSA 10",
+    "Price": 8500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkRpdGNqd2JMTzM3emd1Z2hOem5kWUE9PSIsInZhbHVlIjoib1BZRWpzV0NoTkkyVVVBSXA5WnpSZ1F0YTd3SkpPQ01Ic0xOVDVtcHJMc21uVTIzaVFUd041U0h1TldkVXhoNm53K1R5bndOWjdkVm9qd0o2QU5USUE9PSIsIm1hYyI6ImY4YTQyNTk5ZDhiOTJkZDMwMDkxNDRmZjk0ZTIzOTE2YWRlMjMyOGI1ZDgwMTRjMjIyMjlmZmRlMWU2YmI5YTUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 35,
+    "Card Name": "2006 Pokemon EX Holon Phantoms Holo Pikachu Gold Star #104",
+    "Price": 8000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVXV1c3d2c4V2NpTjAwWnUxL0hoYlRMYkY3ck9ZZVE1ZndvSElZWUEweU9VODhrTmFWWnRldUxkcjhFdzNOSDJNcTdKbjFoY3lsTEJRblNKQUo4SUxBPT0iLCJpdiI6IlBCVVB1OW9JWWJ4MVlJTncxM2huTEE9PSIsIm1hYyI6ImUxM2I5MTgzYzMyMzk0NDBlMmRkMzAwMzA0Zjc3NGExMTNkMzBlZGZjZjFkMWM5OTZiNGQ5YmZjMTllMjIzZDUifQ=="
+  },
+  {
+    "Id": 36,
+    "Card Name": "2011 Pokemon Call Of Legends Holo Lugia #SL7",
+    "Price": 7800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlVWbGYwUDliaGxjS1M2d3VxWHZjU0IxYzBRM3dPaWVXclZpQXZOank4MDIvdVpkdjFpM2s4MjlLRzl0aWJOWSs0ai9RbnhZR1VFaHNSa3FRT2czWEhRPT0iLCJpdiI6IkZNcmFXcWNFSW5Uek5UMWdHTk5HelE9PSIsIm1hYyI6Ijk2YTdkZGJmYzYzOGU0M2Q2YmZjNTZlOTUzM2U0ZmJjMjkzZGJlOGFkMmM0MmVlN2UxNGQxZjYwZjIxODhjYWYifQ=="
+  },
+  {
+    "Id": 37,
+    "Card Name": "2016 Pokemon Japanese XY Promo 20th Anniversary Festa Holo Pikachu #279 PSA 10",
+    "Price": 7500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InlmM2ZEWU5rRHNlYWVwUC9MM3FsREE9PSIsInZhbHVlIjoiNlh3a1BybS8yYjA1VnJaeGpvcFZyRWQ4YzVwRk9sOWFndkxBMm5KZnhobWhSQUNiZ2VYOE9uenVtQlVWQklERmJoRTJwdGxPRTNzTkdmc2hDZ0hFVlE9PSIsIm1hYyI6Ijg1OWIxZjI3ZDBjN2YzOTVjMmZmYjdmYmM5NTRlNzc5OWE4ZjM3YzBiYjA2OWZlZTQxMDY4NmVlNDA4Nzk4NTkiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 38,
+    "Card Name": "1999 Pokemon Jungle 1st Edition Holo Snorlax #11",
+    "Price": 7500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImZMSGFmMjVqWW95UFNNUE5SVnhJM1RBc0NyazZSdUc4QXM1TU1DU0pqMjlVbkJGOEZXcU9wVU5VVzMxNk9uUzA1aHNEaGhxSFFZWVNqM0VLVlI4OUNnPT0iLCJpdiI6IlZrc2YyeUtMYVAzd0JJYXJRRlBrbnc9PSIsIm1hYyI6ImYwNzY3YWFiY2JmMjkyNjBkNTgxMmU5Y2Y1NjQzNmUwYTlmNmYyZTNhOTc1NDY3NDkyZjJmYTQ0N2RkZjBlZTAifQ=="
+  },
+  {
+    "Id": 39,
+    "Card Name": "1996 Pokemon Japanese Base Set No Rarity Symbol Pikachu #25 PSA 10",
+    "Price": 6500,
+    "Fun Fact": "With no rarity symbol, considered the \"1st Edition\" printing of Japanese Base Set.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkZkSkJaNi9icGhBYlQzbmN4WHpmSjhvZFlPczRJVTV1WkJZVitoYlB6dElHWkhsS1NpNUVocFB6MVhOeEE4N1dFQVZwc3VkOXk2c1dNRkc0NWdyaE1BPT0iLCJpdiI6IkEwYzZEelNTaEsyblllUk9QTmt3cHc9PSIsIm1hYyI6IjU5MTcyNTM2NmQxYzU1YTA4OTE2ZjIyMzI4Njg1YmEyZjVlMTc0YjcwNjFjMjVjZGI1MzgwM2U0ODkzMDRhMzEifQ=="
+  },
+  {
+    "Id": 40,
+    "Card Name": "1999 Pokemon Base Set Shadowless Holo Blastoise #2",
+    "Price": 6200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVPdG1veFMxdk55MUpuT2lTNU9sT0lySXV6ajVvRitHeDFERHVMS1Q3ckNkUENLdmJXNURsaTZ6SWpMUUJaUngwU2RGSFZyMHVWQS9hMUdya3pLbWpRPT0iLCJpdiI6InJhbFg5N3Bpc3ZCRFVpRjhqMWg0QkE9PSIsIm1hYyI6Ijc3MTk3YTlmYmU5NWJiZDJlZWFhMDg4ZDRhMTgzNWZlYmY5MGYyODA1NjdkZDI5YTE3NWYwZjdiYWQ3MjRiZDAifQ=="
+  },
+  {
+    "Id": 41,
+    "Card Name": "1999 Pokemon Jungle 1st Edition Holo Vaporeon #12",
+    "Price": 6200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkdBdDljRGJiQlVQNHVIWld1cWd1dGc9PSIsInZhbHVlIjoiMXUvT0xIV0JyV0UrMXh3WFVZSG1mUm9EVHdFWTBoditYOEl2UysyZU5Gbm9pQ2NESUFSZER1MFpSc2NWa3RhV3B3U2lMazFpTDF2TmhNZHFLZkdNRXc9PSIsIm1hYyI6Ijk3MTY2ODc1MjY5ZmUxNjdlMWI3Y2Q3NzRlZDlkMTRlNTE2YTIwNTMyYzM4OWVmYmMyYzUxMWRhMTYxZjA0YTgiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 42,
+    "Card Name": "2016 Pokemon Japanese XY Special Box M Charizard X Poncho Pikachu #207",
+    "Price": 5800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkJhTzNEVDFHSEgycWN3N2dJMERDRnZzL3YvUHhidk5OOU1ya1VHRmRXaEVYckxpLzFxUmNKUXRkWkNHRjl4RUM4aDVMRUJvdlNZTjBKVDhLeXpTMGdBPT0iLCJpdiI6InJsTlBQYU1DTnZsV2N2amhsbGVIYlE9PSIsIm1hYyI6ImYzYTNiMzA4MDQ5NjcyM2M2ZWUwZTU0YmFjYWM4MDdiNzhiZGUzZTQ5NzY1ZjZlYzJhM2ExMDhkMzlmYWQ5MDcifQ=="
+  },
+  {
+    "Id": 43,
+    "Card Name": "2001 Pokemon Neo Discovery 1st Edition Holo Umbreon #13 PSA 10",
+    "Price": 5500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjU0QmZrVlhXT3JuS0dObTdRaTFlU1E9PSIsInZhbHVlIjoiYmY1bk5YSWd4R3dnL0hBK3pKaExVaWxMUzd3N1gxTHIvbVNNU3dRY29zUVFpdktEZkQ3TnMwRmFPRTdSSTg0djRITTVMVTZKL3BVbjV4TW5TUGFFTGc9PSIsIm1hYyI6ImUxMDUxZjAzZTkwYmU4MmYxOTJmNzU0NTNhYzdmZjY5YjFlYWQ1OTI5Y2Y1ZTZlNTFmODNlZWYwYTAzMGI0OWMiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 44,
+    "Card Name": "2011 Pokemon Call Of Legends Holo Rayquaza #SL10 PSA 10",
+    "Price": 5500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkV5Q2VlcXNMcmNIM0RiSmNXV1pkcGc9PSIsInZhbHVlIjoiS2xNMXVOZUl4ZzJkbmxIdWw0UTQrZlE2WXJpVWdPbitWemRITjZBTkwxWG5jWXpSUGhPeVltc2FSa3NpWGFVWlRZRER5cHBTV09RQllROGtWZnhWRnc9PSIsIm1hYyI6IjQwMjdjNDY5Y2NjYWFkOGY3ZWQxMDllYWRhNGE1MDg2MWU1YzhmNDg4Y2M4NDM4Y2MzNGU0ZGZiYjg3YzIxNjkiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 45,
+    "Card Name": "2003 Pokemon Skyridge Holo Crystal Ho-Oh #149 PSA 10",
+    "Price": 5500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImhPb3kwcVlkejAzS2dMMkZYVUd2TFE9PSIsInZhbHVlIjoiTTB1ZWRNWVZRL2hHRXBYNi9aR1hsZG1idHplei9TNzYyOU9EVFExdEZFSWZ4eitEQ0R6ei9qQ3pBVktLeWVQMy8rN0lQUVpPU0lsbm5jMGo5YUVEQ2c9PSIsIm1hYyI6IjVjYTViNmM4NjZmMjU3MWJkYTNiNjFjYWVjYjJlZDllN2M0OGI4NWQxZWFiNzQxYjg0YmJjMzlmZWYyZDdlZTIiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 46,
+    "Card Name": "1999 Pokemon Fossil 1st Edition Holo Dragonite #4 PSA 10",
+    "Price": 5500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iml3SlZYem11QkoyYjZFb2lzSWlBMFE9PSIsInZhbHVlIjoiQ2hrWlFxYUFrUVhFMWZaVmJmRkQ0MytueTlHa0J5TlNOTjhjTnNhQlBOVi83YWdlUUVMWHpwYmpkYWpJZW1ham9GYVhhaUVGK255NkdSZHROUWRsUFE9PSIsIm1hYyI6IjRiYzQ5MGVmOWNmYTZlMzNhZjY4YjU5NzY0MjY2M2VjZjhhNjhjNmZkZjAxZjQ3YmUzNWIzMTg2OWViNDE0MDgiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 47,
+    "Card Name": "2016 Pokemon Japanese XY Promo Special Box Full Art Mario Pikachu #294",
+    "Price": 5500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpIYzV0eGRKbTVTTUphYlB6d3VqTE1ZaGpvRU10Si8vWHhrTElVbmczRFErcWg2T0llbW43bXYwcStGUkJ4M1daSDA4bGFvRXZ2WDd5d3ZxeGFsbmV3PT0iLCJpdiI6ImgwcFpYa3JsU0YyZklERmJZYjRvRlE9PSIsIm1hYyI6IjJkM2I5NjIzMjk2YTZiODI5MTQ3YjgyODFiNjg3ODVmZTg5MGQ1Yzk2MjQ2YWJlMDkxMzI0ZDkwN2RiNWEwNjAifQ=="
+  },
+  {
+    "Id": 48,
+    "Card Name": "2000 Pokemon Gym Challenge 1st Edition Holo Blaine's Charizard #2",
+    "Price": 5500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImxkVlhmSDJiejVKQ3dMeVAwTFNSWVVZNHBsZUZMOTJLbW5BSGc4QzhtcnhlWGV2d2liSUFVcUpNVE0zMWtuNEVUbm96SkRSOXp0TWJ5cjVQK0E1djFRPT0iLCJpdiI6ImFFeDlFR3FqamR5bnpjS1EwdzFuYVE9PSIsIm1hYyI6IjhkNDA4ZjdlYjNlN2E3MzE2OWQ0ZjcyZDAwMGYzYjk0NjIzMjQ0YzdkZWNjMDllNDljMmYwYTYyNmMxOTZkMDcifQ=="
+  },
+  {
+    "Id": 49,
+    "Card Name": "2004 Pokemon EX Team Rocket Returns Holo Mudkip Gold Star #107 PSA 10",
+    "Price": 5200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkpPU0k2RGRVQ0RUQjdBMkt0VHpRd2c9PSIsInZhbHVlIjoiTHVVcW8vOHN3Q2dNUDZ3amJCSmFleUMvUHZSLzRYbUlrNS9GZjAvc09NbGM5U0JaU2lxQWo5dHFNYkN5UUlmV0FpKyttRmsweXZ3NWdOZmhLR1M4Unc9PSIsIm1hYyI6Ijc1N2U4MDhjMDBjMmM1MjEzMWNlYjE5NTllMmQzN2M3OTkyYzc5MTVkMTU3ZTMxNTQyNzIyZWQxMmI4YzEyNzQiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 50,
+    "Card Name": "2013 Pokemon Black & White Promo Sylveon Collection Holo Umbreon #BW93",
+    "Price": 5200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjEyK3NkRGQvR3UyRTFWRG1nSWlBV2ZZdkpqbUI3c2dQVmhPQ2hnTDU1MkFsRDcwTTY2OG9yUG9zRk0ybUhsbE1oS0o2YkdDSjQ1bnZrdXF1ckxBZ1BRPT0iLCJpdiI6IkhuMlJ2b0cwMklsZ0hiN0RrQVQ1aWc9PSIsIm1hYyI6IjVlMDFkMGFhOTU1NGFlNDk3OTg1ZTZiNTIyMjZjMDFjNWFlZTVhNmQyNzA3M2FlNTI3YWY5OTFhNWU3NTI2NmEifQ=="
+  },
+  {
+    "Id": 51,
+    "Card Name": "2001 Pokemon Neo Revelation 1st Edition Holo Entei #6",
+    "Price": 5200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlRmenpnM2JNSytnVWUrSFhRZnZTaWJHUzdMUGV2dTBTUDVwMXBQUVZxWmQ5c3FNS3RoYnJETFFIcGx2ZmlLQnQ5VXl6WGNHYUZNaWFHM24xbit0ZVhnPT0iLCJpdiI6Ink0ckkrUjcvZUFkN0VqQU1sS1Z6eUE9PSIsIm1hYyI6ImQzOThiNTE4ZTY0NjliZjRhNWVmYTJhY2RmMjJhNjcxODk4OTlkYWFlMzhhMzA2ZDViM2Y1ZWRhZTYyYTY4MTUifQ=="
+  },
+  {
+    "Id": 52,
+    "Card Name": "2005 Pokemon EX Unseen Forces Holo Espeon ex #102",
+    "Price": 5000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlZYcWl6NWdRUElPck4ySjR1RVgvZ3NrZHdvODZmT0VIOHl2RTNiVW5KejFHUFg3K2czNTd2TlBCeHJ6ZkpWZnJoN2xCZzFwL1NlSGExTGMzVVRieXN3PT0iLCJpdiI6ImRlY2ZhYkFMTlc0ZkRobkZQRU4rSEE9PSIsIm1hYyI6ImExNTM5YTExOGM2YjdiNDY0M2JlMmE0OTM0NDlmMjJkMzM4OGJiN2JlOGI4M2U2ZjRmYmRiMjkzNDA3NTkxZTAifQ=="
+  },
+  {
+    "Id": 53,
+    "Card Name": "1999 Pokemon Base Set Shadowless 1st Edition Red Cheeks Pikachu #58",
+    "Price": 5000,
+    "Fun Fact": "Found with red cheeks and yellow cheeks!",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Im41bS9DaUlhdWN2SEFDaHlrRHR5NFlVajVqeFhmcVd5czNJa1FHeHJIREJZM0FvQ21TdEpwNUZqS2wwd1VGTVNCRFh2QllGbUg1a2g3SmthQjZXcmhRPT0iLCJpdiI6IjBLOGdxdlZHbHMzRWhrT1lBbjdIOEE9PSIsIm1hYyI6IjYxMDI0MDdlMWUyMjIzZTAwZTRmMGY4YTczM2VjMjAzMjEyYjFlYjhjZDliMThiY2Y5YWQzNGYyNmY2YzNkMmYifQ=="
+  },
+  {
+    "Id": 54,
+    "Card Name": "2012 Pokemon Black & White Plasma Storm Holo Full Art Lugia EX #134",
+    "Price": 4800,
+    "Fun Fact": "",
+    "Image": "https://dw7591lwb84er.cloudfront.net/eyJpdiI6IjFDNUJjczFNNXZFdE4zOGdNVmFzaGc9PSIsInZhbHVlIjoicnZHb2hERDNxb1hMNlhuR2s5YXdCcTMzMFJuSVVaRVEyMzhrWEdZTUlGeERVU2xpTWtkeTJkVGNyUWRiWHcvOHplWTJzVlU2MnhsYWFtbmgxVUk1UVE9PSIsIm1hYyI6IjgwYjI2NGEwY2ExNjliN2FlNzUyYTE2NTNjZTBhMDc5YWMwMjc4MWNkNDAwYTZjNTFjMmMwNzlkMzVkNTVlNTMiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 55,
+    "Card Name": "2014 Pokemon XY Phantom Forces Full Art Dialga EX #122",
+    "Price": 4500,
+    "Fun Fact": "",
+    "Image": "https://dw7591lwb84er.cloudfront.net/eyJpdiI6InNJaEI0TGZNQ24wQUlXanEwZWhGNHc9PSIsInZhbHVlIjoibGpYU3ZqdUNwUHJjUWY0Q2FqN1hQUEFFbWQ4MUlhRWFmRUVDT01BVjgrVVFvMEkraVpnSFlpWFVDdzVlM1hZcTdPU1EyRGl0UVJvNEJ4UmR6T2V1bnc9PSIsIm1hYyI6IjZiYWM0MGRkM2Y5NTFiYWMyYjYxMjI3ZDA2NmRmODUyYjFiM2M2NDBlZjA4N2YxNzVlOGRkYTI4M2Y0M2U5ZDUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 56,
+    "Card Name": "1996 Pokemon Japanese Base Set Holo Charizard #6",
+    "Price": 4200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ik90SkpFTFpCbmV6SE1GdlJLbVd5N1FndVdBWFYzNnFERlFBSGJqZlZKSUxXWkFDcXJ6dENoVzFsQnlwZW00U1RneDJQWWZsR2QwazlzQVp0VUUzYnBRPT0iLCJpdiI6ImFsdjZpUVZiemRmVkNCMFNsOHh6aUE9PSIsIm1hYyI6ImI0Nzk4ZjZiOTM0ZWNiZGU4ZmE4MGYzOWI3NTZiM2I4YWFkNTZmOGEwMzhmNmEzMjYwOWIyODdmOTgxMjkwYTAifQ=="
+  },
+  {
+    "Id": 57,
+    "Card Name": "2003 Pokemon Skyridge Holo Umbreon #H30",
+    "Price": 4000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Imk5R3VqY3FYRnZpU0p3ZVVuakNNU2QyWmtzbnZaeVZWZEdtc1QrUVVZN0U3RW9Wdm4vMDV0VnE1TytNMHkrUTJKWU44dEVnSFpXbHlRcFpLdEZNTXJRPT0iLCJpdiI6IitBSFUyeFY2VWpkMDJqMUVBTHJGelE9PSIsIm1hYyI6IjkzNWY1NDJlMTg1N2U0YjQzMWIzMTk5YmM2YzAxYzcyOWJjOWM0NjEyYTBiZTQ0ZmQ2NzdmYTk3Njc0OGVkMzkifQ=="
+  },
+  {
+    "Id": 58,
     "Card Name": "2002 Pokemon Neo Destiny Holo Light Togetic #15",
     "Price": 4000,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ii8yKzUvWEhZdGFUTWw4Mmt6dGVFTW9CWmN4M0ZBV0FDVFZscHJWM3BtNlB1TDJYS2RFRm81ZncxQWRqaVNwNXJaQk80VlhuZlk0dnh6bjZ6cThOVG1nPT0iLCJpdiI6InRpNkRFWUQ0Z2xPL1pvdGVJSE1hdVE9PSIsIm1hYyI6IjljZDRhZmI5MmExODczOWRjZDQwZTJlNTk3NmJkZDUxYmE4ZTU5ZTRkZWY2ZTdjM2ZiMGRiZjIyYzgwYjY5M2MifQ=="
   },
   {
-    "Id": 105,
+    "Id": 59,
+    "Card Name": "2004 Pokemon EX Fire Red Leaf Green Holo Charizard ex #105 PSA 10",
+    "Price": 3500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkhVSXdKVWxnZ2VQYStpczRCYUZycVE9PSIsInZhbHVlIjoid3hwcVVGSnJjRGdJWFloSHE1Yk10ZkVtQ1lUb1JvWUJuOGVJeEtQdGZtTmFvRDMwZ1FGeVoxUmVmc2VEZk1ub2ZSZlZSdXJoTUpkWDVaOVpOY25uZkE9PSIsIm1hYyI6IjIwZGFjMTYyMjIyODk1OWNhOWZhN2RlZDUzYWU2ZmZhNGMxZjVkM2U1MDQ5YzA1ZGFmMDljOGE2NzFjYWU5NmEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 60,
+    "Card Name": "2002 Pokemon Japanese eCard Promo Holo Charizard #014 PSA 10",
+    "Price": 3000,
+    "Fun Fact": "5,000 copies distributed through Pokemon Company lotteries.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlNEeGtFZE5EejltaGp4TzhQRWx3MGc9PSIsInZhbHVlIjoiZ2cwZlA5cjRzVHBtblpjR3pQTVBLRVlqWVpXWVc3dktlK3RhVk4wWFRnZzZzWTAzcWFCM2hFZmk0dGdveWVDOWR0QVhWWVg0YXZTQkpkdktJcCtwU3c9PSIsIm1hYyI6IjA0NGRjODVhODliNDQ3MDExODNhZWY0M2JiMGQ0ZjQ2YjI5YmFjNjNiYzIxZjc0YTEzZmI2MzZiYmNjNzgzNDYiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 61,
+    "Card Name": "2013 Pokemon Black & White Promo Sylveon Collection Holo Eevee #BW94",
+    "Price": 3000,
+    "Fun Fact": "",
+    "Image": "https://d1htnxwo4o0jhw.cloudfront.net/cert/127388371/357141723.jpg"
+  },
+  {
+    "Id": 62,
+    "Card Name": "2001 Pokemon Neo Discovery 1st Edition Holo Espeon #1 PSA 10",
+    "Price": 2500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InRzOFZaSXAyVlh4WVp2Q1pUdzF0YkE9PSIsInZhbHVlIjoiTzBScHJEeWhoVHF1SzlibUE4S0FaM1NYVEt1MVFEekMvYTRaamFFZDRHSlR6cmk1Q1NCcXBFVFJrdDZtK2xycHRENnFDOEtnQ3d0S2xiZkdPelBGWnc9PSIsIm1hYyI6IjY2MzQxY2EyYzU4YWQ2ZDVhOTgwYjIwYWRkZWYyZDZmY2Q0MmVjYmIzMzZjNDA5YmVmMmViN2I4YWZhNTdlZGMiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 63,
+    "Card Name": "2003 Pokemon Skyridge Holo Celebi #145",
+    "Price": 2500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlAvUkpkc3NFU1BaNFpLenZ2KzhIaDFnUkxOUUpEYTJtOHQ5WDgvK0dmaExveTcrbHhDaUNxcU9jaWdNVEd3S0RxQW5RbVYxbUNncG9UL2FJdVpCMXhRPT0iLCJpdiI6ImlKL3B3M2M0VTN6S0ViaitXZ3FFdFE9PSIsIm1hYyI6ImU4OGY1Yjc0OTAwYmI1YjA1MmQ1NzQwN2E3YzQxOWJkMmNlODgzOTlmMmU3NWM5ZDM1Njg0YzJhMTlmNzg2Y2EifQ=="
+  },
+  {
+    "Id": 64,
+    "Card Name": "2002 Pokemon Expedition Holo Mewtwo #20",
+    "Price": 2500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IitUTWZUMUtpM0Y5VVdMSTBJTG9PU0JWYmEzQlI2dFJ2ZFhxZGpZTEUxSWMzVkYzSUxyNkppVEdVZCt4RGJCU2hadjNMZWJyZGpzSHV3Ykhxb083UnVnPT0iLCJpdiI6IkFhRnl1d0J2QTdQL1h1U2lGQzYwSHc9PSIsIm1hYyI6ImY5OWYyZTQxZGRlOTkyZDNiMDcwZjlmZmUzZjdkYWZjZDY2MGRiNGJkNTUyNjM0ZGZkYTZjZjlhOWNlNWMxMWQifQ=="
+  },
+  {
+    "Id": 65,
+    "Card Name": "1999 Pokemon Fossil 1st Edition Holo Articuno #2",
+    "Price": 2500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImpNMytOS2pPRUFkeFp6N2FpcWhaeEE9PSIsInZhbHVlIjoiTXNpaHZBb0pkTG0yR3hveWZXVkpGQkhDeEdTRVU3dnd4ZjNPOFlUSzZHTkpNRWRwTEFZM0ZGaVlmQzI5ZDNSK01VdlZmM3YyMVRabE9MdHpndjFqUUE9PSIsIm1hYyI6IjhjNjRiZjJkZGI5YjJmZWM1NzE1YTk0NDZkMDhkZTkzZGU0ODQzZDU5ZDMyMDBkMzJkMTQ4NmRmOWFiYTRjZjUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 66,
+    "Card Name": "2012 Pokemon Black & White Dragons Exalted Full Art Giratina EX #124",
+    "Price": 2500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Ijk0OU0wSXVQVWExOEJkTUVIU0gxaXc9PSIsInZhbHVlIjoiN3A2dVhlRk5kUkFuMGV1czFrdng3L3cwOTVEN0ZzMGVLbmdPbmhjVHZaa05YT1hyb2FMV0ZYMWlFZW5tTEdUdFRUTTQ5UGVJVmZqaGg5eEhGait3d2c9PSIsIm1hYyI6ImEyMDY1Mjg1NmE3ODQ1ODI2ZDgzOTM2MDEwN2E1ZDhlYjg2YTRkOTYyZmNjYTBkOTQyN2M3MzE5MjhlMTE0NmEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 67,
+    "Card Name": "2018 Pokemon Japanese SM Promo Munch A Retrospective Scream Pikachu #288",
+    "Price": 2300,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjVRSUFtSkQ0aHBzUERKSU5RSG5pUVE9PSIsInZhbHVlIjoiZzh4dWYxd0x5ZGNPVGwxbk5KM04zYjdYTVFnNElTU3dDcmdIM1BnR2Z0L2xRQlpKRC9xb3REK2JTUktwUHRaK1dPaC9rRjVjU2hvWVpSWWc5RmpHNUE9PSIsIm1hYyI6IjRmZWE5ZDJjOWY4NDg0MGQ5NDU5MTJlNjZkMTZjMjdkYzgyZGIxMWE4YjJkNTlhMGJjNTkwY2I3MmI1MDU2MjQiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 68,
+    "Card Name": "2015 Pokemon XY Double Crisis Full Art Team Magma's Groudon EX #15",
+    "Price": 2200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImZwTFE3Ym9wQ1RTNGFzd3VvQkNJV3EvQ2E0VlNSblBIbmRQREFCc2N5ZEtYWWRoamFkN05zVUwxSzBndGI5TUJCNFFmV2EyR2RWOXdsbTdhUjlBOWlBPT0iLCJpdiI6ImdwWkFKMEpwT3M2cDlsNWxLYmlHQUE9PSIsIm1hYyI6Ijk2ZmMzYzA0ODdjYTc2YzU4ZDc3ZmM2ZDhmYTU3MzcwNDEzZDdjYmIwYjEzM2IxZDhhNGUxMTdmZTBhMWQ1OTYifQ=="
+  },
+  {
+    "Id": 69,
+    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Holo Light Arcanine #12",
+    "Price": 2200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InJlM2JyTW1paER6R1QzdUdqRUVyZVBWWU5mb2x3bDZIYjZ6cXBSTVNvQzFtakFSOFk5VEk5Nk5BTjJTNEc1S0lDaDAzUjVzTHdEV3ltUEdDeExzNkN3PT0iLCJpdiI6ImR5TU0rYVk5ZXEvdDZ3WjdvREtDRlE9PSIsIm1hYyI6IjMyMDNhNmI3NzIyMDQ4Mzk4OTBiYmQyMDMxZGQwYzdiMGZmYjk0MGU5NTViOWUwY2U0ZTRlZGJjNDdiNDYxNGMifQ=="
+  },
+  {
+    "Id": 70,
+    "Card Name": "2012 Pokemon Black & White Dragons Exalted Full Art Mew EX #120",
+    "Price": 2200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ik5ON1UxZVNIUmJZbXIwckZjMzlMNi9oenpQS1FDNVdKZmp0RFBvM1ZVUUVIUTNYMkhOUnRrTmJ3cmtySmdHTC9wVWhINU1ZQVpIU3FLOEJPWCtRQ2dBPT0iLCJpdiI6InljUlo5b01BeHpyVUVuckswQW4rYlE9PSIsIm1hYyI6ImJiZDk1OWE1YzI5MGMwYWIxYmIxYTIyY2I1MzRlNDRhYzRmMDk0MzI4ZjgzOTBhOTU2MmE0OGZhM2VhNDA5ZjYifQ=="
+  },
+  {
+    "Id": 71,
+    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Shining Raichu",
+    "Price": 2000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Illuby9TZ29WRnRreG5MZlVVQllvcUt4ZWFReG1CN0pEMUwyKzR2YXQrNUdJYWFWZXZzNWE5QStna1gzRThqeWhWZld2b0I5aEcra0MvK0Jmdlh6RCtBPT0iLCJpdiI6ImJOQXJGU1VRYU00NDB1ekZ5b01lQ3c9PSIsIm1hYyI6IjA2NjQ5MjU3ZGFhN2Y5NTAxZGExZGY4YzQxMGFjZWU4N2I3NzJlOTAxNDYzODUxYTE5NWUwOGQwMzQ2NjZkOWUifQ=="
+  },
+  {
+    "Id": 72,
+    "Card Name": "1999 Pokemon Jungle 1st Edition Holo Jolteon #4",
+    "Price": 2000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjR1YTdTT01BZmsveEloWjBGQUFvZHFzZm5Lc1VjUElrVGwyOHV0ZHlaWGFkWlJWVm5NLzc0ai9TM2gwN2MrTkdrTVZMUW5obnVmVlRsWnZZVUpDaVJnPT0iLCJpdiI6IkJRRFFzN016OUxkWkV0UkY0SHFJZWc9PSIsIm1hYyI6ImE0NmFiMWFhMDVjYTcwOWRlMjMwYWQ1OTNjMDBmNjdiNGMyMGIyZmRiMmY5MDMyNTMyNWVlZDc2YjU1ZWFkNmQifQ=="
+  },
+  {
+    "Id": 73,
+    "Card Name": "2008 Pokemon Diamond & Pearl Stormfront Holo Charmander #101",
+    "Price": 2000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjVpZEpMRmRiZmgwa01XWS9TYWZPMHU5RkN3akxsTVNScE5sendES0RjeVJtN0c5RWNDNklsVWNNQ1B0V1FUWFc5ejdCd21zdlU3c2RKN2RVMklxdXp3PT0iLCJpdiI6IndkNXg0Mlc0aE5pcTNzbEFlRlE5UkE9PSIsIm1hYyI6IjY0MGJlMjU4OWE2NjhmNDM2ODI4MzYyYTg4YjAyZWRkM2UzYzM2MTcxZWI2ZDk0NWEwYzA1NDk1NDhmYWVmZmQifQ=="
+  },
+  {
+    "Id": 74,
     "Card Name": "2000 Pokemon Gym Heroes 1st Edition Holo Brock #15",
     "Price": 2000,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlJCSW5CQkhoM1Y0ajFtNGw5Q0tXNHBCLzRoblJTeGNrSmlyUDVZZC96UVNacnlVUGh4MEpUYXhiT2xUZHNFeFNVTTNnYmNobHBMQUxqUjNtNnRieXlRPT0iLCJpdiI6IkVkSlMxOUVWTXBGZGNjekxTQzQ0ZFE9PSIsIm1hYyI6IjNkM2Q2MTBiZDY3ZmYxYzQ1YTI5MGZjMTViYWNiYmYxZDQ3NTkyZGYyYjg2YTkxMzVmNTNjNjkyM2U0N2IwODIifQ=="
   },
   {
-    "Id": 106,
-    "Card Name": "2001 Pokemon Black Star Promo N.Y. Center Lucky Stadium",
+    "Id": 75,
+    "Card Name": "2001 Pokemon Neo Discovery 1st Edition Holo Scizor #10",
+    "Price": 2000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InJZQ1hpY1NQYnBMN1N2eUM5b0RYekE9PSIsInZhbHVlIjoiVTBHaEN2OTZta2V0NU1ld0FLdjMwMTh4NkcyT2E5c2VSa0ZLR21lUEs4TDF4VlM3RDFLNG5GUjRIcG1keklGa1hIYlJKcXNIMkJxcnV1bG1aZTEyaXc9PSIsIm1hYyI6IjQ1MmQ4Zjk4NzUyMjUxMjRmMjcyMDc0MjdhNDM5MDljMmRjY2EzYWEzYzFlOTQ3NGZhZTA5MGJiZDYwZGUyZjciLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 76,
+    "Card Name": "2002 Pokemon Legendary Collection Reverse Foil Eevee #74",
+    "Price": 2000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkU3MXlMdk9rOWllS3MwbzdKd0c2TkE9PSIsInZhbHVlIjoiejRtR0JLVzAvVDZrSHJqMlZyTkRvOG80M2xGbHVWanlyTjdBdnZrcFIxR3lWOWM4dTZmSEFudEdYN2pTSllqcnpHNXdTS1F4TVBROW0xSU5CWkd4MXc9PSIsIm1hYyI6IjNiZWM0NzFhZjVmOTdmMTc1MGVhNWRkOWFiYjA3ZGNjOThmOGJjMDk3NzAzYTE5MmZiNzcxMzEwYmMzMWNlMTgiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 77,
+    "Card Name": "2000 Pokemon Gym Challenge 1st Edition Holo Erika's Venusaur #4",
+    "Price": 1800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlF4SERRWEdRYWduWkxUNGpPWXhsRGE0NEtBbCtxd3k1ZFZnQmlzNnVxOWo1QjFtZFdIbDhKbWxRTnFCRzZoc01xek12cjRVdVZBcUZzWmRmSEpUOVhBPT0iLCJpdiI6InoyVXp3eW5ISjFlSXdwTjY2U3V6Y2c9PSIsIm1hYyI6IjY0NmIyOTYzODJkOWFmZjJkNjlmZjMzYzA2MmEzN2ZiZjgzOWMxMjg4ODI0MThjYjJhNTM1OGJkMjY0YjE1MzQifQ=="
+  },
+  {
+    "Id": 78,
+    "Card Name": "2009 Pokemon Platinum Rumble Pikachu #7",
+    "Price": 1800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IklWOTJSWEJkZFRBdTdHNWZqcWo3c2c9PSIsInZhbHVlIjoiMEpScVk1MDlHaXQxR3VHQjZ3VndSSi9ERG9qQ2NMM2NGdW9QTEpTQ0hvQ3IyVE4wdXVmSkQxMnNOUTZtN2NQRktYN09OUUJ4WVRISVc5R29jN0V1Rmc9PSIsIm1hYyI6ImIzNDU3M2ZhNjAwZGQyOTkzMzQ3MTRmODE5NjhhYzE4ZjI1MjZkNmVjYzc1N2Q3ZTk1YTRlYjM5MTRmNGEwMjMiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 79,
+    "Card Name": "2001 Pokemon Japanese VS 1st Edition Holo Karen's Umbreon #91 PSA 10",
     "Price": 1500,
     "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImR3TG5qYno1TUt6SlZjTXAyeDIzMEE9PSIsInZhbHVlIjoiUHVlOFJJUXJ1Mk9HS2hFU2JNTE9QRy9HMjVNeEVOby9UcE9oQ05YZVUwVWZTVkk3Q1BLZndGWGZNSDd4SlFjZWhUMXBRMVBVQmFZZ0U0bGo1cWpwS3c9PSIsIm1hYyI6ImRjNWEzYzdmN2IzNTVmOGY5MmI5ODRkYzE4Zjc5MDkxYTBhZmZjYjE4M2E1Y2U4YTQzNmYyNjdlYTg5ODEwNjAiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 80,
+    "Card Name": "2001 Pokemon Neo Discovery Holo Umbreon #13",
+    "Price": 1500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkFENS9xRU40MHBZeENZdG1tNHpPa0FKVVovb1dXQVB6Vyt4eWxaSjk0dlptWFhBeFVDd25STHc1bUI5MndDTFdXbktKRXEvQmpBRGNFKzB1UXB5VVVnPT0iLCJpdiI6InFpVGk3VGt3TVR1bHZ2ZUxBbmpoeGc9PSIsIm1hYyI6IjgzNThkOGU5ODk0NTIyYTQ2OTFjYWNiYzUwODZlMTE4ZTkyODNiOGYzODgxNzNiMzM3NTIxZjIyMTE2ZDRiZTIifQ=="
+  },
+  {
+    "Id": 81,
+    "Card Name": "2001 Pokemon Black Star Promo N.Y. Center Lucky Stadium",
+    "Price": 1500,
+    "Fun Fact": "Released at the opening of Pokémon Center New York.",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InBBeVNoaXRFRjFpQVhKZXB0UjJwSjBRQ1VSZU5zaUhpQU81QkpkdWhWR2ljelZINmFHQ1ZveVh0NE1RRjEwa0dENVRsd3F3eW9EcW04WEFFM0x5VjVBPT0iLCJpdiI6ImlJa2VpM1ViSUprWkpyRHdWOVhXVWc9PSIsIm1hYyI6IjNjMjg5NzIzNmY5M2I4Y2IxNGQ4ZWE1Y2U3Mjc0YmViYWUxZWEyYTI3MWE4NGExYWQ0ODUwZDljNWU2NTc4NDYifQ=="
   },
   {
-    "Id": 107,
+    "Id": 82,
+    "Card Name": "2006 Pokemon Black Star Promo Holo Rayquaza ex #39",
+    "Price": 1500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImVLRFBsU1N1NjFvdkF3SHpjWHRZckE9PSIsInZhbHVlIjoiNG8rSFRSdW1oSm5uWXB2dFRTaHJaaVArdWxLcFNiem9VT0tMMzhXYzAvK1dsdXpKK3RHd1YydGN1Ym5QRkhOeTJERUIraGhrNlRwYUx0OWlKMzh2WFE9PSIsIm1hYyI6IjM2YjY3MGQzNTEyZDg1OGZhOTY3NDhjNDUzZWU2MDc0NTM0ZmI4YTZiODdlZDNiNGNmMjJiNGNiY2E3MmJlZTEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 83,
+    "Card Name": "2013 Pokemon Black & White Legendary Treasures Full Art Zekrom #115",
+    "Price": 1500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImM0LzdTVmFuQnR1MFQ5T1IyNFllbHc9PSIsInZhbHVlIjoiM1RGcjdtTXEvY2kwemRDaWh3R0dwa1RrSU56QUFkd3ZLNDFaeUxlQVBxRWxLYzRCUDAzekZGN21Xdks4L0lySGJHUnJicWhtNXp5RXRxTDhQa2FSOGc9PSIsIm1hYyI6IjU2NTY4Mzg0ZGU0ZDIwODY2YTE3Mjc4MWZjNGMyY2MyZDA1ZTVkNTNmNmZhODNjYmI4YzBhOTRlZTNiN2ZjZmIiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 84,
+    "Card Name": "1999 Pokemon Jungle 1st Edition Holo Flareon #3",
+    "Price": 1300,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImVMSWwzM1o2TVAvWXdwalh0Y2VOVXc9PSIsInZhbHVlIjoiUU9oZXNZYkFGd05VWEduUmR2elBETW1KS0RKOWVZaG5Jd2JOQy9tZTJ6NEJ5K3RES0VFV0dPbm0xQVBMb2pMK01CTVRxNG9xQSttcUFtZVBWMldWUEE9PSIsIm1hYyI6ImI1YTA3OGYyZTQzMmUyYjcwYTg2YmFjMTZjODVjZDljZmE3YWM3MmMwMGI3ZDcwZmM3ZThiYmJkYzdkOWM2MjEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 85,
+    "Card Name": "2003 Pokemon EX Dragon National Championships Holo Charizard #100",
+    "Price": 1300,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6InhLb1grL1pwcmR5aHRENEhvWmRPd1E9PSIsInZhbHVlIjoiMDd4K252WVVXcnpOc1VQUGJLOUswRGR0T2dUMmxldDh5WmtndlZvTE5GQWpEbVlwd1NtUlBHWm1uWDV3QytlN3hSYjE1STMrbkJCYmZZTFpBczh1VVE9PSIsIm1hYyI6IjIxMjFhNTc5YmZjZDdkYmU2YjYyN2EzZDJjYTIxMzkxZjY5YzJhNTJkMWUzOTRlODBiOGNjZTNiOTAwMDFmOTciLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 86,
+    "Card Name": "2000 Pokemon Team Rocket 1st Edition Holo Dark Raichu #83",
+    "Price": 1200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InYvVllNKzZ1M0hnUk9VdjlQMGMwUk1LeGFKRzRsOE83TW1RMEpMS3BVbG1GczlGM2JqSHZDUnJyQXNHZ1M3bnRyd1p5OHNHenVESmlUSk9QWTV1Z3RBPT0iLCJpdiI6Ikw3OC9hb0JBOXdaNFdxRUtKeE5UZVE9PSIsIm1hYyI6Ijg0NWZhZjAxN2FhMDU5ZTI1Mjk4NzBkM2ZmYmEyOWRkZjk5MTg0ZjMwMzZhMzI2YmRkODEzZjZiYjE1MjVhMGMifQ=="
+  },
+  {
+    "Id": 87,
+    "Card Name": "2016 Pokemon XY Evolutions Holo Charizard #11",
+    "Price": 1200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ijlsd3JYSEdHQkJodFBtMUw3R25MTzgwalp1WDFwTCtwUlFkdm9vOU96M3BRSENLUS9zSlRxUXlHN01TcUIxQU9UNFh3YnhUTlFZK1V5Wkl6UjRwWi93PT0iLCJpdiI6IkZvR093cjRLRDQ3cXpIcHdrdUlteUE9PSIsIm1hYyI6ImIzZTVlMjgzYzc5MmE3ZTBhYjdmMzQ5YzU3MGM4OGJiNGQ5NTRhNmEzNmFmYjQ0Yjk5MDVkZmFlZDBlYThiNTIifQ=="
+  },
+  {
+    "Id": 88,
+    "Card Name": "1999 Pokemon Japanese Double Black Star Promo Holo Grand Party Trainer",
+    "Price": 1200,
+    "Fun Fact": "Prize for completing the Pokemon Fan Club's Passport Challenge.",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjhyTFRBVVZ2NE9vQko3dW5yVDIwcEE9PSIsInZhbHVlIjoiTkc0T0k5MXJxWGp0bXE4Mk1uMjk1MUpLSjVsYkFySEI2ODliMXBEUFU1TGNVY0xFQ2Zrc0drWklEeEVPbFBrK3NUS3pMaDVZdjgzUzNqYXpWN2JJR2c9PSIsIm1hYyI6IjU0YTczZDM4M2FmMTk3OTFiNzAyMmJhM2EzOTAzYWU2YWNjZjBlZDhkMGYzM2U2MDU1MGE4M2IyM2Q3ODg0YWEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 89,
+    "Card Name": "2014 Pokemon XY Phantom Forces Full Art Gengar EX #114 PSA 10",
+    "Price": 1000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjZSYlliaXRsdkt5aDIzQTVZNDVaNFE9PSIsInZhbHVlIjoiNW80QjZpb09sU3ZlaTRSWjJsZDZIM3RNYktrQjdtend2TmRWdnIzSVFtd083ZEYyc2pKYk12WEVEZnV4OSt6M3JCOVBVQVc4VWtNa0pLSndSS1ZrQWc9PSIsIm1hYyI6ImM4NTZiNTU3NzIxZjgyYjJiM2Q4Mzg5NWNiNjQyN2JlYjBlZGNkNDkzZmUxZGY0NGM4NTYyMDJkZGE5Yzg1MWUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 90,
+    "Card Name": "2005 Pokemon EX Unseen Forces Holo Suicune Gold Star #115",
+    "Price": 1000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ik0xQzRqaGwrbUFEblR6K1ZVa1doUVNzWUVKbUZyMTBOalpiamlaR29CWm1QVjZzU3g4Z3NiNFFLS3ZsSUZNVTFzclAzMEdhOUNpZjNtM1RvMkVCSFh3PT0iLCJpdiI6ImJ4QWRMbEhJbDFSd0lOalJEMG5nS0E9PSIsIm1hYyI6ImJkOTlmMWQ3NmNmYzQ3OWI4NWZmMWVlZTM5OGNlNzY0M2JkNjNjMmYwMTViMmMwYjM1Y2MyZjk1ZGMxMDQzNmUifQ=="
+  },
+  {
+    "Id": 91,
+    "Card Name": "2018 Pokemon Sun & Moon Ultra Prism Full Art Lillie #151",
+    "Price": 1000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkIxL3RhNEhOYU1tY0NNdmlpdnNvd0l2MG5JOFhyTGlpeTg1Q1ByTEtQb1NIK1BNTzkrNHJleUNqZXd0YWd0OUVBMkZlcGxwZWQ0dHVFeTRjbG1VaGlnPT0iLCJpdiI6IjdTZmt6SDhZaWhJSk9zeXd2d211VXc9PSIsIm1hYyI6IjM0ZWVjZjM1ZDE5ZjMwYTUwNGMyY2JkNTQ2YTA1MDc4NDAzODU3MzJmMjMyMmQ0YmQ4ZGZjNDQ0NWFkODhiYmYifQ=="
+  },
+  {
+    "Id": 92,
+    "Card Name": "2002 Pokemon Neo Destiny 1st Edition Light Holo Dragonite",
+    "Price": 1000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImQ0Vndnd3h4dTZBQmp0UHBOYjdRSTN0RmxpUlJ4RGowRUorUElWNFRtUDZ3cGxxRlU4cWZyUXY1TkNodG01OEJ1bWFJZ3ErMjVpb2ViQ3MrbHVUOEd3PT0iLCJpdiI6IjZaSHpreUFJM05Fa0VIVTIzTVNDckE9PSIsIm1hYyI6IjgzNjJjODJmMTk5OTM4ZGZiM2I5YmI4Y2NlZTk4OTI4ZThhMjYyZjg5MDE1NjA5ODRkOGIzNmY5NTViNTk3ZWEifQ=="
+  },
+  {
+    "Id": 93,
+    "Card Name": "1999 Pokemon Base Set Holo Venusaur #15",
+    "Price": 1000,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImxwZTc4d0VWUENETjhvVTZEalNKb2t5elpMZzVuVWlXTHdYM0x4aUIxdXRJKy9FM1RpbnllUmd2NmYwTW1ocUhaZFVnSis1Y1h3QTVuaXV5MXJMT2N3PT0iLCJpdiI6Im1kcXkwck9lbld2bkQ3aWNuV3NIOEE9PSIsIm1hYyI6ImZhNzNjYjdhYjY3Njg3NWJlYjVjYTE4MzA4MzU3ZDg5MWQ4MWFiZjVkNDk5NDY3MWQwZWM5ZDYzNWE4ZDFkODYifQ=="
+  },
+  {
+    "Id": 94,
     "Card Name": "1998 Pokemon Japanese CD Promo Holo Charizard #6",
     "Price": 1000,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InJML25yc3lob2hiSFhhRVVuZjZsUXN2R3lFMzcyT0I0RE5SSFpOYk03VmJGMVVmdlg3MDV2YUZBMWtYb2xTUzcraFV4NXBhZzg2TUxsMkd1VTFVTGZ3PT0iLCJpdiI6Iit4QnBVY05VNC9YTVlDdU5NbngxRWc9PSIsIm1hYyI6IjU0NjE2OGEwNWQ3MjhlZjc2ZTNjMDhiNmU5MDMzZDQ2MzdlYzJkOWViZDg2ODJlYzQ0MTZlMGFmYjg5ZjY5NDgifQ=="
   },
   {
-    "Id": 108,
-    "Card Name": "2019 Pokemon Sun & Moon Hidden Fates Shiny Charizard GX #SV49",
-    "Price": 620,
+    "Id": 95,
+    "Card Name": "2009 Pokemon Platinum Arceus Reverse Holo Ponyta #SH11",
+    "Price": 1000,
     "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjdOajhwTll0L2ZVRzVVWVEzZlFLUmFLeDlJZTN2YkdwVEdScGVGMHlON3g4NWFkZ1owZmJHQ0tGRVFra3pCYUNDTG4ydmxwNG9xR0tYN0czYUZsUjJRPT0iLCJpdiI6IlZNVjZsWFRwSDM3RVBQaVducWNyZ1E9PSIsIm1hYyI6IjliOGE5MWY4MTY2ODBmNTZkMDJhNzUzNGU3ZGExODBkZmRiNTA3NThjZDBiNmI2NjUwYjgyNTlhODc2YzdkODgifQ=="
+    "Image": "https://i.ebayimg.com/thumbs/images/g/cKYAAOSwlPJmHVtx/s-l1600.jpg"
   },
   {
-    "Id": 109,
+    "Id": 96,
+    "Card Name": "2004 Pokemon Kids' WB! Poke Card Creator Wurmple #2",
+    "Price": 1000,
+    "Fun Fact": "5,250 copies given in packs to winners of the Poke Card Creator Contest in 2004.",
+    "Image": "https://dw7591lwb84er.cloudfront.net/eyJpdiI6IkhEcWl5dkVDUk9DTTdHOEIyaWlJU3c9PSIsInZhbHVlIjoiNDk1Q21KZmRxZU5XOVF6NWhZUkJxM21HMEduZmhCR1lLa1B0TlluTm9FRWhPWFRNSnRUVWVrRG1FYTBsa0c0M1U2YytObEFZR1d2VmJMZzFYQ0dKZFE9PSIsIm1hYyI6ImVlN2M2YTM5NDAwYTY4MDI3NDhhY2EzM2I3ZWExNDY4YTNkMmZjZWU4NzYwMDMyYjBmYjY3MTVjZWMyNmM0ODYiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 97,
+    "Card Name": "2013 Pokemon Black & White Plasma Freeze Secret Rare Empoleon #117",
+    "Price": 850,
+    "Fun Fact": "",
+    "Image": "https://d1w8cc2yygc27j.cloudfront.net/1818538274870983236/-7132402194427049147.jpg"
+  },
+  {
+    "Id": 98,
+    "Card Name": "2000 Pokemon League Black Star Promo Holo Mew #9",
+    "Price": 820,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlIzcEV4REdKLytwME5KOGxtVERaL3c9PSIsInZhbHVlIjoiOUhqSjgwMkdDUVQ5YThkQXBXR2F5SmRXM1djMERPWU8rSDUrMVQ5VHFyNUloUFN4VFMwSHRzZlQ2eGNURjFlMGVPeW5GendGeXFRdk96VUpoS1B0eUE9PSIsIm1hYyI6IjZhMmNhZDkyZGFhMDE5YzBiNmI0MjJjNTc5ZmU4YTIxZTAzMTdlYzFmOGZiZWZhMWJjOGRhYWYxYTFhMzljMmMiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 99,
+    "Card Name": "2013 Pokemon Black & White Legendary Treasures Holo Charizard #19",
+    "Price": 800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlhVVmpTWnh5NUhVbDRmTmt1Z2p5SGc9PSIsInZhbHVlIjoidFg1SEk3WjZMbFF1VmUyb0wxQUwzSllEdGM3VGRtMVg1ZDBaYnZlakg5ZUpyalZsT0JCNzJ6MGtSYS9mUnc2RTE5UDB6czc5ZDNBWEdCdjRva0ZlZFE9PSIsIm1hYyI6IjBkNjQ3MDBkNDBiZWQ4Y2FjOWVlZmQ5ZjM4OTVhMDQxOGU0N2EwY2Y2NTJiZmFkODkwMmMwOTRjZTcwMjI0MDEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 100,
+    "Card Name": "2003 Pokemon Skyridge Holo Articuno #H3",
+    "Price": 800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkZmbWdFMkRZdmNDTDRUelR4TG9CNUhwaDBTMGZ0b0Y0NlhObENxRU5JaHdFM3BTQ2JRTW1tVHk1L0U4cWdwWFhHV1d6ODRGMTFoZElmdVZTZUp1bmJRPT0iLCJpdiI6InRnK3pNV2FydW5lNmlpS25zR0wrMlE9PSIsIm1hYyI6IjBhYzVjNzU0ZWI0MzVhMGQwNmM1NWJhNzRlNWQ5ZTNiYWJkMGZkZWFmNGM2MzRiYTdkNjJjOTdlMGU0OTI4NzkifQ=="
+  },
+  {
+    "Id": 101,
+    "Card Name": "2019 Pokemon Sun & Moon Team Up Alt Art Gengar & Mimikyu GX #165",
+    "Price": 800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlpGM0wyWHdLUWE1SUdNSHoyd2thbW9LSjdWU0RXV0IzVkQrNGY5SmVDbkdJNHd5TVFqdk1zWTNJWUtWSHlEK2psdnFSZzBKMnI0eWRZa0c3dHUrV2JnPT0iLCJpdiI6IjM1L0R6ek5aWVc3SndUeVBXaDAzOVE9PSIsIm1hYyI6IjRmOTcyYzcwMWM1OGE4NmZhZjRlYTQ2ZGUxYTk1YzJlYzRlYzFiMTZjNmY5YzQ5YzUyOGFiMmY3MWU3ZmJmNTgifQ=="
+  },
+  {
+    "Id": 102,
+    "Card Name": "2013 Pokemon BW Legendary Treasures Radiant Full Art Mew EX #24",
+    "Price": 800,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlRodlNnOEVkamxVRmZFV1N0U2I4TnIrdllhekI3M0hGbnIyUFhZS29Sb0c2VkNwVVRvUXcvSXQxcnlOVDZxWXdKdDlGeUdqS1NWZHJXUU95WFpmMDV3PT0iLCJpdiI6IllpVmVtbUtJa2lKUmNEWTI1YThPbGc9PSIsIm1hYyI6IjBhOTg2YmY3OWQyNjMwOGM4ZjE3MDRkZDEwMWQ1YTA0NDg5OWU2MzQxYmI4NDM2ZWFhMzNlZWNjN2NhYTE5NWMifQ=="
+  },
+  {
+    "Id": 103,
     "Card Name": "2017 Pokemon Japanese S&M Promo Umbreon Poncho Wearing Eevee #141",
     "Price": 800,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImdmbFo3MlJ0Q2FyeHhubm44b2FWTzFYaXNuZ1kwNCtGbGJUQ2tyTUp0Rk5ZMEp1LzJDRDJwSFdhd3k5TFY3QVduTTl4TkpWSlRvK3hrMDVZMGIyV0ZRPT0iLCJpdiI6IlhXakhBcUxDdElPT2IvbjRhVDVmREE9PSIsIm1hYyI6IjkzOWQyZTY3MmFhNTg1MTZhOTczMWQ4YjdjMzFiZDNjYzRlMWU1ODRkNDgwZjRmNWRlMTkwYjk0MDdjOGQ5OTYifQ=="
   },
   {
-    "Id": 110,
+    "Id": 104,
+    "Card Name": "2011 Pokemon Black & White Promo Battle Road Autumn 1st Place Victory Cup PSA 10",
+    "Price": 750,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6Iko5enZJS0tZbUhNUCtva2NLV1pweGc9PSIsInZhbHVlIjoicjkwZlNYdDJGRGE4bkRMZmcvY0x3NjBtLythTDVRTVYzNENmdWlNczNYdHdVSzdaNVpSWTF2ak4wVXRLNW9vWkxNMWhlS2VQNlhhOTV2cnRnL2d5WkE9PSIsIm1hYyI6IjM0ZmMxYzgwYTJjMTc2YTQyZmU3MzhhMmUxMmE0NDMzMzE3MzUyYTBkYjM0YWU4OTFhOWEwN2Q5NzI3N2YzMDIiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 105,
+    "Card Name": "2012 Pokemon Black & White Boundaries Crossed Holo Charizard #20",
+    "Price": 750,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Im1xS3RpOERqUTJvUlBHQTMrTmpVSzlVWjhwaW55Qzd1bFV0N2lmdUFONUxRZDc0MXdMdHN4cW5kamN4OHdHdnF5OG5XbXhNNS9JMGI2dlovVUg2N1p3PT0iLCJpdiI6IkZ5Y2pKU0xTdk5rZVc0eng0SVkvWkE9PSIsIm1hYyI6ImExZmNmZDhlOWI0Yjc1Y2YwMGYyYmEzMmZiMGM1MmIyZjA4NzM1YmU5YmU4YzdkODEyY2MxZGQ1M2I4ZmQzNTUifQ=="
+  },
+  {
+    "Id": 106,
     "Card Name": "2000 Pokemon Gym Heroes 1st Edition Holo Erika's Dragonair #4",
     "Price": 750,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ik9mNTFtMzhrSEtNUm1aRGN1ZndBYjcvdnJ0NWY2WVRhclovMHdsZ3BpS0JkWnc0K2Zxd1RUTk1LQy9aOG5xZmJhODMyaml4djBTUVpia0V2L3pkOFF3PT0iLCJpdiI6InpHQ3lKUUdhdFcyeUYzNmtDSGI0dVE9PSIsIm1hYyI6IjA3OWFlNjM4ODM0NTE4OGQyNzI5MjdkMTQ0NmY3YjJiNzcxYTBjYTMzOWM2NmFlZDZjNGJkOTMzZDBiZWNkMTEifQ=="
   },
   {
-    "Id": 111,
-    "Card Name": "2019 Pokemon Sun & Moon Team Up Alt Art Magikarp & Wailord GX #161",
-    "Price": 550,
+    "Id": 107,
+    "Card Name": "2004 Pokemon EX Hidden Legends Holo Ninetales ex #96",
+    "Price": 700,
     "Fun Fact": "",
-    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlhEREhFcGxkbDdMMjlMYlhQOGpFU0pnUW1rRTBITStUVDgzUkpKS1JzeE5xNS9XeG1oVDZ6TEcwWmY3dkxoZ0p6ZC8vSlprZ1IvR1pqSWZUSTByYSt3PT0iLCJpdiI6Ik8rSTQrcUtDcE1OZGdWRjBhM0NFSXc9PSIsIm1hYyI6ImY4Njg0YzUzZTk3YzIyN2FkYTA2MmMzYjcwODg3MTM3YjlhZTExNjgwNTMwZmIyMjM2OTk2ZTA2ZDg3Y2NiNzgifQ=="
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InA4NDVUVUJWeWlLTUxlaEh4a2JLRFJvNDZYQW1Rc3BMS21ZOHUzTVowaEZNWTBhTmppVldHbi9ITmQ4ZDNFSVNRWDU3NUhpK2pyVTM4Zk4wTHp4M1JnPT0iLCJpdiI6InlIdzYyTmp4d2x4aU5GN3J4a01MSXc9PSIsIm1hYyI6IjNmNGVmZDZjYjA5MTJmNDMxMWExYTYzZDY2OWQzMGU4N2YwODNkODkyMDU4YWYxZGVhN2U0ODNjY2I1ZjA3NTgifQ=="
   },
   {
-    "Id": 112,
+    "Id": 108,
+    "Card Name": "2013 Pokemon Black & White Plasma Freeze Holo Umbreon #64",
+    "Price": 700,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IldYRkFuV21ENjRZT1BmeGwyMjdkWVE9PSIsInZhbHVlIjoiVjhyRnF3enM3ZE9ibGxHRkVWMWZVWGtuTnZkM0RnYlJXN21yL2V3OUxrd20wRkg3MU52cG5pZlpidS96SVJFV09pczlXWlh0Tk5tZHd0QU5JLzZCWnc9PSIsIm1hYyI6IjAxOTZmOTg1MzkzMTI3YzdiYjEwOWQ2NDhlYTk3MDBjNTk0ZWUwYTdmMWNmZTIyOGM0MWZkYjA4ZDE1MDJmNGUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 109,
+    "Card Name": "2012 Pokemon BW Boundaries Crossed Full Art Landorus EX #144",
+    "Price": 650,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVPVVZmS1FiK2FVM2J3OTZTMW1VOFZOei9qT0ttek1nd0dycW84OHJYT1p6NzJrMWFWMm5lWjNxbUZqU1ZnM3pQNFRIaytOR3NSZG9VdFl1WFpQUWJ3PT0iLCJpdiI6IlZxZEpXUDBMZ3ZFb0U5aTlSMHVqM2c9PSIsIm1hYyI6ImJlODZlNzhmZDk2NDQ3MDc1MTYzMjM2ZDJlN2Q3ODAwZTM0MDU2ZGI2OWQyNDk5YTlkYzhiYjk3ZmUyNTliYzMifQ=="
+  },
+  {
+    "Id": 110,
     "Card Name": "2016 Pokemon Japanese SM Promo Special Box Pretend Grunt Pikachu",
     "Price": 650,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InplMFZKblZ6bzE4SkRoZDRLVmpCaVJIRUx4TmFLeGFMeHp2aHZ1NUdscHJEdnJrdWdWVW5ET2c5RDB4OGpiNDk2a0VuT2ZXQWUrWkMwQUtjUW5iUDJBPT0iLCJpdiI6IjhLcjJtZDBWSVVJOUVVY3pvNTNUR3c9PSIsIm1hYyI6IjdhZTUzMTI1NWViNjllMDYzYWVhYzFmMWQ1ZWU2NjM5NWM4NWQzMGY4N2RkODVhZDQ0YmIxYzExMjczYjJmZjkifQ=="
   },
   {
+    "Id": 111,
+    "Card Name": "2013 Pokemon BW Plasma Freeze Championship Promo Holo Leafeon #11",
+    "Price": 630,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjdNMm84R09NMFlQZ01IS3RxY1g5OFE9PSIsInZhbHVlIjoiMndra1BpN2NaQWxSK2trRVdaaUJFVXpmWmZVdCtKZDdzMXBaNUZaQTM4SzNsMm0vOGRFSTA4K3ZRMVVuN2hPUFFNVSs4QjgzM2dtNmxZOWZ2UW94UGc9PSIsIm1hYyI6ImVlYWVlYjMzMzFiMWNlNTY2NTZjYWJlMjdiYjJhMzcwNzU2NWE5NTMwM2UxZTRlMTllZmFjYzg5ZmQzYWY2OWIiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 112,
+    "Card Name": "2019 Pokemon Sun & Moon Hidden Fates Shiny Charizard GX #SV49",
+    "Price": 620,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjdOajhwTll0L2ZVRzVVWVEzZlFLUmFLeDlJZTN2YkdwVEdScGVGMHlON3g4NWFkZ1owZmJHQ0tGRVFra3pCYUNDTG4ydmxwNG9xR0tYN0czYUZsUjJRPT0iLCJpdiI6IlZNVjZsWFRwSDM3RVBQaVducWNyZ1E9PSIsIm1hYyI6IjliOGE5MWY4MTY2ODBmNTZkMDJhNzUzNGU3ZGExODBkZmRiNTA3NThjZDBiNmI2NjUwYjgyNTlhODc2YzdkODgifQ=="
+  },
+  {
     "Id": 113,
+    "Card Name": "2016 Pokemon XY Black Star Promo Red & Blue Charizard EX #121",
+    "Price": 600,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpSMzRTSzVoSTV0UGxGRkxmUHQyd0hEK3BETlRacVFac0ZEeEo2MWFNcXZLR3RIb2pjanZPZ3ByaXdmMy9KbXdTRHpKdk5oY05qSUthaVQwTFJ3MDJ3PT0iLCJpdiI6Ikk5blgxSnl2ZWVQNkttaTZCQkdpcXc9PSIsIm1hYyI6Ijc4YmYzYmE3ZDNmZGQ2ZjRlM2JjYjlkZjNiMjNhNDEyNzY3MzE2MDM3MmQ2NDY3Nzk3YjZkZjNmYjlkZjE5NWYifQ=="
+  },
+  {
+    "Id": 114,
     "Card Name": "2002 Pokemon Japanese McDonald's Holo Squirtle #7",
     "Price": 600,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkMxbVJxS0hQS0lsazVpc3FlNHlBT2hMSGZIemdQcFY1SkJPbEJwaGZ3NThLNjN1Q0xsc0YzWG5hc1hrekV1N21ZejhtOWJFVEp4R0xWWnl1dWVIQWVBPT0iLCJpdiI6IlRwazBDZkZ6d2pOWFNaZFFJS3ptNFE9PSIsIm1hYyI6IjMxYjI2ZjAxMTY5MWQyMzg3ODZhZGRmOThlYmU1MDQwZTM4NjJmZTIwYTlmZTQ0NTI1YzhmOGNiNzczOTBmYmUifQ=="
   },
   {
-    "Id": 114,
+    "Id": 115,
+    "Card Name": "2003 Pokemon Skyridge Holo Raikou #H26",
+    "Price": 600,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImZXRTE2Zkk3VWI5a3F3N1lLVlkwV2c9PSIsInZhbHVlIjoic3FYRUdXSmJFTkRwajF4eTJ5aEdsTzFCdWRmUWQwMG9vc09LQlRnVVdhNEp6MDFlbzF0Qmd1TU94cldQS3VCRnBPbEZIbC9nbGhYd1lCbm54Rm9GQlE9PSIsIm1hYyI6IjZmNDQzYWJiZjEwNjEzMWNkMTY4ODUzODkzM2NiOTg1YzUyMjgwODM5YWFjMzY1MmI0Yzg3NTYyZjMwMTIyOGQiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 116,
+    "Card Name": "2011 Pokemon BW Noble Victories Prerelease Staff Holo Victini #43",
+    "Price": 580,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpaN3h0eEptdXBzT3BSVUV1akIyVmhWVGxWdnU3cU9oYnNUcnVaa08wU1ZkdVdvNDRMekxFSXdiODNXK0ZFcExYaXNzQXNrOW5SWHJRQUlGOFlINUZ3PT0iLCJpdiI6IkZLcWVFQVdMK0VJSStkUlROL1FtS1E9PSIsIm1hYyI6ImYzNDJiMTRhZGFkMGQ2Nzc3NjEwNTlhMzA5NjY3MTFhNmViZGFlZjVkMGVjOTg4Zjg5NzlmNmFkNzc1OWNkZjcifQ=="
+  },
+  {
+    "Id": 117,
+    "Card Name": "2017 Pokemon Sun & Moon Shining Legends Alt Art Mewtwo GX #78",
+    "Price": 580,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ii96cVBwZWdqWno3MmJjMEpKWmllakM2UHRBOHUxMUdpSTUxQWlYZ09qMlB0cjdTN211UUJHbytRVmdGd3JEc3UvUE9xMnA0Ny9mdTBpWUltQ3Npb3dRPT0iLCJpdiI6InVLWlpHSGlGSXNYMWE3SEFMYzQxS1E9PSIsIm1hYyI6ImNiNDRiYTYyNDZhOTlkOTNmMWM4Nzc0M2ExMzNjYzFkNjBmMzA0ODE3NzViZGJmNGRiZWVhNGY2OGJmODE0MDcifQ=="
+  },
+  {
+    "Id": 118,
+    "Card Name": "2019 Pokemon Sun & Moon Team Up Alt Art Magikarp & Wailord GX #161",
+    "Price": 550,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlhEREhFcGxkbDdMMjlMYlhQOGpFU0pnUW1rRTBITStUVDgzUkpKS1JzeE5xNS9XeG1oVDZ6TEcwWmY3dkxoZ0p6ZC8vSlprZ1IvR1pqSWZUSTByYSt3PT0iLCJpdiI6Ik8rSTQrcUtDcE1OZGdWRjBhM0NFSXc9PSIsIm1hYyI6ImY4Njg0YzUzZTk3YzIyN2FkYTA2MmMzYjcwODg3MTM3YjlhZTExNjgwNTMwZmIyMjM2OTk2ZTA2ZDg3Y2NiNzgifQ=="
+  },
+  {
+    "Id": 119,
+    "Card Name": "2010 Pokemon Heartgold & Soulsilver Undaunted Prime Raichu #83",
+    "Price": 550,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IlVZUWNjOVRueFhVN2NLU2lMZThZUFE9PSIsInZhbHVlIjoiOEQzdjU0eTU5U2RZc3N6ellQVk84U1dJWXFVcTNHbkJnNm51cG9Yb094R0Nhb2FoNGt1VisyU2Uvb3lkZ1AvUERqL0ZEVlRQYUlMWi9PS0hYTDZJRkE9PSIsIm1hYyI6ImViMTBlMGRiZTNiYzQzNDkyY2I5ZWU2YjdiODk3YjQ5N2ExMzE1MGMyYmIxNGIxMTdjMjI5MzIzNGVkYWRiMjEiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 120,
+    "Card Name": "2006 Pokemon Japanese Promo 4th Season Subscription Holo Lugia Ex #031",
+    "Price": 530,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IkJ4WEVPNTFMU2RXMTd2bEU4YlMvZWc9PSIsInZhbHVlIjoiSW9mRHorNmNXQWg4Vk93SDRHMkd5NDJyMkNUNHRDZWlNdnFMaDA5a25TTTlJWmo5aDJFd3ZLUW5FSXhXUHQzZXZhd1lpZDdCcFdNVHY5YmwveUV5dkE9PSIsIm1hYyI6IjlhZGI2NjYwNTM1ZjhiMDVmYWExMjg1ODk3MzM5OTZlMjA4NGJmOWJkYTdkYjdkZmE0NWI3NmJlMzRkY2MyM2QiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 121,
+    "Card Name": "2011 Pokemon Black & White Noble Victories Full Art N #101 PSA 10",
+    "Price": 520,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkhrY1cxTVUwNGd0WDBhZGR2aDN3SkhoU2orWkpqUWU5V3pkNXJrYkxQL3lORzZncEhSdGhlQ2o0STltRGVzZHRsalZDaEExNEdsVmNJUUdtUHAxcFlRPT0iLCJpdiI6InZZKzRBWUR0SjNOMU1xR2NBV3Z4eVE9PSIsIm1hYyI6Ijg0OGVmM2UyMGJlNTExNmJlZWUxYzFhMDEwN2E2YzQ1NmZlZTk0NDVlMTRkNDI3YmVjMDI0OWI1MWU1NTc1NTEifQ=="
+  },
+  {
+    "Id": 122,
+    "Card Name": "2016 Pokemon XY Fates Collide Secret Rare Alakazam EX #125",
+    "Price": 500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IldWSXRhY0U4Rm82NGVpUE5kcUhyRW5seGJ6WFpDTlRmYkNyNjVwaElNZjYyWHBrVHlWSzhETE14TTlCcFJWNmZJc1pDRVhobzRhNDJaOHZkcFdEOVl3PT0iLCJpdiI6Ii90MnlzU2MzbllLdWNDOFZtWUUzVGc9PSIsIm1hYyI6ImRlZmM5ZGY1ZTZhZTNlNjc5ZTAyYzMxMDAzOGRjZjQwMTQ2ZGE3MjVlNDY0NjdmMTZjNGQyOTliNGQ5MDNhODgifQ=="
+  },
+  {
+    "Id": 123,
+    "Card Name": "2013 Pokemon BW Legendary Treasures Radiant Collection Full Art Reshiram",
+    "Price": 500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkdGTy81d3dtTEJieVFPdi9FaGpnbGxqK3JJU0dsVXpMTSsrSElTblZLalZkUFFxMDdlK0EvZ1Y5RTFQa1kvVGdkVHBZUTRzamJRbFZNNzZSK3lZcGh3PT0iLCJpdiI6ImRXN3RnbXJvR1BsUTlSQmRsRWNJamc9PSIsIm1hYyI6IjkwZGEzODE1ZGU3Y2E0MWFiZDRkZmZiZjM5OTdhYWMxMzQ4NjhlZWRlODhlZDE4YjJmYTEyOWEwMjcyNTU5YjEifQ=="
+  },
+  {
+    "Id": 124,
     "Card Name": "2014 Pokemon Japanese XY Promo Collection Cosplay Pikachu #99",
     "Price": 500,
     "Fun Fact": "",
     "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkE0MDA1VThQQnNJTlhDOGJLTHdndkhMd0VWY2E4OCtCdTVqL2NBWmgvS0lvZWFuSnhXazZVOHVIZS9VSXliZ1hTMVppVjRMVUVWQVZxMjV5UWJVZ2JRPT0iLCJpdiI6IllvRVFLRmZTcndGWUJURG1vazNPbWc9PSIsIm1hYyI6IjVmMjQyMWQxYzE1ZGYwM2U2YmRiZmM0ZDhkODE5MWM3ZGIwOGM5ZmQwZmYwNmNkNWYxNmYyYjc0ZmZjZGUzZjUifQ=="
+  },
+  {
+    "Id": 125,
+    "Card Name": "2015 Pokemon XY Breakthrough Secret Rare Mewtwo EX #163",
+    "Price": 500,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjNVSHBZYU14ZXpoMHQ2KzhxeE03cEE9PSIsInZhbHVlIjoiUG5vVS9xZHQ3YmJwU3ZmUm93cy9Uek9HMTJCSE9sbHRsbVI0eFdyRmFlSVdZczVXWmM5d1g3OGNjdFA2cndsdHVJdWVMNEMxWmoycm5MK3pJTkdERUE9PSIsIm1hYyI6ImJjM2MxNzYxNTk4YTUxZGEzYWQ2NDljNTIzNWU4YWYwYTFkZDE0NjI3OWEwY2M3ZmI4ZjdkMzMzOTVjMzY0YzIiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 126,
+    "Card Name": "2011 Pokemon Black & White Full Art Zekrom #114",
+    "Price": 480,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlExWjEwd3ovclQxRUFxaks4SHVHS0UwRmxNcW91UjlMWS9NL1ZwdmcwVCtiaGlTVHYra1NUZExsT0g3SFkzVHI1elVZenFaVEZMTzFwOG1zU1k0cWV3PT0iLCJpdiI6IldYNERqb2k2ZENvOU1mOEFJL3ZDM2c9PSIsIm1hYyI6ImEzYzQ4NDU0ZTA1Y2E4NTJlMGUyM2UyNTA0MzhjOGFmMmM5YzlhODVkYmE3MmFjYzZkOTEzZGNhNjU2YWE3NmMifQ=="
+  },
+  {
+    "Id": 127,
+    "Card Name": "2003 Pokemon EX Ruby & Sapphire Holo Lapras ex #99",
+    "Price": 480,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjVFUUlTcFFScy9JQ0o2eFJtL2NZTHFrTnFUaWxiYVM0T3h5RkRaWml2WUNXQ0R4T1lYdDlvbWV3MmpzTmttUXVMRUJ2VThzckFJVjBicThyaEVuY2VRPT0iLCJpdiI6IjdUSEtjVjE4YXhrQ2VBdXRWaUU0ZGc9PSIsIm1hYyI6ImViODcwMDdjMzY1MWU2OGJkZGIyZTE5MGM0YzdjMTQyMmVmNjA4NGU1ZjdiOTMwYzQxZmRjNmI0NjFmZmM5MTEifQ=="
+  },
+  {
+    "Id": 128,
+    "Card Name": "2017 Pokemon XY Black Star Promo Premium Full Art Yveltal EX #XY150a",
+    "Price": 480,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImpsYUdmaHFtY3k2cUx4WVVyOXV1Tmc9PSIsInZhbHVlIjoienlYMjdvSUx1b1JsTlVveEwvVUd2OXVXdUV5b3VOVFNDYzgwbnF1S2pxNHMvZjRDeUJ3YXJkSEgxWU5sQXNhOVZKVjJ3WElPYVJUVW9QakFoWDM1Mmc9PSIsIm1hYyI6IjFkNzZmMDVlN2U2M2NkY2JmZTQwZDg0ODVjMzAyNGRlY2IxZjBjNWI4MzRlMmUwMTc2ZWYzNjUwODY4ZGZhZmQiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 129,
+    "Card Name": "2009 Pokemon Platinum Supreme Victors Holo Rayquaza C #8",
+    "Price": 450,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ii9xeXVDTU04UDNaOVdsOEJ1cGNzWVNDdlVHVHhkR096NTVQelcyNXZlcEtxcHlFanZHMFBnbjFtTzBhRXpnWVc3cC9uRnNmMTRBOTkxVGRZandLRmdnPT0iLCJpdiI6Ii83WlhGa0wyTHdTai9FUUlzV3Z0dmc9PSIsIm1hYyI6IjQyMzNlODMyZjg4N2ZjYzNhM2I0ZjIyNjY3NzZhMmRiZWYyNjU5ZTBjOGRiZGQzNTQ3NTFmMTgwMTViODk2MDQifQ=="
+  },
+  {
+    "Id": 130,
+    "Card Name": "2004 Pokemon EX Fire Red & Leaf Green Holo Moltres ex #115",
+    "Price": 450,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImVHdWVqemxEQWt3VFVEVmxQeHEzNmpqNGFoZUZKcERLSEZrckd2WWp4eXhydGJrb055cVlkTVAwMzhPcmdMUzBrZmx2b3FFQms0YmhsTGpBWnlVN0pRPT0iLCJpdiI6IkVrdDdvcmNRMjNQUUlsb284MTVGUkE9PSIsIm1hYyI6IjgzNmNmZjAyZjkzMWE5MjcxOGMyMzViYWU2NTVhM2E2ZTE3NWNiM2MwMDk3ZGNiYjYzODcwOWQxNGY1ZGQ4YzgifQ=="
+  },
+  {
+    "Id": 131,
+    "Card Name": "2017 Pokemon Premium Trainer XY Collection Promo Full Art Shauna #111a",
+    "Price": 420,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InpkSXlZU09YajErc3kxMjIvZ1lxQzhxNUxwQ2d1SFp5NmFheW5NZUZ4M00waFQwdFhUb29PT2lQWGVpc1pZWm5IYUZEMkh4R3FtQXJvSGtTWVpHS1dBPT0iLCJpdiI6InJ5UGZVc2dXYmkvRWxlOWJVSEl6cHc9PSIsIm1hYyI6IjA2NzAzMWY0OTJhZjgyYjk0ZmQ0YTIzZmNiZWY0MTNjY2JjOTRlNWVlNTgzZjkyMDViNGMwODMyNWU4ZTMyYTUifQ=="
+  },
+  {
+    "Id": 132,
+    "Card Name": "2005 Pokemon EX Unseen Forces Reverse Holo Ho-Oh #27",
+    "Price": 420,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkthNWFzQnRGcVpsSE0wYVp3NUdLTTlkcUFodGZ4V1dVbWJlUWQyRkF1dHZLNThJT2w1RmVVNFdDQSthK2FDcFJkdk93eHVsQmJBMDZYVG5nVnR3ZDRBPT0iLCJpdiI6IkgvbFJRdmI0T3c0TTBhV1pvL1R3VkE9PSIsIm1hYyI6ImU1NmIyMTc0Yjc5YTViOGM4ZThhYzFlNmM4ZGE5OGY1ODM4MWMyM2Q1MWFhYjhiMzYzZWYzYjhiZDk4NWNjYjAifQ=="
+  },
+  {
+    "Id": 133,
+    "Card Name": "2019 Pokemon SM Black Star Promo Fall '19 Armored Mewtwo #SM228",
+    "Price": 400,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImI2bkZGVjQrbFluSzIvNkVQQ005VDVaOGRxWkpOMGlKK0xpZjhFYm1Ic0V0dk5XemkrWjN3RHc0QmJyV3lLTXNaRjFxUTlNMWhDYklHOHY1RldYc1pRPT0iLCJpdiI6Im1CSVV1WjRQS3BmUmJHTUg4dWhQZGc9PSIsIm1hYyI6IjM2YzU4ZDRlMWE2YjU5ZDE0MjBkMDBlOWZjYjQ3NGM2ZTNlMTIxZmRiMmNhNjlhOGMzNjNmNTc5MzNiMjg1YjMifQ=="
+  },
+  {
+    "Id": 134,
+    "Card Name": "2016 Pokemon XY Generations Radiant Collection Full Art Flareon EX",
+    "Price": 380,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlFPWTRqdHZWV0NqSmxGZFM1a1AwTjBwYnAwMG0vRi9MZWRpbGtVVGwvTW5WVlBVTEFPZU9IakZZTlNDZHdPMTJPWVEzS2ZXYzlVRmJIYmUyZmQ0WURBPT0iLCJpdiI6Ik04Ylovbkl3SC9FSGNTRE9HQ3c3Vnc9PSIsIm1hYyI6IjBhMWNlODJjNjhjN2Y3NzBiNGNkN2QzNTIxMGZlODVhOThmNGQ4ZDlkZTViNDExMjA5OWYwZDc1NWIyNDg2NmIifQ=="
+  },
+  {
+    "Id": 135,
+    "Card Name": "2017 Pokemon XY Black Star Promo Premium Trainer Jirachi #XY67a",
+    "Price": 350,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlB2U2IvRkMvRWlEa0paUzQzQ3FEdjRCL0ZKK0FoWnpvL3NmZWlZZ2FLTHk3K2U1VTBHL1U0UnBYdjJtd0c5UnN6Q01wTlp2YU84Y2orbDhhWDhPYnZBPT0iLCJpdiI6IjkyWmpvdVlFY09vZExiQlJidk85UFE9PSIsIm1hYyI6IjNlY2Q3MjhhNGIzMTAyMzUwZGFlOTg1YzQ3MzBkODBhMjgzOWZhYzdlZWVjMzk1Zjk0MWMxMmY3NWFjMTM1NzMifQ=="
+  },
+  {
+    "Id": 136,
+    "Card Name": "2006 Pokemon EX Crystal Guardians Holo Blastoise #2",
+    "Price": 350,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IlFoRVpBK3d3ZEgxVGJWQnVBM2JsWW9ZR1hPUEdYRTdOWGFrVnplZXBJOUFidFFmNnYxaEhVTnJ1SmZMaWJRUk84a3IzQ29DZjBkMEJOY1Q1T1RsRDRBPT0iLCJpdiI6IlhQNWpXU2pOVDduUjNNSkhyRDNCNkE9PSIsIm1hYyI6IjA2OTJkYjhmZTJiYTFlZmYxYTM2N2E0ZmVhMGYzYmEwNjA0YzVjNjA5OTc4YTQwZTM4NWY1MWNhOGZmZmFmZmUifQ=="
+  },
+  {
+    "Id": 137,
+    "Card Name": "2005 Pokemon EX Delta Species Reverse Holo Ditto [Bulbasaur] #36",
+    "Price": 350,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Imd2WnB1YUFNenBVT0c0UGNHdDJISHEvelBJVGVZeXZZN0lLQ0psUnFrd1ZYZmcwQzY3aUxWTFg1K3FyMk1YWFBrSWNKSExOQzJvY1hlSzQ0MVJlVG9RPT0iLCJpdiI6IlZvQmhqam5Hc3ZpL1B5b2RWUCt0YWc9PSIsIm1hYyI6IjBjNGZmMjQ4MDAxZjU2Mjk4MDUyNTAzNTg4NmRlMTYwZmIwMmI5YThmYmFmYTM4MTVhZWU1NWUwNzdjMzZlMGEifQ=="
+  },
+  {
+    "Id": 138,
+    "Card Name": "2013 Pokemon BW Legendary Treasures Radiant Collection Pikachu #7",
+    "Price": 350,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkducUVGbjFyQVVLYUVsNGpnQUdjVXU4RkJadlU2SUNxelZabmppQUVEekNmTGJ4aEQ0UkFMdFovdHFsWng1Qi9WQ3hmKzdMWlA3bllRTjNsRDAyVytnPT0iLCJpdiI6InFwK2h5RUxFLzJIYnhpa1hVUmphRmc9PSIsIm1hYyI6IjlkYTczNjFhNGU4ZjQ1ODQ2NDZjMGVkMDUzYWZhZWFjOWFkNDk0YzU4YTZjNzI0MDVmMjUxNDZiNzMwOThjYjEifQ=="
+  },
+  {
+    "Id": 139,
+    "Card Name": "2006 Pokemon Pop Series 1 Holo Blaziken #1",
+    "Price": 320,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImhKQXp0d3lWc2p1eWZtNGx5dnRzcitTYlBBcFZvSDlnbWYxUHZiQTJBdU5VcG02eEV4Tnk1bWtySmpidC96bVdVSmEzSG9GdENwRlVqQzlMcEUwWDJ3PT0iLCJpdiI6InZuVUdyTUllc0hJOHBlaVZBeGVaWGc9PSIsIm1hYyI6IjNiYWIyN2QxN2JkOWY3Yzk3MGZkNGI3OGFhYTI4ZDlkNThiMDQxZjUwM2I5MTBmZmEzOTQ0Y2ExZjk4NGQwNjkifQ=="
+  },
+  {
+    "Id": 140,
+    "Card Name": "2016 Pokemon XY Generations Radiant Collection Full Art Pikachu #RC29",
+    "Price": 320,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6Ii9ycFFZS2pocHlJNTM4MjhzMTBQNHc2dmZlS2hucUg4VnFNTTdmYytMa3dPRjZ4eFYza2h6RE9TZ0NmOFVHSlRNRzdQeWVETGlYZFNSWHNzb1BtS2NnPT0iLCJpdiI6InAra1RseklwblBKU1VCbE5CV3MwVlE9PSIsIm1hYyI6IjE4M2FjZGRiZGExMjUxYjhjNTQ5MzQ3N2ViY2E0OTBiZmQ4NmYwOGUxYzkzMWM0OTg3Mjc5ODgzM2E0MzVlNzcifQ=="
+  },
+  {
+    "Id": 141,
+    "Card Name": "2016 Pokemon XY BREAKpoint Secret Rare Full Art Gyarados EX #123",
+    "Price": 320,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IjVpNEpMUGpvbXlYNi9LVU9DR2VhNURVUWhoRjhEU3NPRWY3c2RQaVVzSnI4ckN5MXhON0pYK0QwcG0vdktEczc5K3ZCNFpJcStKcGl4bnR2TWlwT0dRPT0iLCJpdiI6IlJKOW1HSXhHUlFkQndhWU5vOGNiTkE9PSIsIm1hYyI6IjNjYzEyMWFjMjNjMjJhODQxOTA3MTJmZWE3N2Q4MjI4YjRiYWUwNWQzNThlZjM1NWM0MWM4ODczZDdlODNiNjMifQ=="
+  },
+  {
+    "Id": 142,
+    "Card Name": "2008 Pokemon Diamond & Pearl Great Encounters Holo Togekiss #11",
+    "Price": 320,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6InQzQ1pzUTA4V2lKWjBWSWU1bmtiSnBTc3R5allhSUJwNWYxS1llcjBtQml4V0Q1K2lzYWNLTnd0Q1VhMHpoRk45SWU2MGplaUpyamVBQXg5TW5NN1V3PT0iLCJpdiI6IlZNRjAvR3RWc0YxdUlFcXlVVVd4dWc9PSIsIm1hYyI6IjE4MmU5MTE5OTgwM2I4Nzk1NWE3YTYxNjExYmE1MDgzZGVlYTE5MWFiYjg0MGNlZTgzYTdiMDc5YjhkOTk2NWYifQ=="
+  },
+  {
+    "Id": 143,
+    "Card Name": "2019 Pokemon SM Unified Minds Alt Art Mega Sableye & Tyranitar GX #226",
+    "Price": 320,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6ImJFWjdKc0ZvL0lJazRPcDNyS283b2dKaVRHN0RneUh3Qjk0bEZnV1dZM2JpWjVOMVg1SVRia2M1c2RkT3ZydUZTcStNbUlSZTBTZFBMOU8vbURabUtRPT0iLCJpdiI6ImFkbnVrY3RPM01xaHdWVHI0ZFRrRlE9PSIsIm1hYyI6IjY4YjFiNDBmZmM1NTkxMWQyOGQ0OWFjNWE4OGIwZTJjYjI1YzU2YjM2NTk0NjQwZmRiNWM2NzE0MmVkMDg4ODQifQ=="
+  },
+  {
+    "Id": 144,
+    "Card Name": "2005 Pokemon EX Delta Species Reverse Holo Latias #8",
+    "Price": 300,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkdEVThyOVJGNVBkNU5ZOUwrQkVuUm5NTStaeitYZU91bUlMYjUrUmZwL2FZdGFaY2Y4V2J2SmxCTy9SbDM3cVkzYXdPdCsrWCtPZDVKMFhkcXhNWDFBPT0iLCJpdiI6Ik4rbHYyVmxPZUpWUTZqQ2NEY0pqL0E9PSIsIm1hYyI6IjkyZTc3YTNiZTNiZDFmY2UwNmEwODJhNDc2Y2ZhZTM1YmNhOGQwOGYxMDgwZmNlYWVlZjMxMzBiZTc3ZGY0MDcifQ=="
+  },
+  {
+    "Id": 145,
+    "Card Name": "2005 Pokemon EX Emerald Holo Kyogre #6",
+    "Price": 300,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJ0YWciOiIiLCJ2YWx1ZSI6IkltMTVMdVIzcUtTa0NaWGtML3p5TWlpNHhTQnM0empHSEpETVJQcE4ybWFWM28xZXc0Yml5V3ZudlluV1kwNWcrRzRBdENFMEptWCtlaDBGNGZhSnB3PT0iLCJpdiI6ImpRcnZGdWhxQldKRm5rYi8vTU4wRVE9PSIsIm1hYyI6ImE0ODg4YWM2MDhmYjgzN2Y5MjU4NzRiNWM1MTQzZTYyMTIxOTM0Nzk0ZjAzOTc0OTU3ZTgzYmFiMTc0OWU2NmYifQ=="
+  },
+  {
+    "Id": 146,
+    "Card Name": "2017 Pokemon Premium Trainer XY Collection Promo FA Shaymin EX #77a",
+    "Price": 300,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6ImpZS1M0Q3VKc0hoMkloQ0RXU1RmaVE9PSIsInZhbHVlIjoicFg2WVJmNUFTMzNzdytCMlNvMll5RjFhWThxY2NhUkljRG8zWTkva3pBVlU0UzhMRzdoM05BWXZiQ0EzT0tjdG9Hc2N0Yncydy9wQzl4K0RqUUplUEE9PSIsIm1hYyI6ImIxZDlhMmJmOWI5NmVjNDAxMjUxZjAwOWFlYWJjMDU0ODE4ODUyZmQxNmEzOWQxM2YxOTk1MmU3MjhkODg3NzUiLCJ0YWciOiIifQ=="
+  },
+  {
+    "Id": 147,
+    "Card Name": "2000 Pokemon Game Promo 2000 Movie Ancient Mew PSA 10",
+    "Price": 200,
+    "Fun Fact": "",
+    "Image": "https://dilxwvfkfup17.cloudfront.net/eyJpdiI6IjBGZ2FwdlhqTkVMWU1Ja2hsblZNTFE9PSIsInZhbHVlIjoid1VMdjhHdzN3aUFOK2ZRcFlVQVVLY1J2TWpDOSs2WFJhSGw2akpMeEJURHlncjZiRklmSWhSdFQ5Y04wazRveFRCTXNwcjR2ZDJONFg2K2o1dmg3UkE9PSIsIm1hYyI6IjM0Nzg0MjA5MjAxMDYwMGU3ZTFiZmM3ZmQ4YWU5OTMxYWI2MjljYzhiMDJjZGE0OGI4ZWY1MTI1ZjkzYzZhODAiLCJ0YWciOiIifQ=="
   }
 ]

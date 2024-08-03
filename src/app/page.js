@@ -28,6 +28,12 @@ export default function Home() {
   const [cards, setCards] = useState(getCards()); // cards[0] and cards[1] are current displayed cards
   const [preload, setPreload] = useState(null);
 
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
   useEffect(() => {
     if (isFirstRender.current) {
       updateData();
@@ -154,12 +160,12 @@ export default function Home() {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     onClick={() => window.location.reload()}
-                    className="flex items-center gap-x-1 rounded-md bg-green-700 mx-auto px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                    className="flex items-center gap-x-1 rounded-md border-2 border-green-700 mx-auto px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                   >
                     Play again
                     <ArrowRightIcon className="h-5 w-5" aria-hidden="true" />
                   </motion.button>
-                  <motion.button
+                  {/* <motion.button
                     type="button"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -177,7 +183,7 @@ export default function Home() {
                       className="h-5 w-5"
                       aria-hidden="true"
                     />
-                  </motion.button>
+                  </motion.button> */}
                 </div>
               </div>
             </motion.div>
@@ -185,17 +191,15 @@ export default function Home() {
 
           <div className="flex flex-col my-2 sm:my-4 m-auto gap-3 mb-0">
             {/* Higher or Lower Logo */}
-            {cards[0] && (
-              <div className="flex flex-col items-center justify-center">
-                <div className="mx-auto mb-2 mt-2 text-2xl md:text-3xl font-semibold text-white">
-                  <span style={{ color: "#22c55e" }}>HIGHER</span> or{" "}
-                  <span style={{ color: "red" }}>LOWER</span> ?
-                </div>
-                {/* <div className="mx-auto mb-0 mt-1 text-xs text-white">
+            <div className="flex flex-col items-center justify-center">
+              <div className="mx-auto mb-2 mt-2 text-2xl md:text-3xl font-semibold text-white">
+                <span style={{ color: "#22c55e" }}>HIGHER</span> or{" "}
+                <span style={{ color: "red" }}>LOWER</span> ?
+              </div>
+              {/* <div className="mx-auto mb-0 mt-1 text-xs text-white">
                 Pick the card you think is worth more!
               </div> */}
-              </div>
-            )}
+            </div>
             {/* Cards */}
             {preload} {/* Preload the next image */}
             <div className="items-center overflow-hidden grid grid-cols-2 gap-x-1 gap-y-0 my-auto w-screen text-center md:max-w-3xl mx-auto mt-0">
@@ -263,6 +267,16 @@ export default function Home() {
                   separator=","
                   prefix="$"
                 />
+                {isClient && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, transition: { duration: 0.5 } }}
+                    className="mt-3 text-sm font-normal italic"
+                    key={cards[0]["Fun Fact"]}
+                  >
+                    {cards[0]["Fun Fact"]}
+                  </motion.div>
+                )}
               </div>
 
               <div
@@ -280,6 +294,17 @@ export default function Home() {
                     separator=","
                     prefix="$"
                   />
+                )}
+
+                {strikes === maxStrikes && (
+                  <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1, transition: { duration: 0.5 } }}
+                    className="mt-3 text-white text-xs md:text-sm font-normal italic"
+                    key={cards[1]["Fun Fact"]}
+                  >
+                    {cards[1]["Fun Fact"]}
+                  </motion.div>
                 )}
 
                 {playStatus && (
@@ -315,7 +340,7 @@ export default function Home() {
                 )}
               </div>
             </div>
-            <div className="mt-1 flex gap-1 mx-auto">
+            <div className="mt-5 flex gap-1 mx-auto">
               <p className="text-white">
                 Score: <span className="font-semibold text-white">{score}</span>
               </p>
