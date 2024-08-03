@@ -83,6 +83,10 @@ export default function Home() {
       );
     };
 
+    // Remove equal priced cards
+    while (cards[2]["Price"] === cards[1]["Price"]) {
+      cards.splice(2, 1);
+    }
     preloadImages();
   }, [cards]);
 
