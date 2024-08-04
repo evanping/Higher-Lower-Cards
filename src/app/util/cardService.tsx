@@ -10,5 +10,9 @@ export default function getCards() {
     [cardArray[i], cardArray[j]] = [cardArray[j], cardArray[i]];
   }
 
+  while (cardArray[0]["Price"] == cardArray[1]["Price"]) {
+    cardArray.splice(0, 1);
+  }
+
   return cardArray;
 }
