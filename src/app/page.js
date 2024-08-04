@@ -25,7 +25,7 @@ export default function Home() {
   const [winner, setWinner] = useState(2); // 2 is neither, 1 is higher, 0 is lower
   const isFirstRender = useRef(true);
 
-  const [cards, setCards] = useState(getCards()); // cards[0] and cards[1] are current displayed cards
+  const [cards, setCards] = useState(() => getCards()); // cards[0] and cards[1] are current displayed cards
   const [preload, setPreload] = useState(null);
 
   const [isClient, setIsClient] = useState(false);
@@ -83,10 +83,6 @@ export default function Home() {
       );
     };
 
-    // Remove equal priced cards
-    while (cards[2]["Price"] === cards[1]["Price"]) {
-      cards.splice(2, 1);
-    }
     preloadImages();
   }, [cards]);
 
@@ -126,13 +122,22 @@ export default function Home() {
 
   function updateData() {
     if (strikes === maxStrikes) return;
-    if (cards.length === 3) {
-      setCards(getCards());
-    } else {
-      var array = [...cards];
-      array.splice(0, 1);
-      setCards(array);
+    var array = [...cards];
+
+    while (array.length >= 3 && array[2]["Price"] === array[1]["Price"]) {
+      array.splice(2, 1);
+      if (array.length < 3) {
+        console.log("Getting more cards");
+        array = array.concat(getCards());
+      }
     }
+
+    array.splice(0, 1);
+    if (array.length < 3) {
+      array = array.concat(getCards());
+    }
+
+    setCards(array);
 
     setPlayStatus(true);
     setWinner(2);
