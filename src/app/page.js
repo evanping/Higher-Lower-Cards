@@ -10,6 +10,7 @@ import {
   ChevronUpIcon,
   ChevronDownIcon,
 } from "@heroicons/react/20/solid";
+import { FaInstagram } from "react-icons/fa";
 import CountUp from "react-countup";
 
 const maxStrikes = 1;
@@ -124,6 +125,7 @@ export default function Home() {
     if (strikes === maxStrikes) return;
     var array = [...cards];
 
+    // remove equal cards
     while (array.length >= 3 && array[2]["Price"] === array[1]["Price"]) {
       array.splice(2, 1);
       if (array.length < 3) {
@@ -163,18 +165,18 @@ export default function Home() {
                 <p className="font-medium text-3xl">Your Score: {score}</p>
                 <p className="">High Score: {highScore}</p>
 
-                <div className="mt-8 grid grid-rows-2 w-full gap-4">
-                  <motion.button
-                    type="button"
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    onClick={() => window.location.reload()}
-                    className="flex items-center gap-x-1 rounded-md border-2 border-green-700 mx-auto px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
-                  >
-                    Play again
-                    <ArrowRightIcon className="h-5 w-5" aria-hidden="true" />
-                  </motion.button>
-                  {/* <motion.button
+                {/* <div className="mt-8 grid grid-rows-2 w-full gap-4"> */}
+                <motion.button
+                  type="button"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  onClick={() => window.location.reload()}
+                  className="flex items-center gap-x-1 rounded-md border-2 border-green-700 mx-auto px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 mt-8 mb-5"
+                >
+                  Play again
+                  <ArrowRightIcon className="h-5 w-5" aria-hidden="true" />
+                </motion.button>
+                {/* <motion.button
                     type="button"
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
@@ -193,7 +195,19 @@ export default function Home() {
                       aria-hidden="true"
                     />
                   </motion.button> */}
-                </div>
+                {/* </div> */}
+                {/* <p className="bottom-0 m-2 text-xs flex items-center justify-center">
+                  <a
+                    href="https://www.instagram.com/higherlowercards"
+                    target="_blank"
+                    className="flex items-center font-medium text-red-400 hover:text-red-500"
+                  >
+                    <FaInstagram className="h-4 w-4 mr-1" />
+                    <span className="text-white hover:text-red-200">
+                      Send a suggestion!
+                    </span>
+                  </a>
+                </p> */}
               </div>
             </motion.div>
           )}
@@ -214,22 +228,15 @@ export default function Home() {
             <div className="items-center overflow-hidden grid grid-cols-2 gap-x-1 gap-y-0 my-auto w-screen text-center md:max-w-3xl mx-auto mt-0">
               {cards[0] && (
                 <motion.div
-                  //key={card["Card Name"]}
-                  //whileHover={{ scale: 1.03 }}
-                  //whileTap={{ scale: 0.97 }}
                   key={cards[0]["Card Name"]}
-                  className={`flex flex-col overflow-hidden md:rounded-lg bg-opacity-0 ${
-                    playStatus ? "" : "pointer-events-none"
-                  }`}
-                  //onClick={() => checkSolution(card)}
+                  className={`flex flex-col overflow-hidden md:rounded-lg bg-opacity-0`}
                   initial={{ x: 300, opacity: isFirstRender.current ? 0 : 0.8 }}
                   animate={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
                   exit={{ scale: 0.9, opacity: 0 }}
                   suppressHydrationWarning
                 >
-                  {/* <p className='p-4 font-semibold text-gray-50 text-sm md:text-base uppercase mx-auto' suppressHydrationWarning>{card["Card Name"]}</p> */}
                   <Image
-                    className={`max-h-[315px] sm:max-h-[520px] max-w-full object-contain object-top`}
+                    className={`max-h-[315px] md:max-h-[425px] xl:max-h-[520px] max-w-full h-3/5 object-contain object-top`}
                     src={cards[0]["Image"]}
                     alt={cards["Card Name"]}
                     width={500}
@@ -241,22 +248,15 @@ export default function Home() {
 
               {cards[1] && (
                 <motion.div
-                  //key={card["Card Name"]}
-                  //whileHover={{ scale: 1.03 }}
-                  //whileTap={{ scale: 0.97 }}
                   key={cards[1]["Image"]}
-                  className={`flex flex-col overflow-hidden md:rounded-lg bg-opacity-0 ${
-                    playStatus ? "" : "pointer-events-none"
-                  }`}
-                  //onClick={() => checkSolution(card)}
+                  className={`flex flex-col overflow-hidden md:rounded-lg bg-opacity-0`}
                   initial={{ x: 300, opacity: 0 }}
                   animate={{ x: 0, opacity: 1, transition: { duration: 0.5 } }}
                   exit={{ scale: 0.9, opacity: 0 }}
                   suppressHydrationWarning
                 >
-                  {/* <p className='p-4 font-semibold text-gray-50 text-sm md:text-base uppercase mx-auto' suppressHydrationWarning>{card["Card Name"]}</p> */}
                   <Image
-                    className={`max-h-[315px] sm:max-h-[520px] max-w-full object-contain object-top`}
+                    className={`max-h-[315px] md:max-h-[425px] xl:max-h-[520px] max-w-full h-3/5 object-contain object-top`}
                     src={cards[1]["Image"]}
                     alt={cards[1]["Card Name"]}
                     width={500}
@@ -328,10 +328,10 @@ export default function Home() {
                       onClick={() => {
                         checkSolution(1);
                       }}
-                      className="w-3/5 flex items-center justify-center gap-x-1 md:gap-x-3 rounded-full border-2 border-green-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-green-500 hover:border-green-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                      className="w-3/4 sm:w-3/5 flex items-center justify-center gap-x-1 md:gap-x-3 rounded-full border-2 border-green-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-green-500 hover:border-green-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                     >
                       Higher
-                      <ChevronUpIcon className="h-5 w-5" aria-hidden="true" />
+                      <ChevronUpIcon className="h-6 w-6" aria-hidden="true" />
                     </motion.button>
                     <motion.button
                       type="button"
@@ -340,20 +340,19 @@ export default function Home() {
                       onClick={() => {
                         checkSolution(0);
                       }}
-                      className="w-3/5 flex items-center justify-center gap-x-1 md:gap-x-3 rounded-full border-2 border-red-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-red-500 hover:border-red-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 mt-2"
+                      className="w-3/4 sm:w-3/5 flex items-center justify-center gap-x-1 md:gap-x-3 rounded-full border-2 border-red-600 mx-auto px-3.5 py-1.5 md:py-2.5 text-base font-semibold text-red-500 hover:border-red-500 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600 mt-2"
                     >
                       Lower
-                      <ChevronDownIcon className="h-5 w-5" aria-hidden="true" />
+                      <ChevronDownIcon className="h-6 w-6" aria-hidden="true" />
                     </motion.button>
                   </motion.div>
                 )}
               </div>
             </div>
-            <div className="mt-5 flex gap-1 mx-auto">
+            <div className="mt-4 flex gap-1 mx-auto">
               <p className="text-white">
                 Score: <span className="font-semibold text-white">{score}</span>
               </p>
-              {/* <p>High Score: </p> */}
             </div>
             {/* Strikes - comment out if necessary */}
             {/* <div className="mt-1 flex gap-2 mx-auto mb-5">
@@ -374,17 +373,16 @@ export default function Home() {
             />
           </div> */}
           </div>
-
-          <div className="absolute text-xs bottom-0 m-2 text-gray-500 mb-1 md:mb-1">
-            Made by{" "}
-            <a
-              href="https://www.linkedin.com/in/evanping/"
-              target="_blank"
-              className="font-medium text-gray-600 hover:text-gray-700"
-            >
-              Evan
-            </a>
-          </div>
+        </div>
+        <div className="absolute text-xs bottom-0 m-2 text-gray-500 mb-1 md:mb-1">
+          Made by{" "}
+          <a
+            href="https://www.linkedin.com/in/evanping/"
+            target="_blank"
+            className="font-medium text-gray-600 hover:text-gray-700"
+          >
+            Evan
+          </a>
         </div>
       </div>
     </AnimatePresence>

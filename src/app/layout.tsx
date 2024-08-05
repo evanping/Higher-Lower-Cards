@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pokemon TCG Higher Lower Game",
+  title: "Pokemon Card Higher Lower Game",
   description: "Test your Pokemon card knowledge!",
 };
 
@@ -19,8 +19,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="favicon.png" type="image/png" />
-        {/* <script defer data-domain="mlbhigherlower.vercel.app" src="https://plausible.io/js/script.js"></script> */}
-        {/* ^ to change */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>
