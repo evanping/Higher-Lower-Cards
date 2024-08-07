@@ -129,7 +129,7 @@ export default function Home() {
     while (array.length >= 3 && array[2]["Price"] === array[1]["Price"]) {
       array.splice(2, 1);
       if (array.length < 3) {
-        console.log("Getting more cards");
+        //console.log("Getting more cards");
         array = array.concat(getCards());
       }
     }
