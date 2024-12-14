@@ -20,8 +20,15 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="favicon.png" type="image/png" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
       </head>
-      <body className={inter.className}>
+      <body
+        className={inter.className}
+        style={{ backgroundColor: "transparent" }}
+      >
         {children}
         <Analytics />
       </body>
