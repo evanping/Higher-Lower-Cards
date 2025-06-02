@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
-import getCards from "./util/cardService";
+import { initializeCardBank, getCards, isCardBankReady } from "./util/cardService";
 import {
   ArrowRightIcon,
   DocumentDuplicateIcon,
@@ -26,16 +26,36 @@ export default function Home() {
   const [winner, setWinner] = useState(2); // 2 is neither, 1 is higher, 0 is lower
   const isFirstRender = useRef(true);
 
-  const [cards, setCards] = useState(() => getCards()); // cards[0] and cards[1] are current displayed cards
+  const [cards, setCards] = useState([]); // cards[0] and cards[1] are current displayed cards
   const [preload, setPreload] = useState(null);
-
   const [isClient, setIsClient] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setIsClient(true);
+    async function initialize() {
+      try {
+        setIsLoading(true);
+        await initializeCardBank();
+        
+        // Initialize the first set of cards
+        const initialCards = getCards();
+        setCards(initialCards);
+        setIsClient(true);
+        setIsLoading(false);
+        
+        console.log("App initialized successfully");
+      } catch (error) {
+        console.error("Failed to initialize card bank:", error);
+        //setLoadingError(error.message);
+        setIsLoading(false);
+      }
+    }
+
+    initialize();
   }, []);
 
   useEffect(() => {
+    if (!isCardBankReady() || isLoading) return;
     if (isFirstRender.current) {
       updateData();
       isFirstRender.current = false;
@@ -43,7 +63,7 @@ export default function Home() {
     }
 
     setTimeout(updateData, 2000);
-  }, [strikes, score]);
+  }, [strikes, score, isLoading]);
 
   useEffect(() => {
     function setViewportHeight() {
@@ -66,6 +86,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
+    if (!isCardBankReady() || !cards[2]) return;
     // Preload the image on deck
     const preloadImages = () => {
       setPreload(
@@ -91,7 +112,7 @@ export default function Home() {
     // choice: 1 is higher, 0 is lower
 
     if (choice === 1) {
-      // higher
+      // actually lower
       if (cards[1]["Price"] < cards[0]["Price"]) {
         setStrikes(strikes + 1);
         if (score > highScore) {
@@ -101,10 +122,11 @@ export default function Home() {
         setWinner(0);
       } else {
         setScore(score + 1);
-        cards[1]["Price"] === cards[0]["Price"] ? setWinner(2) : setWinner(1);
+        //cards[1]["Price"] === cards[0]["Price"] ? setWinner(2) : 
+        setWinner(1);
       }
     } else if (choice === 0) {
-      // lower
+      // actually higher
       if (cards[1]["Price"] > cards[0]["Price"]) {
         setStrikes(strikes + 1);
         if (score > highScore) {
@@ -114,7 +136,8 @@ export default function Home() {
         setWinner(1);
       } else {
         setScore(score + 1);
-        cards[1]["Price"] === cards[0]["Price"] ? setWinner(2) : setWinner(0);
+        //cards[1]["Price"] === cards[0]["Price"] ? setWinner(2) : 
+        setWinner(0);
       }
     }
 
@@ -122,27 +145,24 @@ export default function Home() {
   }
 
   function updateData() {
-    if (strikes === maxStrikes) return;
-    var array = [...cards];
+    if (!isCardBankReady || strikes === maxStrikes) return;
 
-    // remove equal cards
-    while (array.length >= 3 && array[2]["Price"] === array[1]["Price"]) {
-      array.splice(2, 1);
-      if (array.length < 3) {
-        //console.log("Getting more cards");
-        array = array.concat(getCards());
-      }
-    }
-
-    array.splice(0, 1);
-    if (array.length < 3) {
-      array = array.concat(getCards());
-    }
-
-    setCards(array);
+    setCards(getCards());
 
     setPlayStatus(true);
-    setWinner(2);
+    //setWinner(2);
+  }
+
+  // Loading state
+  if (isLoading) {
+    return (
+      <div className="root-component-class bg-gradient-to-b from-neutral-800 to-neutral-950 flex items-center justify-center min-h-screen">
+        <div className="text-white text-center">
+          <div className="text-2xl mb-4">Loading...</div>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white mx-auto"></div>
+        </div>
+      </div>
+    );
   }
 
   return (
