@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     title: "Higher or Lower Pokemon Cards",
     description: "A guessing game where players can test their Pokemon card knowledge!",
     url: "https://higherlowercards.vercel.app",
-    siteName: "Higher Lower Cards",
     images: [
       {
         url: "og-image.png",

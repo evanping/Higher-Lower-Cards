@@ -1,5 +1,6 @@
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_SHEETS_API_KEY;
-const CARD_BANK_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/16E1Yx61YJd01RNNj7KOvOxh9jxdvfBW0or-udNdFQak/values/Sheet1?alt=json&key=${API_KEY}`;
+const CARD_BANK_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/16E1Yx61YJd01RNNj7KOvOxh9jxdvfBW0or-udNdFQak/values/CardBank?alt=json&key=${API_KEY}`;
+const DIFFICULTY_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/16E1Yx61YJd01RNNj7KOvOxh9jxdvfBW0or-udNdFQak/values/Difficulty?alt=json&key=${API_KEY}`;
 
 let seenIndexes = new Set();
 let currCards: Array<any> = []; // 3 cards, two displayed, one on deck
@@ -7,10 +8,13 @@ let indexPointer: number = 0;
 let maxIndex: number = 0;
 let cardBank: any[] = [];
 let isCardBankLoaded = false;
+let range: number = 25;
 
 let cardBankPromise: Promise<any[]> | null = null;
 
 async function fetchCardBank(): Promise<any[]> {
+  initializeDifficulty()
+  //console.log("Difficulty range:", range);
   const response = await fetch(CARD_BANK_ENDPOINT);
   const json = await response.json();
   const [headers, ...rows] = json.values;
@@ -38,6 +42,18 @@ export async function initializeCardBank() {
     maxIndex = cardBank.length - 1;
     isCardBankLoaded = true;
   }
+}
+
+async function fetchDifficulty(): Promise<number> {
+  const response = await fetch(DIFFICULTY_ENDPOINT);
+  const json = await response.json();
+  // Assuming the value is in the first cell of the first row
+  const value = json.values?.[0]?.[0];
+  return parseInt(value, 10);
+}
+
+export async function initializeDifficulty() {
+  range = await fetchDifficulty();
 }
 
 export function isCardBankReady(){
@@ -69,8 +85,8 @@ export function getCards() {
     throw new Error("Card bank is not initialized. Call initializeCardBank() first.");
   }
 
-  const min = Math.max(0, indexPointer - 25);
-  const max = Math.min(maxIndex, indexPointer + 25);
+  const min = Math.max(0, indexPointer - range);
+  const max = Math.min(maxIndex, indexPointer + range);
   // Pick a random index in [min, max], excluding same price cards
 
   if (seenIndexes.size === cardBank.length - 1) {
