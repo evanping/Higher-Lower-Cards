@@ -85,8 +85,16 @@ export function getCards() {
     throw new Error("Card bank is not initialized. Call initializeCardBank() first.");
   }
 
-  const min = Math.max(0, indexPointer - range);
-  const max = Math.min(maxIndex, indexPointer + range);
+  var min;
+  var max;
+  if (cardBank[indexPointer].Price >= 15000) {
+    min = Math.max(0, indexPointer - Math.floor(range * 0.4));
+    max = Math.min(maxIndex, indexPointer + Math.floor(range * 0.4));
+  } else {
+    min = Math.max(0, indexPointer - range);
+    max = Math.min(maxIndex, indexPointer + range);
+  }
+
   // Pick a random index in [min, max], excluding same price cards
 
   if (seenIndexes.size === cardBank.length - 1) {
