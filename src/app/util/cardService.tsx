@@ -1,6 +1,6 @@
 const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_SHEETS_API_KEY;
-const CARD_BANK_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/16E1Yx61YJd01RNNj7KOvOxh9jxdvfBW0or-udNdFQak/values/CardBank?alt=json&key=${API_KEY}`;
-const DIFFICULTY_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/16E1Yx61YJd01RNNj7KOvOxh9jxdvfBW0or-udNdFQak/values/Difficulty?alt=json&key=${API_KEY}`;
+const CARD_BANK_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/152qXg1PDREEDsFuyw_SqaKR-AkneCpei8wKh5dkT6oM/values/CardBank?alt=json&key=${API_KEY}`;
+const DIFFICULTY_ENDPOINT = `https://sheets.googleapis.com/v4/spreadsheets/152qXg1PDREEDsFuyw_SqaKR-AkneCpei8wKh5dkT6oM/values/Difficulty?alt=json&key=${API_KEY}`;
 
 let seenIndexes = new Set();
 let currCards: Array<any> = []; // 3 cards, two displayed, one on deck

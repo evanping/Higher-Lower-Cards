@@ -43,6 +43,7 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1, viewport-fit=cover"
         />
+        <meta name="description" content="Test your knowledge of Pokémon card values with this higher or lower guessing game!"/>
         
         {/* Structured Data for Google */}
         <script
