@@ -351,10 +351,10 @@ export function Game({ showProgress = false } = {}) {
             </motion.div>
           )}
 
-          <section className="flex h-full min-h-0 w-full max-w-5xl flex-col items-center justify-center gap-4 sm:gap-6">
+          <section className="flex h-full min-h-0 w-full max-w-5xl flex-col items-center justify-center gap-1.5 sm:gap-2.5">
             {/* Higher or Lower Logo */}
             <div className="flex shrink-0 flex-col items-center justify-center">
-              <h1 className="text-center text-[clamp(1.35rem,4.4vmin,3rem)] font-black uppercase leading-none tracking-normal text-white drop-shadow-[0_3px_16px_rgba(0,0,0,0.55)]">
+              <h1 className="text-center text-[clamp(1.75rem,5vmin,3.5rem)] font-black uppercase leading-none tracking-normal text-white drop-shadow-[0_3px_16px_rgba(0,0,0,0.55)]">
                 <span className="text-green-500">Higher</span>
                 <span className="mx-[clamp(0.4rem,1.2vmin,0.75rem)] text-[clamp(0.85rem,2.2vmin,1.5rem)] font-semibold lowercase text-neutral-200">
                   or
@@ -432,7 +432,7 @@ export function Game({ showProgress = false } = {}) {
               </div>
 
               <div
-                className={`mx-auto flex h-full w-full flex-col items-center justify-start p-[clamp(0.35rem,1.4vmin,1rem)] text-[clamp(1.2rem,3.8vmin,1.875rem)] font-bold drop-shadow-[0_2px_10px_rgba(0,0,0,0.75)] ${
+                className={`mx-auto flex h-[120px] md:h-[160px] w-full flex-col items-center justify-start p-[clamp(0.35rem,1.4vmin,1rem)] text-[clamp(1.2rem,3.8vmin,1.875rem)] font-bold drop-shadow-[0_2px_10px_rgba(0,0,0,0.75)] ${
                   winner === 1 ? "text-green-500" : ""
                 } ${winner === 0 ? "text-red-600" : ""} ${
                   winner === 2 ? "text-white" : ""
@@ -463,6 +463,7 @@ export function Game({ showProgress = false } = {}) {
                   <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, transition: { duration: 0.5 } }}
+                    className="w-full"
                   >
                     <motion.button
                       type="button"
@@ -471,7 +472,7 @@ export function Game({ showProgress = false } = {}) {
                       onClick={() => {
                         checkSolution(1);
                       }}
-                      className="mx-auto flex w-full max-w-[clamp(15rem,42vmin,24rem)] items-center justify-center gap-x-[clamp(0.35rem,1vmin,0.75rem)] rounded-full border-2 border-green-600 bg-green-950/20 px-[clamp(1rem,2.8vmin,1.5rem)] py-[clamp(0.35rem,1.2vmin,0.625rem)] text-[clamp(0.82rem,2vmin,1rem)] font-semibold text-green-500 shadow-sm transition hover:border-green-500 hover:bg-green-950/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                      className="mx-auto flex w-full max-w-[clamp(11.2rem,30.4vmin,16.8rem)] items-center justify-center gap-x-[clamp(0.3rem,0.9vmin,0.65rem)] rounded-full border-2 border-green-600 bg-green-950/20 px-[clamp(0.85rem,2.4vmin,1.25rem)] py-[clamp(0.4rem,1.1vmin,0.6rem)] text-[clamp(0.95rem,2vmin,1.15rem)] font-semibold text-green-500 shadow-sm transition hover:border-green-500 hover:bg-green-950/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                     >
                       Higher
                       <ChevronUpIcon className="h-[clamp(1.1rem,2.8vmin,1.5rem)] w-[clamp(1.1rem,2.8vmin,1.5rem)]" aria-hidden="true" />
@@ -483,7 +484,7 @@ export function Game({ showProgress = false } = {}) {
                       onClick={() => {
                         checkSolution(0);
                       }}
-                      className="mx-auto mt-[clamp(0.35rem,1.2vmin,0.5rem)] flex w-full max-w-[clamp(15rem,42vmin,24rem)] items-center justify-center gap-x-[clamp(0.35rem,1vmin,0.75rem)] rounded-full border-2 border-red-600 bg-red-950/20 px-[clamp(1rem,2.8vmin,1.5rem)] py-[clamp(0.35rem,1.2vmin,0.625rem)] text-[clamp(0.82rem,2vmin,1rem)] font-semibold text-red-500 shadow-sm transition hover:border-red-500 hover:bg-red-950/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+                      className="mx-auto mt-[clamp(0.4rem,1.2vmin,0.65rem)] flex w-full max-w-[clamp(11.2rem,30.4vmin,16.8rem)] items-center justify-center gap-x-[clamp(0.3rem,0.9vmin,0.65rem)] rounded-full border-2 border-red-600 bg-red-950/20 px-[clamp(0.85rem,2.4vmin,1.25rem)] py-[clamp(0.4rem,1.1vmin,0.6rem)] text-[clamp(0.95rem,2vmin,1.15rem)] font-semibold text-red-500 shadow-sm transition hover:border-red-500 hover:bg-red-950/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
                     >
                       Lower
                       <ChevronDownIcon className="h-[clamp(1.1rem,2.8vmin,1.5rem)] w-[clamp(1.1rem,2.8vmin,1.5rem)]" aria-hidden="true" />
