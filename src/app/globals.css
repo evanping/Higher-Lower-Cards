@@ -5,7 +5,8 @@
 #root,
 .root-component-class {
   height: calc(var(--vh, 1vh) * 100);
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
 }
 
 html,
@@ -13,5 +14,14 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  min-height: 100svh;
+}
+
+* {
+  box-sizing: border-box;
 }
