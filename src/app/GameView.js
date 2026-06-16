@@ -270,7 +270,7 @@ export function Game({ showProgress = false } = {}) {
                 delay: 2,
               }}
             >
-              <div className="flex w-full max-w-sm flex-col gap-4 rounded-lg border border-white/10 bg-neutral-900/90 p-6 text-center text-white shadow-2xl">
+              <div className="flex w-full max-w-sm flex-col gap-4 text-center text-white">
                 {/* <p className="font-medium text-3xl">Game Over</p> */}
                 <p className="text-3xl font-semibold">Your Score: {score}</p>
                 <p className="text-sm text-neutral-300">High Score: {highScore}</p>
@@ -297,7 +297,7 @@ export function Game({ showProgress = false } = {}) {
               animate={{ opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
             >
-              <div className="flex w-full max-w-sm flex-col gap-4 rounded-lg border border-white/10 bg-neutral-900/90 p-6 text-center text-white shadow-2xl">
+              <div className="flex w-full max-w-sm flex-col gap-4 text-center text-white">
                 <p className="text-3xl font-semibold text-green-500">
                   You won the HIT CARD!
                 </p>
@@ -329,7 +329,7 @@ export function Game({ showProgress = false } = {}) {
               animate={{ opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
             >
-              <div className="flex w-full max-w-sm flex-col gap-4 rounded-lg border border-white/10 bg-neutral-900/90 p-6 text-center text-white shadow-2xl">
+              <div className="flex w-full max-w-sm flex-col gap-4 text-center text-white">
                 <p className="text-3xl font-semibold text-red-500">
                   You won the CHASE CARD!
                 </p>
@@ -351,7 +351,7 @@ export function Game({ showProgress = false } = {}) {
             </motion.div>
           )}
 
-          <section className="flex h-full min-h-0 w-full max-w-5xl flex-col items-center justify-center gap-3 sm:gap-4">
+          <section className="flex h-full min-h-0 w-full max-w-5xl flex-col items-center justify-center gap-4 sm:gap-6">
             {/* Higher or Lower Logo */}
             <div className="flex shrink-0 flex-col items-center justify-center">
               <h1 className="text-center text-[clamp(1.35rem,4.4vmin,3rem)] font-black uppercase leading-none tracking-normal text-white drop-shadow-[0_3px_16px_rgba(0,0,0,0.55)]">
@@ -368,7 +368,7 @@ export function Game({ showProgress = false } = {}) {
             </div>
             {/* Cards */}
             {preload} {/* Preload the next image */}
-            <div className="grid min-h-0 w-full flex-1 grid-cols-2 grid-rows-[minmax(0,1fr)_clamp(6rem,17vmin,9rem)] gap-x-2 gap-y-1 overflow-hidden text-center sm:gap-x-4 sm:gap-y-2 md:max-w-4xl">
+            <div className="grid min-h-0 w-full grid-cols-2 grid-rows-[auto_auto] gap-x-2 gap-y-5 overflow-hidden text-center sm:gap-x-4 sm:gap-y-8 md:max-w-5xl lg:max-w-6xl">
               {cards[0] && (
                 <motion.div
                   key={cards[0]["Card Name"]}
@@ -379,7 +379,7 @@ export function Game({ showProgress = false } = {}) {
                   suppressHydrationWarning
                 >
                   <Image
-                    className={`max-h-[380px] md:max-h-[500px] xl:max-h-[650px] max-w-full h-[92%] object-contain object-bottom drop-shadow-2xl`}
+                    className={`max-h-[55vh] sm:max-h-[65vh] md:max-h-[75vh] xl:max-h-[85vh] max-w-full h-[95%] object-contain object-bottom drop-shadow-2xl`}
                     src={cards[0]["Image"]}
                     alt={cards[0]["Card Name"]}
                     width={500}
@@ -399,7 +399,7 @@ export function Game({ showProgress = false } = {}) {
                   suppressHydrationWarning
                 >
                   <Image
-                    className={`max-h-[380px] md:max-h-[500px] xl:max-h-[650px] max-w-full h-[92%] object-contain object-bottom drop-shadow-2xl`}
+                    className={`max-h-[55vh] sm:max-h-[65vh] md:max-h-[75vh] xl:max-h-[85vh] max-w-full h-[95%] object-contain object-bottom drop-shadow-2xl`}
                     src={cards[1]["Image"]}
                     alt={cards[1]["Card Name"]}
                     width={500}
