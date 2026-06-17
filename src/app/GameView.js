@@ -13,7 +13,6 @@ import CountUp from "react-countup";
 
 const maxStrikes = 1;
 const prizePromptDelayMs = 1600;
-const decodedImageUrls = new Set();
 let highScore = 0;
 if (typeof window !== "undefined") {
   highScore = localStorage.getItem("highScore") || 0;
@@ -75,33 +74,6 @@ function LoadingScreen({ className = "" }) {
   );
 }
 
-async function preloadAndDecodeImage(imageUrl) {
-  if (!imageUrl || decodedImageUrls.has(imageUrl) || typeof window === "undefined") return;
-
-  await new Promise((resolve) => {
-    const image = new window.Image();
-
-    image.onload = async () => {
-      try {
-        if (image.decode) {
-          await image.decode();
-        }
-      } catch (error) {
-        // The image is already loaded; decode failures should not block play.
-      }
-
-      decodedImageUrls.add(imageUrl);
-      resolve();
-    };
-
-    image.onerror = () => {
-      decodedImageUrls.add(imageUrl);
-      resolve();
-    };
-    image.src = imageUrl;
-  });
-}
-
 export function Game({ showProgress = false } = {}) {
   const [strikes, setStrikes] = useState(0);
   const [score, setScore] = useState(0);
@@ -112,8 +84,6 @@ export function Game({ showProgress = false } = {}) {
   const [hitCardPromptSeen, setHitCardPromptSeen] = useState(false);
   const [chaseCardPromptSeen, setChaseCardPromptSeen] = useState(false);
   const isFirstRender = useRef(true);
-  const cardsRef = useRef([]);
-  const preloadedImageUrlRef = useRef("");
   const cardStageRef = useRef(null);
   const cardStageHeightRef = useRef(0);
 
@@ -122,33 +92,15 @@ export function Game({ showProgress = false } = {}) {
   const [isClient, setIsClient] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [layoutReady, setLayoutReady] = useState(false);
-  const [visibleImageLoadKeys, setVisibleImageLoadKeys] = useState({
-    left: "",
-    right: "",
-  });
   const [cardStageHeight, setCardStageHeight] = useState(0);
 
-  const updateData = useCallback(async () => {
+  const updateData = useCallback(() => {
     if (!isCardBankReady() || strikes === maxStrikes) return;
-
-    const onDeckImageUrl = cardsRef.current[2]?.["Image"];
-    if (onDeckImageUrl && preloadedImageUrlRef.current !== onDeckImageUrl) {
-      await preloadAndDecodeImage(onDeckImageUrl);
-      preloadedImageUrlRef.current = onDeckImageUrl;
-    }
 
     setCards(getCards());
     setPlayStatus(true);
     //setWinner(2);
   }, [strikes]);
-
-  const markVisibleImageLoaded = useCallback((side, imageUrl) => {
-    setVisibleImageLoadKeys((currentImageLoadKeys) =>
-      currentImageLoadKeys[side] === imageUrl
-        ? currentImageLoadKeys
-        : { ...currentImageLoadKeys, [side]: imageUrl }
-    );
-  }, []);
 
   useEffect(() => {
     async function initialize() {
@@ -172,10 +124,6 @@ export function Game({ showProgress = false } = {}) {
 
     initialize();
   }, []);
-
-  useEffect(() => {
-    cardsRef.current = cards;
-  }, [cards]);
 
   useEffect(() => {
     const waitingForPrizePrompt =
@@ -251,12 +199,9 @@ export function Game({ showProgress = false } = {}) {
           height={1000}
           className="hidden absolute"
           priority
-          onLoad={() => {
-            preloadedImageUrlRef.current = cards[2]["Image"];
-          }}
-          onLoadingComplete={() => {
-            preloadedImageUrlRef.current = cards[2]["Image"];
-          }}
+          // onLoadingComplete={() =>
+          //   console.log("preloaded image " + cards[2]["Card Name"])
+          // }
         />
       );
     };
@@ -315,15 +260,7 @@ export function Game({ showProgress = false } = {}) {
   }
 
   useEffect(() => {
-    if (
-      isLoading ||
-      !cards[0] ||
-      !cards[1] ||
-      visibleImageLoadKeys.left !== cards[0]["Image"] ||
-      visibleImageLoadKeys.right !== cards[1]["Image"]
-    ) {
-      return;
-    }
+    if (isLoading || !cards[0] || !cards[1]) return;
 
     let secondFrame = 0;
     const firstFrame = requestAnimationFrame(() => {
@@ -336,7 +273,7 @@ export function Game({ showProgress = false } = {}) {
       cancelAnimationFrame(firstFrame);
       cancelAnimationFrame(secondFrame);
     };
-  }, [cards, isLoading, visibleImageLoadKeys]);
+  }, [cards, isLoading]);
 
   useEffect(() => {
     if (!layoutReady || !cardStageRef.current || cardStageHeightRef.current) return;
@@ -513,10 +450,6 @@ export function Game({ showProgress = false } = {}) {
                     alt={cards[0]["Card Name"]}
                     width={500}
                     height={1000}
-                    onLoad={() => markVisibleImageLoaded("left", cards[0]["Image"])}
-                    onLoadingComplete={() =>
-                      markVisibleImageLoaded("left", cards[0]["Image"])
-                    }
                     suppressHydrationWarning
                   />
                 </motion.div>
@@ -537,10 +470,6 @@ export function Game({ showProgress = false } = {}) {
                     alt={cards[1]["Card Name"]}
                     width={500}
                     height={1000}
-                    onLoad={() => markVisibleImageLoaded("right", cards[1]["Image"])}
-                    onLoadingComplete={() =>
-                      markVisibleImageLoaded("right", cards[1]["Image"])
-                    }
                     suppressHydrationWarning
                   />
                 </motion.div>
