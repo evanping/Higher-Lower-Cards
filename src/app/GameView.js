@@ -13,6 +13,7 @@ import CountUp from "react-countup";
 
 const maxStrikes = 1;
 const prizePromptDelayMs = 1600;
+const decodedImageUrls = new Set();
 let highScore = 0;
 if (typeof window !== "undefined") {
   highScore = localStorage.getItem("highScore") || 0;
@@ -74,6 +75,33 @@ function LoadingScreen({ className = "" }) {
   );
 }
 
+async function preloadAndDecodeImage(imageUrl) {
+  if (!imageUrl || decodedImageUrls.has(imageUrl) || typeof window === "undefined") return;
+
+  await new Promise((resolve) => {
+    const image = new window.Image();
+
+    image.onload = async () => {
+      try {
+        if (image.decode) {
+          await image.decode();
+        }
+      } catch (error) {
+        // The image is already loaded; decode failures should not block play.
+      }
+
+      decodedImageUrls.add(imageUrl);
+      resolve();
+    };
+
+    image.onerror = () => {
+      decodedImageUrls.add(imageUrl);
+      resolve();
+    };
+    image.src = imageUrl;
+  });
+}
+
 export function Game({ showProgress = false } = {}) {
   const [strikes, setStrikes] = useState(0);
   const [score, setScore] = useState(0);
@@ -84,6 +112,8 @@ export function Game({ showProgress = false } = {}) {
   const [hitCardPromptSeen, setHitCardPromptSeen] = useState(false);
   const [chaseCardPromptSeen, setChaseCardPromptSeen] = useState(false);
   const isFirstRender = useRef(true);
+  const cardsRef = useRef([]);
+  const preloadedImageUrlRef = useRef("");
 
   const [cards, setCards] = useState([]); // cards[0] and cards[1] are current displayed cards
   const [preload, setPreload] = useState(null);
@@ -95,8 +125,14 @@ export function Game({ showProgress = false } = {}) {
     right: "",
   });
 
-  const updateData = useCallback(() => {
+  const updateData = useCallback(async () => {
     if (!isCardBankReady() || strikes === maxStrikes) return;
+
+    const onDeckImageUrl = cardsRef.current[2]?.["Image"];
+    if (onDeckImageUrl && preloadedImageUrlRef.current !== onDeckImageUrl) {
+      await preloadAndDecodeImage(onDeckImageUrl);
+      preloadedImageUrlRef.current = onDeckImageUrl;
+    }
 
     setCards(getCards());
     setPlayStatus(true);
@@ -133,6 +169,10 @@ export function Game({ showProgress = false } = {}) {
 
     initialize();
   }, []);
+
+  useEffect(() => {
+    cardsRef.current = cards;
+  }, [cards]);
 
   useEffect(() => {
     const waitingForPrizePrompt =
@@ -208,9 +248,12 @@ export function Game({ showProgress = false } = {}) {
           height={1000}
           className="hidden absolute"
           priority
-          // onLoadingComplete={() =>
-          //   console.log("preloaded image " + cards[2]["Card Name"])
-          // }
+          onLoad={() => {
+            preloadedImageUrlRef.current = cards[2]["Image"];
+          }}
+          onLoadingComplete={() => {
+            preloadedImageUrlRef.current = cards[2]["Image"];
+          }}
         />
       );
     };
