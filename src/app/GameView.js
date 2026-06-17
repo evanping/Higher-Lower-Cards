@@ -114,6 +114,8 @@ export function Game({ showProgress = false } = {}) {
   const isFirstRender = useRef(true);
   const cardsRef = useRef([]);
   const preloadedImageUrlRef = useRef("");
+  const cardStageRef = useRef(null);
+  const cardStageHeightRef = useRef(0);
 
   const [cards, setCards] = useState([]); // cards[0] and cards[1] are current displayed cards
   const [preload, setPreload] = useState(null);
@@ -124,6 +126,7 @@ export function Game({ showProgress = false } = {}) {
     left: "",
     right: "",
   });
+  const [cardStageHeight, setCardStageHeight] = useState(0);
 
   const updateData = useCallback(async () => {
     if (!isCardBankReady() || strikes === maxStrikes) return;
@@ -335,6 +338,38 @@ export function Game({ showProgress = false } = {}) {
     };
   }, [cards, isLoading, visibleImageLoadKeys]);
 
+  useEffect(() => {
+    if (!layoutReady || !cardStageRef.current || cardStageHeightRef.current) return;
+
+    const firstFrame = requestAnimationFrame(() => {
+      const nextHeight = Math.ceil(
+        cardStageRef.current?.getBoundingClientRect().height || 0
+      );
+
+      if (nextHeight) {
+        cardStageHeightRef.current = nextHeight;
+        setCardStageHeight(nextHeight);
+      }
+    });
+
+    return () => cancelAnimationFrame(firstFrame);
+  }, [layoutReady]);
+
+  useEffect(() => {
+    const resetCardStageHeight = () => {
+      cardStageHeightRef.current = 0;
+      setCardStageHeight(0);
+    };
+
+    window.addEventListener("resize", resetCardStageHeight);
+    window.addEventListener("orientationchange", resetCardStageHeight);
+
+    return () => {
+      window.removeEventListener("resize", resetCardStageHeight);
+      window.removeEventListener("orientationchange", resetCardStageHeight);
+    };
+  }, []);
+
   // Loading state
   if (isLoading) {
     return (
@@ -458,7 +493,11 @@ export function Game({ showProgress = false } = {}) {
             </div>
             {/* Cards */}
             {preload} {/* Preload the next image */}
-            <div className="grid min-h-0 w-full grid-cols-2 grid-rows-[auto_auto] gap-x-2 gap-y-5 overflow-hidden text-center sm:gap-x-4 sm:gap-y-8 md:max-w-5xl lg:max-w-6xl">
+            <div
+              ref={cardStageRef}
+              className="grid min-h-0 w-full grid-cols-2 grid-rows-[auto_auto] gap-x-2 gap-y-5 overflow-hidden text-center sm:gap-x-4 sm:gap-y-8 md:max-w-5xl lg:max-w-6xl"
+              style={cardStageHeight ? { height: `${cardStageHeight}px` } : undefined}
+            >
               {cards[0] && (
                 <motion.div
                   key={cards[0]["Card Name"]}
