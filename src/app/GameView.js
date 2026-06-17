@@ -61,6 +61,19 @@ function ShowProgressBar({ score }) {
   );
 }
 
+function LoadingScreen({ className = "" }) {
+  return (
+    <div
+      className={`flex items-center justify-center bg-gradient-to-b from-neutral-800 to-neutral-950 px-4 ${className}`}
+    >
+      <div className="text-center text-white">
+        <div className="mb-4 text-2xl font-semibold">Loading...</div>
+        <div className="mx-auto h-12 w-12 animate-spin rounded-full border-b-2 border-white"></div>
+      </div>
+    </div>
+  );
+}
+
 export function Game({ showProgress = false } = {}) {
   const [strikes, setStrikes] = useState(0);
   const [score, setScore] = useState(0);
@@ -76,6 +89,7 @@ export function Game({ showProgress = false } = {}) {
   const [preload, setPreload] = useState(null);
   const [isClient, setIsClient] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [layoutReady, setLayoutReady] = useState(false);
 
   const updateData = useCallback(() => {
     if (!isCardBankReady() || strikes === maxStrikes) return;
@@ -133,7 +147,6 @@ export function Game({ showProgress = false } = {}) {
     }
 
     if (isFirstRender.current) {
-      updateData();
       isFirstRender.current = false;
       return;
     }
@@ -243,22 +256,36 @@ export function Game({ showProgress = false } = {}) {
     setPlayStatus(false);
   }
 
+  useEffect(() => {
+    if (isLoading || !cards[0] || !cards[1]) return;
+
+    let secondFrame = 0;
+    const firstFrame = requestAnimationFrame(() => {
+      secondFrame = requestAnimationFrame(() => {
+        setLayoutReady(true);
+      });
+    });
+
+    return () => {
+      cancelAnimationFrame(firstFrame);
+      cancelAnimationFrame(secondFrame);
+    };
+  }, [cards, isLoading]);
+
   // Loading state
   if (isLoading) {
     return (
-      <div className="root-component-class flex min-h-screen items-center justify-center bg-gradient-to-b from-neutral-800 to-neutral-950 px-4">
-        <div className="text-center text-white">
-          <div className="mb-4 text-2xl font-semibold">Loading...</div>
-          <div className="mx-auto h-12 w-12 animate-spin rounded-full border-b-2 border-white"></div>
-        </div>
-      </div>
+      <LoadingScreen className="root-component-class min-h-screen" />
     );
   }
 
   return (
     <AnimatePresence mode="wait">
       <div className="root-component-class relative bg-gradient-to-b from-neutral-800 via-neutral-900 to-neutral-950 text-white">
-        <main className="flex h-full w-full flex-col items-center justify-center overflow-hidden px-3 pb-7 pt-3 sm:px-6 sm:pb-7 sm:pt-5">
+        {!layoutReady && (
+          <LoadingScreen className="absolute inset-0 z-20" />
+        )}
+        <main className={`flex h-full w-full flex-col items-center justify-center overflow-hidden px-3 pb-7 pt-3 sm:px-6 sm:pb-7 sm:pt-5 ${layoutReady ? "" : "invisible"}`}>
           {/* Game Over */}
           {strikes === maxStrikes && (
             <motion.div
@@ -432,7 +459,7 @@ export function Game({ showProgress = false } = {}) {
               </div>
 
               <div
-                className={`mx-auto flex h-[120px] md:h-[160px] w-full flex-col items-center justify-start p-[clamp(0.35rem,1.4vmin,1rem)] text-[clamp(1.2rem,3.8vmin,1.875rem)] font-bold drop-shadow-[0_2px_10px_rgba(0,0,0,0.75)] ${
+                className={`mx-auto flex h-[7.75rem] w-full flex-col items-center justify-start overflow-visible p-[clamp(0.3rem,1vmin,0.65rem)] text-[clamp(1.2rem,3.8vmin,1.875rem)] font-bold drop-shadow-[0_2px_10px_rgba(0,0,0,0.75)] ${
                   winner === 1 ? "text-green-500" : ""
                 } ${winner === 0 ? "text-red-600" : ""} ${
                   winner === 2 ? "text-white" : ""
