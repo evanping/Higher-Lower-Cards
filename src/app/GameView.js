@@ -90,6 +90,10 @@ export function Game({ showProgress = false } = {}) {
   const [isClient, setIsClient] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [layoutReady, setLayoutReady] = useState(false);
+  const [visibleImageLoadKeys, setVisibleImageLoadKeys] = useState({
+    left: "",
+    right: "",
+  });
 
   const updateData = useCallback(() => {
     if (!isCardBankReady() || strikes === maxStrikes) return;
@@ -98,6 +102,14 @@ export function Game({ showProgress = false } = {}) {
     setPlayStatus(true);
     //setWinner(2);
   }, [strikes]);
+
+  const markVisibleImageLoaded = useCallback((side, imageUrl) => {
+    setVisibleImageLoadKeys((currentImageLoadKeys) =>
+      currentImageLoadKeys[side] === imageUrl
+        ? currentImageLoadKeys
+        : { ...currentImageLoadKeys, [side]: imageUrl }
+    );
+  }, []);
 
   useEffect(() => {
     async function initialize() {
@@ -257,7 +269,15 @@ export function Game({ showProgress = false } = {}) {
   }
 
   useEffect(() => {
-    if (isLoading || !cards[0] || !cards[1]) return;
+    if (
+      isLoading ||
+      !cards[0] ||
+      !cards[1] ||
+      visibleImageLoadKeys.left !== cards[0]["Image"] ||
+      visibleImageLoadKeys.right !== cards[1]["Image"]
+    ) {
+      return;
+    }
 
     let secondFrame = 0;
     const firstFrame = requestAnimationFrame(() => {
@@ -270,7 +290,7 @@ export function Game({ showProgress = false } = {}) {
       cancelAnimationFrame(firstFrame);
       cancelAnimationFrame(secondFrame);
     };
-  }, [cards, isLoading]);
+  }, [cards, isLoading, visibleImageLoadKeys]);
 
   // Loading state
   if (isLoading) {
@@ -411,6 +431,10 @@ export function Game({ showProgress = false } = {}) {
                     alt={cards[0]["Card Name"]}
                     width={500}
                     height={1000}
+                    onLoad={() => markVisibleImageLoaded("left", cards[0]["Image"])}
+                    onLoadingComplete={() =>
+                      markVisibleImageLoaded("left", cards[0]["Image"])
+                    }
                     suppressHydrationWarning
                   />
                 </motion.div>
@@ -431,6 +455,10 @@ export function Game({ showProgress = false } = {}) {
                     alt={cards[1]["Card Name"]}
                     width={500}
                     height={1000}
+                    onLoad={() => markVisibleImageLoaded("right", cards[1]["Image"])}
+                    onLoadingComplete={() =>
+                      markVisibleImageLoaded("right", cards[1]["Image"])
+                    }
                     suppressHydrationWarning
                   />
                 </motion.div>
