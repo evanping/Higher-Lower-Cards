@@ -26,30 +26,30 @@ function ShowProgressBar({ score }) {
       {Array.from({ length: 10 }, (_, index) => {
         const segmentNumber = index + 1;
         const isMarked = segmentNumber <= markedSegments;
-        const isGreenTarget = segmentNumber === 5;
-        const isRedTarget = segmentNumber === 10;
+        const isRedTarget = segmentNumber === 5;
+        const isGreenTarget = segmentNumber === 10;
 
         return (
           <div
             key={segmentNumber}
             className={`h-3 flex-1 rounded-full border transition-colors ${
-              isMarked && isGreenTarget
-                ? "border-green-400 bg-green-500"
-                : isMarked && isRedTarget
+              isMarked && isRedTarget
                 ? "border-red-400 bg-red-500"
+                : isMarked && isGreenTarget
+                ? "border-green-400 bg-green-500"
                 : isMarked
                 ? "border-white bg-white"
-                : isGreenTarget
-                ? "border-green-500/70 bg-green-500/15"
                 : isRedTarget
                 ? "border-red-500/70 bg-red-500/15"
+                : isGreenTarget
+                ? "border-green-500/70 bg-green-500/15"
                 : "border-white/10 bg-white/10"
             }`}
             style={
               isGreenTarget || isRedTarget
                 ? {
                     borderWidth: 2,
-                    borderColor: isGreenTarget ? "#22c55e" : "#ef4444",
+                    borderColor: isRedTarget ? "#ef4444" : "#22c55e",
                   }
                 : undefined
             }
@@ -360,11 +360,11 @@ export function Game({ showProgress = false } = {}) {
               exit={{ scale: 0.9, opacity: 0 }}
             >
               <div className="flex w-full max-w-sm flex-col gap-4 text-center text-white">
-                <p className="text-3xl font-semibold text-green-500">
-                  You won the HIT CARD!
+                <p className="text-3xl font-semibold text-red-500">
+                  You won a RED CARD!
                 </p>
-                <p className="text-sm leading-relaxed text-neutral-200">
-                  Walk away with the HIT CARD, or risk it all to go for the CHASE CARD Prize.
+                <p className="text-sm leading-relaxed text-red-100">
+                  Walk away with any RED CARD, or risk it all to go for the GREEN CARD prize.
                 </p>
                 <motion.button
                   type="button"
@@ -392,8 +392,8 @@ export function Game({ showProgress = false } = {}) {
               exit={{ scale: 0.9, opacity: 0 }}
             >
               <div className="flex w-full max-w-sm flex-col gap-4 text-center text-white">
-                <p className="text-3xl font-semibold text-red-500">
-                  You won the CHASE CARD!
+                <p className="text-3xl font-semibold text-green-500">
+                  You won a GREEN CARD!
                 </p>
                 <motion.button
                   type="button"
@@ -404,7 +404,7 @@ export function Game({ showProgress = false } = {}) {
                     setShowChaseCardPrompt(false);
                     updateData();
                   }}
-                  className="mx-auto mt-4 flex items-center gap-x-1 rounded-full border-2 border-red-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-red-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+                  className="mx-auto mt-4 flex items-center gap-x-1 rounded-full border-2 border-green-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                 >
                   Keep going
                   <ArrowRightIcon className="h-5 w-5" aria-hidden="true" />
